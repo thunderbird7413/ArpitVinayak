@@ -8,7 +8,7 @@ export const Events_InitCard = (props) => {
     <>
       <div id="f_card">
         <div id="card_img">
-          <img src={props.image} />
+          <img src={props.image}/>
         </div>
         <div id="card_cont">
           <div id="card_head">

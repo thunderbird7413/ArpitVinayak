@@ -33,8 +33,10 @@ import Udit from "../../../Images/StudentTeam/Udit.jpeg";
 import Srishti from "../../../Images/StudentTeam/Srishti.JPG";
 import Shailja from "../../../Images/StudentTeam/Shailja.jpg";
 import Pratyaksh from "../../../Images/StudentTeam/Pratyaksh.jpg";
+import Ramandeep from "../../../Images/StudentTeam/Ramandeep.jpg";
 import { Row, Container } from "react-bootstrap";
 import { StudentIdentityCard } from "../../../components/Javascript/StudentIdentityCard";
+import { BsFillHeartFill } from 'react-icons/bs';
 export const StudentTeam = () => {
   return (
     <>
@@ -83,7 +85,7 @@ export const StudentTeam = () => {
           </div>
           <div className="col-lg-5" style={{ marginLeft: "auto" }}>
             <StudentIdentityCard
-              studImg={AISHWARYA}
+              studImg={Ramandeep}
               name="Ramandeep Singh"
               pos="Overall Co-ordinator for Finance "
               email="Email: ramandeep_s@ee.iitr.ac.in"
@@ -127,7 +129,8 @@ export const StudentTeam = () => {
           <StudentIdentityCard
               studImg={Khushi}
               name="Khushi Kumawat"
-              pos="Village Co-ordinator(Beladi)"
+              pos="Village Co-ordinator"
+              village="Beladi"
               email="Email: khushi_k@mt.iitr.ac.in"
               linkedIn="https://www.linkedin.com/in/khushi-kumawat-7b2697204"
             />
@@ -137,7 +140,8 @@ export const StudentTeam = () => {
           <StudentIdentityCard
               studImg={Udit}
               name="Udit Mimami"
-              pos="Village Co-ordinator(Beladi)"
+              pos="Village Co-ordinator"
+              village="Beladi"
               email="Email: udit_m@ee.iitr.ac.in"
               linkedIn="https://www.linkedin.com/in/udit-mimani-413000208"
             />
@@ -147,7 +151,8 @@ export const StudentTeam = () => {
           <StudentIdentityCard
               studImg={Ani}
               name="Ani Jeenwal"
-              pos="Village Co-ordinator(Chandpur)"
+              pos="Village Co-ordinator"
+              village="Chandpur"
               email="Email: ani_j@me.iitr.ac.in"
               linkedIn="https://www.linkedin.com/in/ani-jeenwal-b89530223"
             />
@@ -157,7 +162,8 @@ export const StudentTeam = () => {
             <StudentIdentityCard
               studImg={Kinshu}
               name="Kinshu Kumar"
-              pos="Village Co-ordinator(Chandpur)"
+              pos="Village Co-ordinator"
+              village="Chandpur"
               email="Email: kinshu_k@me.iitr.ac.in"
               linkedIn="https://www.linkedin.com/in/kinshu-kumar-4bb67a19a"
             />
@@ -166,7 +172,8 @@ export const StudentTeam = () => {
           <StudentIdentityCard
               studImg={Ashish}
               name="Ashish Singh"
-              pos="Village Co-ordinator(Chharba)"
+              pos="Village Co-ordinator"
+              village="Chharba"
               email="Email: ashish_s@cy.iitr.ac.in"
               linkedIn="https://www.linkedin.com/in/ashish-singh-567825240"
             />
@@ -176,7 +183,8 @@ export const StudentTeam = () => {
           <StudentIdentityCard
               studImg={Shailja}
               name="Shailja Gupta"
-              pos="Village Co-ordinator(Chharba)"
+              pos="Village Co-ordinator"
+              village="Chharba"
               email="Email: shailja_g@ch.iitr.ac.in"
               linkedIn="https://www.linkedin.com/in/shailja-gupta-01b196206"
             />
@@ -186,7 +194,8 @@ export const StudentTeam = () => {
           <StudentIdentityCard
               studImg={Kavya}
               name="Kavya Bada"
-              pos="Village Co-ordinator(Meerpur)"
+              pos="Village Co-ordinator"
+              village="Meerpur"
               email="Email: bada_k@me.iitr.ac.in"
               linkedIn="https://www.linkedin.com/in/kavya-bada-a49394200"
             />
@@ -196,7 +205,8 @@ export const StudentTeam = () => {
           <StudentIdentityCard
               studImg={Pratyaksh}
               name="Pratyaksh Chauhan"
-              pos="Village Co-ordinator(Meerpur)"
+              pos="Village Co-ordinator"
+              village="Meerpur"
               email="Email: pratyaksh_c@ce.iitr.ac.in"
               linkedIn="https://www.linkedin.com/in/pratyaksh-chauhan-20835620a"
             />
@@ -206,7 +216,8 @@ export const StudentTeam = () => {
           <StudentIdentityCard
               studImg={Pratibha}
               name="Pratibha Pragya"
-              pos="Village Co-ordinator(Puranpur)"
+              pos="Village Co-ordinator"
+              village="Puranpur"
               email="Email: pratibha_p@me.iitr.ac.in"
               linkedIn="https://www.linkedin.com/in/pratibha-pragya-181545152"
             />
@@ -216,13 +227,19 @@ export const StudentTeam = () => {
           <StudentIdentityCard
               studImg={Abhishek}
               name="Abhishek Singh"
-              pos="Village Co-ordinator(Puranpur)"
+              pos="Village Co-ordinator"
+              village="Puranpur"
               email="Email: abhishek_s2@ce.iitr.ac.in"
               linkedIn="https://www.linkedin.com/in/abhishek-singh-6b5a4b213"
             />
             <br />
           </div>
         </Row>
+        <br />
+        <br />
+        <center><h2>Be the change <span className="Heart"><BsFillHeartFill /></span> <strong>You wish to see</strong>.</h2></center>
+        <br />
+        <br />
       </Container>
     </>
   );

@@ -1,14 +1,14 @@
 body {
-  background: #f7f8f9;
+  background: whitesmoke;
 }
 .studCard {
   min-height: 312px;
   border: none;
-  background: #303030;
+  background: white;
 }
 
 .studCard .card-title {
-  color: white !important;
+  color: black !important;
 }
 
 .studCard img {
@@ -18,18 +18,18 @@ body {
 }
 
 .cardBody {
-  background: linear-gradient(#f7f8f9 30%, #303030 0%);
+  background: linear-gradient(whitesmoke 30%, white 0%);
 }
 
 .headingStudent1 {
   color: #ecc731;
   font-weight: bold;
-  background: #f7f8f9;
+  background: whitesmoke;
   /* border-bottom: solid 2px #ecc730 ; */
 }
 
 .cardText {
-  color: white;
+  color: black;
 }
 .profileWord {
   color: #ecc731;
@@ -44,12 +44,12 @@ body {
   background-color: #ecc731 !important;
 }
 .initButton:hover {
-  color: white;
+  color: whitesmoke;
   background-color: #303030 !important;
   transition: all 0.4s ease-in-out;
 }
 .initLink {
-  background: linear-gradient(to top, #f7f8f9 50%, white 0%);
+  background: linear-gradient(to top, whitesmoke 50%, whitesmoke 0%);
 }
 .initCard {
   border: none;

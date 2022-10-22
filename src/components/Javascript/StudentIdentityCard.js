@@ -12,7 +12,7 @@ export const StudentIdentityCard = (props) => {
           <br />
         </Card.Title>
         <Card.Text className="cardText">
-          {props.pos} <br /> {props.email}
+          {props.pos} <br /> {props.village} <br /> {props.email}
         </Card.Text>
       </Card.Body>
       <Card.Link

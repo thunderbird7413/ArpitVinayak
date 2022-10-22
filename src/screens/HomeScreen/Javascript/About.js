@@ -2,6 +2,7 @@ import React from 'react'
 import img1 from '../../../Images/Meerpur/ICT_Meerpur/1.png'
 import img2 from '../../../Images/Meerpur/ICT_Meerpur/2.png'
 import img3 from '../../../Images/Meerpur/ICT_Meerpur/4.png'
+import { BsFillHeartFill } from 'react-icons/bs';
 
 import '../css/About.css'
 
@@ -118,7 +119,7 @@ const About = () => {
                     </div>
                 </div>
             </div>
-
+            <center><h2>Be the change <span className="Heart"><BsFillHeartFill /></span> <strong>You wish to see</strong>.</h2></center>
         </div>
     )
 }

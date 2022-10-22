@@ -51,4 +51,4 @@ const Inspiration = () => {
     )
 }
 
-export default Inspiration
+export default Inspiration;

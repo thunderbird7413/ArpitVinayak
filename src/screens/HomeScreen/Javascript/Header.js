@@ -11,7 +11,6 @@ import {
 import iitrlogo from "../../../Images/iitrlogo.png";
 import ubalogo from "../../../Images/ubalogo.png";
 import "../css/Header.css";
-import {BrowserRouter} from "react-router-dom";
 export const Header = () => {
   return (
     <>
@@ -56,10 +55,10 @@ export const Header = () => {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="me-auto">
-                <Nav.Link className="mx-3" to="/">
+                <Nav.Link className="mx-3" href="/">
                   Home
                 </Nav.Link>
-                <NavDropdown
+                {/* <NavDropdown
                   className="mx-3"
                   title="Initiatives"
                   id="basic-nav-dropdown"
@@ -80,30 +79,39 @@ export const Header = () => {
                   </NavDropdown.Item>
                   <NavDropdown.Divider />
                   <NavDropdown.Item to="#action/3.5">Other</NavDropdown.Item>
-                </NavDropdown>
+                </NavDropdown> */}
+                <Nav.Link className="mx-3" href="/initiatives">
+                  Initiatives
+                </Nav.Link>
 
                 <NavDropdown
                   className="mx-3"
-                  title="Villages"
+                  title="Clusters"
                   id="basic-nav-dropdown"
                   renderMenuOnMount={true}
                 >
-                  <NavDropdown.Item to="/beladi">Beladi</NavDropdown.Item>
+                  <NavDropdown.Item href="/beladi">
+  <button  title="Beladi-Salhapur" data-toggle="popover" data-trigger="hover" className="text-dark btn btn">Beladi</button>
+</NavDropdown.Item>
                   <NavDropdown.Divider />
-                  <NavDropdown.Item to="#action/3.2">
-                    Chharba
+                  <NavDropdown.Item href="/chharba">
+                  
+  <button  title="Chharba, Jhabarpur" data-toggle="popover" data-trigger="hover" className="text-dark btn btn">Chharba</button>
+
                   </NavDropdown.Item>
                   <NavDropdown.Divider />
-                  <NavDropdown.Item to="#action/3.3">
+                  <NavDropdown.Item href="/chandpur">
+                  <button  title="Chandpur-Khurd, Chandpur-Kala, Horawala" data-toggle="popover" data-trigger="hover" className="text-dark btn btn" >
                     Chandpur
+                  </button>
                   </NavDropdown.Item>
                   <NavDropdown.Divider />
-                  <NavDropdown.Item to="/meerpur">Meerpur</NavDropdown.Item>
+                  <NavDropdown.Item href="/meerpur"><button  title="Meerpur-Muwazarpur" data-toggle="popover" data-trigger="hover" className="text-dark btn btn">Meerpur</button></NavDropdown.Item>
                   <NavDropdown.Divider />
-                  <NavDropdown.Item to="/puranpur">Puranpur</NavDropdown.Item>
+                  <NavDropdown.Item href="/puranpur"><button  title="Puranpur-Salhapur" data-toggle="popover" data-trigger="hover" className="text-dark btn btn">Puranpur</button></NavDropdown.Item>
                 </NavDropdown>
 
-                <Nav.Link className="mx-3" to="#events">
+                <Nav.Link className="mx-3" href="/events">
                   Events
                 </Nav.Link>
 
@@ -113,18 +121,18 @@ export const Header = () => {
                   id="basic-nav-dropdown"
                   renderMenuOnMount={true}
                 >
-                  <NavDropdown.Item to="#action/3.1">
+                  <NavDropdown.Item href="/faculty">
                     Faculty
                   </NavDropdown.Item>
                   <NavDropdown.Divider />
-                  <NavDropdown.Item to="/students">Students</NavDropdown.Item>
+                  <NavDropdown.Item href="/studentteam">Students</NavDropdown.Item>
                 </NavDropdown>
 
-                <Nav.Link className="mx-3" to="#gallery">
+                {/* <Nav.Link className="mx-3" href="/gallery">
                   Gallery
-                </Nav.Link>
+                </Nav.Link> */}
 
-                <Nav.Link className="mx-3" to="#contact">
+                <Nav.Link className="mx-3" href="/contact">
                   Contact
                 </Nav.Link>
               </Nav>

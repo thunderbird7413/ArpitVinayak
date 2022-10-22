@@ -54,8 +54,7 @@ export const HomeScreen = () => {
           </div>
         </section>
       </div>
-      <Work />
-      <Images_sequence /><br/><br/>
+      <Work /><br/><br/>
       <h2><center>Our <b>Patrons</b></center></h2>
       <div className="container">
         <div className="row">
@@ -107,6 +106,7 @@ export const HomeScreen = () => {
       {/* <!--======= PROUD =========--> */}
       <section ><br/>
         <center><h2>Be the change <span className="Heart"><BsFillHeartFill /></span> <strong>You wish to see</strong>.</h2></center>
+      <br />
       </section>
     </>
   )
