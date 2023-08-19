@@ -12,12 +12,23 @@ function ImageSlider() {
         dots: true,
         infinite: true,
         speed: 600,
-        slidesToShow: 3,
+        slidesPerView:3,
         slidesToScroll: 1,
-        cssEase: "linear"
+        cssEase: "linear",
+        breakpoints:{
+            0:{
+                slidesPerView:1,
+            },
+            520: {
+                slidesPerView:2,
+            },
+            950:{
+                slidesPerView:3,
+            }
+        }
     }
     return (
-        <Slider className=" blog-card"{...settings}>
+        <Slider className=" blog-card mt-2"{...settings}>
             <div className="card-wrapper blog-card-wrapper">
                 <div className="card">
                     <div className="card-image">

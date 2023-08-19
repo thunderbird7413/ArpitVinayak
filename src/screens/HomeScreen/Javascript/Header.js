@@ -58,7 +58,7 @@ export const Header = () => {
                 <Nav.Link className="mx-3" href="/">
                   Home
                 </Nav.Link>
-                {/* <NavDropdown
+                <NavDropdown
                   className="mx-3"
                   title="Initiatives"
                   id="basic-nav-dropdown"
@@ -79,10 +79,7 @@ export const Header = () => {
                   </NavDropdown.Item>
                   <NavDropdown.Divider />
                   <NavDropdown.Item to="#action/3.5">Other</NavDropdown.Item>
-                </NavDropdown> */}
-                <Nav.Link className="mx-3" href="/initiatives">
-                  Initiatives
-                </Nav.Link>
+                </NavDropdown> 
 
                 <NavDropdown
                   className="mx-3"
@@ -102,7 +99,7 @@ export const Header = () => {
                   <NavDropdown.Divider />
                   <NavDropdown.Item href="/chandpur">
                   <button  title="Chandpur-Khurd, Chandpur-Kala, Horawala" data-toggle="popover" data-trigger="hover" className="text-dark btn btn" >
-                    Chandpur
+                    Gopalpur
                   </button>
                   </NavDropdown.Item>
                   <NavDropdown.Divider />

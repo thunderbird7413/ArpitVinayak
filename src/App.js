@@ -15,6 +15,7 @@ import { Work } from "./screens/HomeScreen/Javascript/Work";
 import About from "./screens/HomeScreen/Javascript/About";
 import {Faculty} from "./screens/HomeScreen/Javascript/Faculty";
 import {Contact} from "./screens/HomeScreen/Javascript/Contact";
+import Footer1 from './screens/HomeScreen/Javascript/Footer1';
 
 class App extends Component{
   render()
@@ -37,6 +38,7 @@ class App extends Component{
           <Route path='/faculty' exact element={<Faculty/>}></Route>
           <Route path='/contact' exact element={<Contact/>}></Route>
         </Routes>
+        <Footer1/>
       </BrowserRouter>
       </>
     )

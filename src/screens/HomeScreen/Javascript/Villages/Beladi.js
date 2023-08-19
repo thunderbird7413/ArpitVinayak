@@ -5,10 +5,7 @@ import { InitCard } from "../../../../components/Javascript/InitCard";
 import "../../css/StudentTeam.css";
 import "../../css/Villages.css";
 import map1 from "../../../../Images/Initiatives/Beladi/map1.jpg";
-import Deepal from "../../../../Images/StudentTeam/Deepal Tiwari.jpg";
-import URADE from "../../../../Images/StudentTeam/URADE PRATYAY.jpg";
-import Khushi from "../../../../Images/StudentTeam/Khushi.jpg";
-import Udit from "../../../../Images/StudentTeam/Udit.jpeg";
+import Jyoti from "../../../../Images/StudentTeam/Jyoti.jpg";
 import init5 from "../../../../Images/Initiatives/Beladi/init5.jpg";
 import init6 from "../../../../Images/Initiatives/Beladi/init6.jpg";
 import init7 from "../../../../Images/Initiatives/Beladi/init7.png";
@@ -16,9 +13,9 @@ import init7 from "../../../../Images/Initiatives/Beladi/init7.png";
 export const Beladi = () => {
   return (
     <>
-      <div>
+      <div  style={{alignContent:'center' , alignItems:'center' }}>
         <Row>
-          <div class="container tittle1 bg-overlay1">
+          <div class="container tittle1 bg-overlay1" >
             <div className="my-5" style={{ textAlign: "center" }}>
               <h3>BELADI</h3>
               <p>HOME/VILLAGE/BELADI</p>
@@ -27,7 +24,7 @@ export const Beladi = () => {
         </Row>
         <Row>
           <section className="how-can-help1 what-we1">
-            <div className="container tittle1">
+            <div className="container tittle1"  >
               <Row>
                 <Col class="col-md-8 with-map1">
                   <span class="big-text1">
@@ -91,23 +88,24 @@ export const Beladi = () => {
 
                   <p></p>
                 </Col>
-
-                <Col className="col-md-4 ">
-                  <div className="program1">
+                <div  style={{alignItems:'center',alignContent:'center',width:'full' , marginTop:'2rem'}}>
+                <div  style={{alignItems:'center',alignContent:'center'}}>
+                  <div className="program1 w-full">
                     <div className="inner1">
                       <h3>
-                        Cattle Vaccination
+                        Beladi 
                         <br />
-                        April 6, 2019
+                        August 20, 2023
                         <br />
-                        <span>1695 cattle vaccinated</span>
+                        <span>Village Action PLan</span>
                       </h3>
                       <a href="docs/Newsletter2.pdf" class="btn btn-1">
                         FOR MORE DETAILS
                       </a>
                     </div>
                   </div>
-                </Col>
+                </div>
+                </div>
               </Row>
             </div>
           </section>
@@ -363,26 +361,19 @@ export const Beladi = () => {
           </div>
         </div>
       </Container>
-      <Container style={{ background: "#f7f8f9" }}>
+      <Container style={{ background: "#f7f8f9" , alignContent:'center',alignItems:'center' }}>
         <h1 className="text-center headingStudent1 my-5">Village Team</h1>
         <Row>
-          <div className="col-lg-5" style={{ marginRight: "auto" }}>
-            <StudentIdentityCard
-              studImg={Khushi}
-              name="Khushi Kumawat"
+        <div className="col-lg-5"  >
+          <StudentIdentityCard
+              studImg={Jyoti}
+              name="Jyotsana Singh"
               pos="Village Co-ordinator"
-              email="Email: khushi_k@mt.iitr.ac.in"
-              linkedIn="https://www.linkedin.com/in/khushi-kumawat-7b2697204"
+              village="Beladi"
+              email="Email: j_singh@ph.iitr.ac.in"
+              linkedIn="https://www.linkedin.com/in/jyotsna-singh-072ba4230"
             />
-          </div>
-          <div className="col-lg-5" style={{ marginRight: "auto" }}>
-            <StudentIdentityCard
-              studImg={Udit}
-              name="Udit Mimami"
-              pos="Village Co-ordinator"
-              email="Email: udit_m@ee.iitr.ac.in"
-              linkedIn="https://www.linkedin.com/in/udit-mimani-413000208"
-            />
+            <br />
           </div>
         </Row>
       </Container>

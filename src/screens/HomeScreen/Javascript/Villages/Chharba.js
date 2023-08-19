@@ -7,10 +7,11 @@ import "../../css/Villages.css";
 import map1 from "../../../../Images/Initiatives/Chharba/map1.jpg";
 import AYUSH from "../../../../Images/StudentTeam/AYUSH KUMAR.jpg";
 import PRAMOD from "../../../../Images/StudentTeam/PRAMOD KUMAR.jpg";
-import Shailja from "../../../../Images/StudentTeam/Shailja.jpg";
+import ShubhamK from "../../../../Images/StudentTeam/Shubham_kumar.jpg";
 import init1 from "../../../../Images/Initiatives/Chharba/init1.jpeg";
 import init2 from "../../../../Images/Initiatives/Chharba/init2.jpeg";
 import init3 from "../../../../Images/Initiatives/Chharba/init3.jpeg";
+
 
 export const Chharba = () => {
   return (
@@ -93,23 +94,23 @@ export const Chharba = () => {
                   <p></p>
                 </Col>
 
-                <Col className="col-md-4 ">
-                  <div className="program1">
+                <div  style={{alignItems:'center',alignContent:'center',width:'full' , marginTop:'2rem'}}>
+                <div  style={{alignItems:'center',alignContent:'center'}}></div>
+                  <div className="program1 w-full">
                     <div className="inner1">
                       <h3>
-                      LIBRARY SETUP <br />
-                      August 20, 2021 <br />
-                        <span> A Public Library was implemented at GIC, <br />
-                        Chharba under the caretaking of Principal, GIC.
-                          <br /> More than 250 books were collected with the
-                          help of Goonj organisation.</span>
+                        Chharba
+                        <br />
+                        August 20, 2023
+                        <br />
+                        <span>Village Action PLan</span>
                       </h3>
-                      <a href="docs/Newsletter2.pdf" class="btn">
+                      <a href="docs/Newsletter2.pdf" class="btn btn-1">
                         FOR MORE DETAILS
                       </a>
                     </div>
                   </div>
-                </Col>
+                  </div>
               </Row>
             </div>
           </section>
@@ -365,26 +366,17 @@ export const Chharba = () => {
           </div>
         </div>
       </Container>
-      <Container style={{ background: "#f7f8f9" }}>
+      <Container style={{ background: "#f7f8f9" , alignContent:'center' }}>
         <h1 className="text-center headingStudent1 my-5">Village Team</h1>
         <Row>
-          <div className="col-lg-5" style={{ marginLeft: "auto" }}>
-            <StudentIdentityCard
-              studImg={AYUSH}
-              name="Ashish Singh"
+          <div className="col-lg-5" >
+          <StudentIdentityCard
+              studImg={ShubhamK}
+              name="Shubam Kumar"
               pos="Village Co-ordinator"
-              email="Email: ashish_s@cy.iitr.ac.in"
-              linkedIn="https://www.linkedin.com/in/ashish-singh-567825240"
-            />
-            <br />
-          </div>
-          <div className="col-lg-5" style={{ marginRight: "auto" }}>
-            <StudentIdentityCard
-              studImg={Shailja}
-              name="Shailja Gupta"
-              pos="Village Co-ordinator"
-              email="Email: shailja_g@ch.iitr.ac.in"
-              linkedIn="https://www.linkedin.com/in/shailja-gupta-01b196206"
+              village="Chharba"
+              email="Email: s_kumar5@me.iitr.ac.in"
+              linkedIn="https://www.linkedin.com/in/shubham-kumar-305b52240"
             />
             <br />
           </div>

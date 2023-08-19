@@ -37,85 +37,12 @@ const About = () => {
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col-md-1 col-sm-0">
-
-                    </div>
-                    <div className="col-md-4 col-sm-10">
-                        <p className="contenta" style={{ textAlign: "right", paddingTop: "20px" }}> <font size="4">
+                    <div className="">
+                        <p className="contenta" style={{ textAlign: "left", paddingTop: "20px" }}> <font size="4">
 
                             Thus ‘Students Initiative for Integrated Rural Development’ (SIIRD) was born within the fold of
                             the Knowledge Economy Project,awarded to IIT Roorkee by government of India in 2006 and emerged as its rural development vertical.
                         </font></p>
-                    </div>
-                    <div className="col-md-2 col-sm-2">
-                        <img src={img1} className="img_history"></img>
-                    </div>
-                    <div className="col-md-4 col-sm-0">
-
-                    </div>
-                    <div className="col-md-1 col-sm-0">
-
-                    </div>
-                </div>
-                <div className="row liner" >
-                    <div className="col-md-12">
-                        <div class="vertical1"></div>
-                    </div>
-                </div>
-
-
-
-
-                <div className="row">
-                    <div className="col-md-1 col-sm-0">
-
-                    </div>
-                    <div className="col-md-4 col-sm-0">
-
-
-
-                    </div>
-                    <div className="col-sm-2">
-                        <img src={img2} className="img_history"></img>
-                    </div>
-                    <div className="col-md-4 col-sm-10 ">
-                        <p className="content2" style={{ textAlign: "left" }}> <font size="4">
-                            Unnat Bharat Abhiyan is a project launched by the Ministry of Human Resources Development,
-                            Government of India in December 2014, with an aim to leverage the technical knowhow of
-                            premier educational institutions in the country and apply it in the rural milieu.
-                        </font></p>
-                    </div>
-                    <div className="col-md-1 col-sm-0">
-
-                    </div>
-                </div>
-                <div className="row liner">
-                    <div className="col-md-12 col-sm-0">
-                        <div class="vertical1"></div>
-                    </div>
-                </div>
-
-
-                <div className="row">
-                    <div className="col-md-1 col-sm-0">
-
-                    </div>
-                    <div className="col-md-4 col-sm-10">
-                        <p className="contentb" style={{ textAlign: "right", paddingTop: "25px" }}> <font size="4">
-                            The modus operandi of UBA is very similar to the SIIRD model which focused on identification
-                            of demand in a bottom-up approach rather than enforcing suppliers’ decisions in a top-down
-                            one.
-
-                        </font></p>
-                    </div>
-                    <div className="col-md-2 ">
-                        <img src={img3} className="img_history"></img>
-                    </div>
-                    <div className="col-md-4 col-sm-0">
-
-                    </div>
-                    <div className="col-md-1 col-sm-0">
-
                     </div>
                 </div>
             </div>

@@ -16,12 +16,12 @@ import init3 from "../../../../Images/Initiatives/Chandpur/init3.jpg";
 export const Chandpur = () => {
   return (
     <>
-      <div>
+      <div style={{alignContent:'center' , alignItems:'center' }}>
         <Row>
           <div class="container tittle1 bg-overlay1">
             <div className="my-5" style={{ textAlign: "center" }}>
-              <h3>CHANDPUR</h3>
-              <p>HOME/VILLAGE/CHANDPUR</p>
+              <h3>GOPALPUR</h3>
+              <p>HOME/VILLAGE/GOPALPUR</p>
             </div>
           </div>
         </Row>
@@ -31,7 +31,7 @@ export const Chandpur = () => {
               <Row>
                 <Col class="col-md-8 with-map1">
                   <span class="big-text1">
-                    <small>About Chandpur</small>
+                    <small>About Gopalpur</small>
                   </span>
                   <hr
                     style={{
@@ -42,7 +42,7 @@ export const Chandpur = () => {
                     }}
                   />
                   <p align="justify">
-                  Chandpur village comes under Vikasnagar block of district
+                  Gopalpur village comes under Vikasnagar block of district
                     Dehradun, Uttarakhand. Being very close to mountains, it is
                     situated on the banks of one of the tributaries of Yamuna
                     River. It is nearly 36 km from Dehradun in the North-West
@@ -96,22 +96,24 @@ export const Chandpur = () => {
                   </p>
                   <p></p>
                 </Col>
-
-                <Col className="col-md-4 ">
-                  <div className="program1">
+                <div  style={{alignItems:'center',alignContent:'center',width:'full' , marginTop:'2rem'}}>
+                <div  style={{alignItems:'center',alignContent:'center'}}>
+                  <div className="program1 w-full">
                     <div className="inner1">
                       <h3>
-                      Essay Writing Competition <br />
-                      September 14, 2020 <br />
-                        <span> For students in Government Inter College (GIC) <br />
-                          Horawala</span>
+                        Gopalpur
+                        <br />
+                        August 20, 2023
+                        <br />
+                        <span>Village Action PLan</span>
                       </h3>
-                      <a href="docs/Newsletter2.pdf" class="btn">
+                      <a href="docs/Newsletter2.pdf" class="btn btn-1">
                         FOR MORE DETAILS
                       </a>
                     </div>
                   </div>
-                </Col>
+                  </div>
+                  </div>
               </Row>
             </div>
           </section>

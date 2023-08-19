@@ -5,7 +5,7 @@ import "../css/Contact.css";
 export const Contact = () =>{
     return (
         <>
-		<div className="Init_sub-banner">
+		<div className="Init_sub-banner" >
           <div className="Init_overlay">
           <div className="Init_container">
           <h2><span>Contact</span> Us</h2>
@@ -58,10 +58,8 @@ uba@iitr.ac.in</label>
 	</div>
 	<br />
 <br />
-<center><h2>Be the change <span className="Heart"><BsFillHeartFill /></span> <strong>You wish to see</strong>.</h2></center>
 <br />
 </div>
-
-        </>
+    </>
     )
 }

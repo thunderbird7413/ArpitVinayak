@@ -35,7 +35,7 @@ export const Work = () => {
             </li>
 
             {/* <!--======= OUR PROGRAM =========--> */}
-            <li className="col-md-4">
+            <li className="col-md-4 w-[100%] h-auto ">
               <div className="program">
                 <div className="inner">
                   <h3>

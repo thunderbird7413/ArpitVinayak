@@ -1,18 +1,21 @@
 import React from "react";
-import "../css/Footer.css";
+import { Container, Row, Col } from "react-bootstrap";
+import "../css/Footer.css"
 
-export const Footer = () => {
+
+
+const Footer = () => {
   return (
     <>
     <br />
     <br />
     <br />
     <br />
-      <div class="container">
+      <div class="container w-100" style={{backgroundColor:'#232323' , width:'full'}}>
         <footer class="py-5">
           <div class="row">
             <div class="col-2">
-              <h5>Useful Links</h5>
+              <h5 className="text-warning">Useful Links</h5>
               <ul class="nav flex-column">
                 <li class="nav-item mb-2">
                   <a href="#" class="nav-link p-0 text-muted">
@@ -48,7 +51,7 @@ export const Footer = () => {
             </div>
 
             <div class="col-3">
-              <h5>Recent Events</h5>
+              <h5 className="text-warning">Recent Events</h5>
               <ul class="nav flex-column">
                 <li class="nav-item mb-2 text-muted">
                 On the eve of 75th Independence Day, Team UBA IITR brings one-of-its-kind talk by Mr. Swapnil Tewari on topic- 'O Yuva!-Unleash your superpower.'
@@ -62,7 +65,7 @@ export const Footer = () => {
             </div>
 
             <div class="col-2">
-              <h5>IITR Social Media</h5>
+              <h5 className="text-warning">IITR Social Media</h5>
               <ul class="nav flex-column">
                 <li class="nav-item mb-2">
                   <a href="#" class="nav-link p-0 text-muted">
@@ -94,7 +97,7 @@ export const Footer = () => {
 
             <div class="col-3 offset-1">
               <form>
-                <h5>Contact Us</h5>
+                <h5 className="text-warning">Contact Us</h5>
                 <p className="text-muted">Address : Unnat Bharat Abhiyan, IIT Roorkee, Uttarakhand</p>
                 <p className="text-muted">Phone : (+91) 8112283593</p>
                 <p className="text-muted">Email : uba@iitr.ac.in</p>
@@ -107,7 +110,7 @@ export const Footer = () => {
             </div>
           </div>
 
-          <div class="d-flex justify-content-between py-4 my-4 border-top">
+          <div class="d-flex justify-content-between py-4 my-4 border-top " style={{backgroundColor:'#77777782'}}>
             <p>WEBSITE DEVELOPED BY UBA IITR WITH ❤️ <br />
 COPYRIGHT © 2022 SOCIAL WELFARE. ALL RIGHTS RESERVED.</p>
             <ul class="list-unstyled d-flex">
@@ -137,5 +140,10 @@ COPYRIGHT © 2022 SOCIAL WELFARE. ALL RIGHTS RESERVED.</p>
         </footer>
       </div>
     </>
-  );
-};
+  )
+}
+
+export default Footer
+
+
+

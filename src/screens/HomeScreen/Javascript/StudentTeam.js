@@ -1,33 +1,22 @@
 import React from "react";
 import "../css/StudentTeam.css";
-import HTANWAR from "../../../Images/StudentTeam/HARSH TANWAR.jpg";
-import HKUMAR from "../../../Images/StudentTeam/HARSH KUMAR.jpg";
-import KURELLI from "../../../Images/StudentTeam/KURELLI DIKSHITHA.jpg";
-import SUNIDHI from "../../../Images/StudentTeam/SUNIDHI JINDAL.jpg";
-import KAVYA from "../../../Images/StudentTeam/KAVYA SAXENA.jpg";
-import AISHWARYA from "../../../Images/StudentTeam/AISHWARYA MERTIA.jpeg";
-import Deepal from "../../../Images/StudentTeam/Deepal Tiwari.jpg";
-import URADE from "../../../Images/StudentTeam/URADE PRATYAY.jpg";
-import AYUSH from "../../../Images/StudentTeam/AYUSH KUMAR.jpg";
-import PRAMOD from "../../../Images/StudentTeam/PRAMOD KUMAR.jpg";
-import ABHINAV from "../../../Images/StudentTeam/ABHINAV SAINI.jpg";
-import KESHAV from "../../../Images/StudentTeam/KESHAV PARETA.jpg";
-import HINGANE from "../../../Images/StudentTeam/HINGANE YASH.jpg";
-import VISHAL from "../../../Images/StudentTeam/VISHAL YADAV.jpg";
-import SAGAR from "../../../Images/StudentTeam/SAGAR GUPTA.jpg";
-import ANKIT from "../../../Images/StudentTeam/ANKIT BABU.jpg";
-import Shubham from "../../../Images/StudentTeam/Shubham.jpg";
+import HIMANSHU from "../../../Images/StudentTeam/HimanshuRanjan.jpg";
+import Kishan from "../../../Images/StudentTeam/Kishan_Kashyap.jpg";
+import Komalpreet from "../../../Images/StudentTeam/Komalpreet.jpg"
+import Shubhanshu from "../../../Images/StudentTeam/Shbanshu_Shukla.jpg";
+import Anuj from "../../../Images/StudentTeam/Anuj.jpeg"
+import Shreya from "../../../Images/StudentTeam/Shreya.jpg";
 import Mohit from "../../../Images/StudentTeam/Mohit.jpg";
 import Archi from "../../../Images/StudentTeam/Archi.jpg";
-import Rohini from "../../../Images/StudentTeam/Rohini.jpg";
-import Kritika from "../../../Images/StudentTeam/Kritika.JPG";
-import Prakhar from "../../../Images/StudentTeam/Prakhar.jpg";
+import Gautum from "../../../Images/StudentTeam/Gautum.jpg";
+import ShubhamK from "../../../Images/StudentTeam/Shubham_kumar.jpg"
+import Hemant from "../../../Images/StudentTeam/Hemant.jpg"
+import Divya from "../../../Images/StudentTeam/Divya_agr.jpg";
 import Khushi from "../../../Images/StudentTeam/Khushi.jpg";
 import Ani from "../../../Images/StudentTeam/Ani.jpg";
 import Kinshu from "../../../Images/StudentTeam/Kinshu.jpg";
 import Pratibha from "../../../Images/StudentTeam/Pratibha.jpg";
-import Kavya from "../../../Images/StudentTeam/Kavya.jpg";
-import Ashish from "../../../Images/StudentTeam/Ashish.jpg";
+import Jyoti from "../../../Images/StudentTeam/Jyoti.jpg";
 import Abhishek from "../../../Images/StudentTeam/Abhishek.jpg";
 import Udit from "../../../Images/StudentTeam/Udit.jpeg";
 import Srishti from "../../../Images/StudentTeam/Srishti.JPG";
@@ -45,11 +34,11 @@ export const StudentTeam = () => {
         <Row>
           <div className="col-lg-5" style={{ marginLeft: "auto" }}>
             <StudentIdentityCard
-              studImg={Shubham}
-              name="Shubham Pal"
+              studImg={Shreya}
+              name="Shreya Mittal"
               pos="Team Leader"
-              email="Email: shubham_p@mt.iitr.ac.in"
-              linkedIn="https://www.linkedin.com/in/shubham-pal-924b34205"
+              email="Email: s_mittal@ce.iitr.ac.in"
+              linkedIn="https://www.linkedin.com/in/shreya-mittal-287298249"
             />
             <br />
           </div>
@@ -66,60 +55,60 @@ export const StudentTeam = () => {
           <div className="col-lg-5" style={{ marginLeft: "auto" }}>
             <StudentIdentityCard
               studImg={Archi}
-              name=" Archi Gupta"
+              name="Harshit Kumar"
               pos="Overall Co-ordinator for Media and Outreach"
-              email="Email: archi_g@ch.iitr.ac.in"
-              linkedIn="https://www.linkedin.com/in/archi-gupta-7937b320b"
+              email="Email: h_kumar@mt.iitr.ac.in"
+              linkedIn="https://www.linkedin.com/in/harshit-kumar-189b901a0"
             />
             <br />
           </div>
           <div className="col-lg-5" style={{ marginLeft: "auto" }}>
             <StudentIdentityCard
-              studImg={Rohini}
-              name="Rohini Shrivastava"
+              studImg={HIMANSHU}
+              name="Himanshu Ranjan"
               pos="Overall Co-ordinator for Documentation"
-              email="Email: rohini_s@ch.iitr.ac.in"
-              linkedIn="https://www.linkedin.com/in/rohini-shrivastava-98288a204"
+              email="Email: h_ranjan@ece.iitr.ac.in"
+              linkedIn="https://www.linkedin.com/in/himanshu-r-24978a130/"
             />
             <br />
           </div>
           <div className="col-lg-5" style={{ marginLeft: "auto" }}>
             <StudentIdentityCard
-              studImg={Ramandeep}
-              name="Ramandeep Singh"
+              studImg={Shubhanshu}
+              name="Shubanshu Shukla"
               pos="Overall Co-ordinator for Finance "
-              email="Email: ramandeep_s@ee.iitr.ac.in"
-              linkedIn="http://linkedin.com/in/ramandeep-singh-b79199205"
+              email="Email: s_shukla@hs.iitr.ac.in"
+              linkedIn="https://www.linkedin.com/in/shubhanshu-shukla-195068203"
             />
             <br />
           </div>
           <div className="col-lg-5" style={{ marginLeft: "auto" }}>
             <StudentIdentityCard
-              studImg={Srishti}
-              name="Srishti Mishra"
+              studImg={Gautum}
+              name="Gautam Kumar"
               pos="Head (Agriculture & Waste Management) "
-              email="Email: srishti_m@ch.iitr.ac.in"
-              linkedIn="https://www.linkedin.com/in/srishti-mishra-316ab3235"
+              email="Email: g_kumar1@ce.iitr.ac.in"
+              linkedIn="http://www.linkedin.com/in/gautam-kumar-a83bb3223"
             />
             <br />
           </div>
           <div className="col-lg-5" style={{ marginLeft: "auto" }}>
             <StudentIdentityCard
-              studImg={Kritika}
-              name="Kritika Paliwal"
-              pos="Head (Self Help Groups) "
-              email="Email: kritika_p@me.iitr.ac.in"
-              linkedIn="https://www.linkedin.com/in/kayp"
+              studImg={Hemant}
+              name="Hemant Bisdaria"
+              pos="Head (Self Help Groups)"
+              email="Email: h_bidasaria@hs.iitr.ac.in"
+              linkedIn="https://www.linkedin.com/in/hemant-bidasaria-068677223"
             />
             <br />
           </div>
           <div className="col-lg-5" style={{ marginLeft: "auto" }}>
             <StudentIdentityCard
-              studImg={Prakhar}
-              name="Prakhar Surana"
+              studImg={Kishan}
+              name="Kishan Kashyap"
               pos="Head (Water Management & Education)"
-              email="Email: prakhar_s@ece.iitr.ac.in"
-              linkedIn="https://www.linkedin.com/in/prakhar-surana-36b4ba1b4"
+              email="Email: K_kashyap@ph.iitr.ac.in"
+              linkedIn="https://www.linkedin.com/in/kishan-kashyap-9b5555227"
             />
             <br />
           </div>
@@ -127,23 +116,12 @@ export const StudentTeam = () => {
           <h1 className="text-center headingStudent1 my-5">Village Team</h1>
           <div className="col-lg-5" style={{ marginLeft: "auto" }}>
           <StudentIdentityCard
-              studImg={Khushi}
-              name="Khushi Kumawat"
+              studImg={Jyoti}
+              name="Jyotsana Singh"
               pos="Village Co-ordinator"
               village="Beladi"
-              email="Email: khushi_k@mt.iitr.ac.in"
-              linkedIn="https://www.linkedin.com/in/khushi-kumawat-7b2697204"
-            />
-            <br />
-          </div>
-          <div className="col-lg-5" style={{ marginLeft: "auto" }}>
-          <StudentIdentityCard
-              studImg={Udit}
-              name="Udit Mimami"
-              pos="Village Co-ordinator"
-              village="Beladi"
-              email="Email: udit_m@ee.iitr.ac.in"
-              linkedIn="https://www.linkedin.com/in/udit-mimani-413000208"
+              email="Email: j_singh@ph.iitr.ac.in"
+              linkedIn="https://www.linkedin.com/in/jyotsna-singh-072ba4230"
             />
             <br />
           </div>
@@ -159,78 +137,45 @@ export const StudentTeam = () => {
             <br />
           </div>
           <div className="col-lg-5" style={{ marginLeft: "auto" }}>
-            <StudentIdentityCard
-              studImg={Kinshu}
-              name="Kinshu Kumar"
+          <StudentIdentityCard
+              studImg={Komalpreet}
+              name="Komalpreet Kaur"
               pos="Village Co-ordinator"
-              village="Chandpur"
-              email="Email: kinshu_k@me.iitr.ac.in"
-              linkedIn="https://www.linkedin.com/in/kinshu-kumar-4bb67a19a"
+              village="Rithaura Grunt"
+              email="Email: j_singh@ph.iitr.ac.in"
+              linkedIn="https://www.linkedin.com/in/jyotsna-singh-072ba4230"
             />
           </div>
           <div className="col-lg-5" style={{ marginLeft: "auto" }}>
           <StudentIdentityCard
-              studImg={Ashish}
-              name="Ashish Singh"
+              studImg={ShubhamK}
+              name="Shubam Kumar"
               pos="Village Co-ordinator"
-              village="Chharba"
-              email="Email: ashish_s@cy.iitr.ac.in"
-              linkedIn="https://www.linkedin.com/in/ashish-singh-567825240"
-            />
-            <br />
-          </div>
-          <div className="col-lg-5" style={{ marginLeft: "auto" }}>
-          <StudentIdentityCard
-              studImg={Shailja}
-              name="Shailja Gupta"
-              pos="Village Co-ordinator"
-              village="Chharba"
-              email="Email: shailja_g@ch.iitr.ac.in"
-              linkedIn="https://www.linkedin.com/in/shailja-gupta-01b196206"
+              village="Gopalpur"
+              email="Email: s_kumar5@me.iitr.ac.in"
+              linkedIn="https://www.linkedin.com/in/shubham-kumar-305b52240"
             />
             <br />
           </div>
           <div className="col-lg-5" style={{ marginLeft: "auto" }}>
           <StudentIdentityCard
-              studImg={Kavya}
-              name="Kavya Bada"
+              studImg={Divya}
+              name="Divya Agarwal"
               pos="Village Co-ordinator"
               village="Meerpur"
-              email="Email: bada_k@me.iitr.ac.in"
-              linkedIn="https://www.linkedin.com/in/kavya-bada-a49394200"
+              email="Email: d_aggarwal@hs.iitr.ac.in"
+              linkedIn="https://www.linkedin.com/in/divya-aggarwal-28bb3122a"
             />
             <br />
           </div>
           <div className="col-lg-5" style={{ marginLeft: "auto" }}>
           <StudentIdentityCard
-              studImg={Pratyaksh}
-              name="Pratyaksh Chauhan"
-              pos="Village Co-ordinator"
-              village="Meerpur"
-              email="Email: pratyaksh_c@ce.iitr.ac.in"
-              linkedIn="https://www.linkedin.com/in/pratyaksh-chauhan-20835620a"
-            />
-            <br />
-          </div>
-          <div className="col-lg-5" style={{ marginLeft: "auto" }}>
-          <StudentIdentityCard
-              studImg={Pratibha}
-              name="Pratibha Pragya"
+              studImg={Anuj}
+              name="Anuj Kumar"
               pos="Village Co-ordinator"
               village="Puranpur"
-              email="Email: pratibha_p@me.iitr.ac.in"
-              linkedIn="https://www.linkedin.com/in/pratibha-pragya-181545152"
-            />
-            <br />
-          </div>
-          <div className="col-lg-5" style={{ marginLeft: "auto" }}>
-          <StudentIdentityCard
-              studImg={Abhishek}
-              name="Abhishek Singh"
-              pos="Village Co-ordinator"
-              village="Puranpur"
-              email="Email: abhishek_s2@ce.iitr.ac.in"
-              linkedIn="https://www.linkedin.com/in/abhishek-singh-6b5a4b213"
+              email="Email: a_kumar4@cy.iitr.ac.in"
+              linkedIn="https://www.linkedin.com/in/anuj-kumar-1aa590230"
             />
             <br />
           </div>

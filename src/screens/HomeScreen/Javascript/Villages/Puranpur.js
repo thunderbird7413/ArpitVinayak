@@ -6,7 +6,7 @@ import "../../css/StudentTeam.css";
 import "../../css/Villages.css";
 import map1 from "../../../../Images/Initiatives/Puranpur/map1.jpg";
 import SAGAR from "../../../../Images/StudentTeam/SAGAR GUPTA.jpg";
-import ANKIT from "../../../../Images/StudentTeam/ANKIT BABU.jpg";
+import Anuj from "../../../../Images/StudentTeam/Anuj.jpeg";
 import Pratibha from "../../../../Images/StudentTeam/Pratibha.jpg";
 import Abhishek from "../../../../Images/StudentTeam/Abhishek.jpg";
 import init10 from "../../../../Images/Initiatives/Puranpur/init10.jpg";
@@ -93,25 +93,24 @@ export const Puranpur = () => {
                   <p></p>
                 </Col>
 
-                <Col className="col-md-4 ">
-                  <div className="program1">
+                <div  style={{alignItems:'center',alignContent:'center',width:'full' , marginTop:'2rem'}}>
+                <div  style={{alignItems:'center',alignContent:'center'}}>
+                  <div className="program1 w-full">
                     <div className="inner1">
                       <h3>
-                        Webinar on Nature Awareness
+                        Puranpur 
                         <br />
-                        September 28, 2020
+                        August 20, 2023
                         <br />
-                        <span>
-                          Students got to know about waste management and
-                          renewable energy.
-                        </span>
+                        <span>Village Action PLan</span>
                       </h3>
                       <a href="docs/Newsletter2.pdf" class="btn btn-1">
                         FOR MORE DETAILS
                       </a>
                     </div>
                   </div>
-                </Col>
+                </div>
+                </div>
               </Row>
             </div>
           </section>
@@ -246,26 +245,17 @@ export const Puranpur = () => {
           </div>
         </div>
       </Container>
-      <Container style={{ background: "#f7f8f9" }}>
+      <Container style={{ background: "#f7f8f9", alignContent:'center' }}>
         <h1 className="text-center headingStudent1 my-5">Village Team</h1>
         <Row>
-          <div className="col-lg-5" style={{ marginLeft: "auto" }}>
-            <StudentIdentityCard
-              studImg={Abhishek}
-              name="Abhishek Singh"
+          <div className="col-lg-5">
+          <StudentIdentityCard
+              studImg={Anuj}
+              name="Anuj Kumar"
               pos="Village Co-ordinator"
-              email="Email: abhishek_s2@ce.iitr.ac.in"
-              linkedIn="https://www.linkedin.com/in/abhishek-singh-6b5a4b213"
-            />
-            <br />
-          </div>
-          <div className="col-lg-5" style={{ marginLeft: "auto" }}>
-            <StudentIdentityCard
-              studImg={Pratibha}
-              name="Pratibha Pragya"
-              pos="Village Co-ordinator"
-              email="Email: pratibha_p@me.iitr.ac.in"
-              linkedIn="https://www.linkedin.com/in/pratibha-pragya-181545152"
+              village="Puranpur"
+              email="Email: a_kumar4@cy.iitr.ac.in"
+              linkedIn="https://www.linkedin.com/in/anuj-kumar-1aa590230"
             />
             <br />
           </div>

@@ -11,7 +11,7 @@ import e7 from '../../Images/Events_image/Winter_school.jpg'
 
 export const InitCard_initiatives = () => {
   return <div>
-          <div className="Init_sub-banner">
+          <div className="Init_sub-banner" style={{overflow:'hidden'}}>
           <div className="Init_overlay">
           <div className="Init_container">
           <h2>Our <span>Initiatives</span></h2>

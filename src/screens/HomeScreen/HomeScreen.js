@@ -1,6 +1,7 @@
 import IdentityCard from '../../components/Javascript/IdentityCard'
 import { InitCard } from '../../components/Javascript/InitCard'
-import { Images_sequence } from '../HomeScreen/Javascript/Images_sequence'
+import Footer from './Javascript/Footer'
+import Footer1 from './Javascript/Footer1'
 import food_kit from '../../Images/Beladi/CycleDonation/covid.jpg'
 import cycle_donation from '../../Images/Beladi/CycleDonation/i.jpg'
 import swacchta_hi_seva from '../../Images/Chharba/PlasticFreeIndia_Chharba/i.jpeg'
@@ -23,17 +24,15 @@ export const HomeScreen = () => {
 
   return (
     <>
-
+      <div style={{width:'full'}}>
       <FrontPageCarousel/>
       <About />
-
-
       <div className="container">
         <section >
           {/* <!--======= TITTLE =========--> */}
           <div className="tittle">
             <h2>Our Recent <span>Initiatives </span></h2>
-            <p>BrighInitCard <span className="underline">minds at work</span> here</p>
+            <p>BrighInitCard <span>minds at work</span> here</p>
           </div>
           <div className="row">
             <div className="col-lg-4">
@@ -56,7 +55,7 @@ export const HomeScreen = () => {
       </div>
       <Work /><br/><br/>
       <h2><center>Our <b>Patrons</b></center></h2>
-      <div className="container">
+      <div className="container mt-1">
         <div className="row">
           <div className="col-md-1">
           </div>
@@ -74,7 +73,7 @@ export const HomeScreen = () => {
           </div>
           <div className="col-md-1"></div>
         </div>
-        <div className="row">
+        <div className="row mt-2">
           <div className="col-md-1"></div>
           <div className="col-md-5">
             <IdentityCard name="Dr.Bhanu Prakash Vellanki"
@@ -94,8 +93,8 @@ export const HomeScreen = () => {
       <div className="container">
         {/* <!--======= TITTLE =========--> */}
         <div className="tittle">
-          <h2>Fresh From The <span>Blog</span></h2>
-          <p>Work.  Innovation.  Fun.</p>
+          <h2 className='-mt-2'>Fresh From The <span>Blog</span></h2>
+          <p className='mb-2'>Work.  Innovation.  Fun.</p>
         </div>
         <div className="row mt-5 carousel-blog carousel">
 
@@ -108,6 +107,8 @@ export const HomeScreen = () => {
         <center><h2>Be the change <span className="Heart"><BsFillHeartFill /></span> <strong>You wish to see</strong>.</h2></center>
       <br />
       </section>
+      </div>
+      
     </>
   )
 }
