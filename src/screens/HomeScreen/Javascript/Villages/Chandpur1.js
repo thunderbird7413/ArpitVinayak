@@ -6,6 +6,7 @@ import "../../../css/StudentTeam.css";
 import "../../../css/Chandpur.css";
 import map1 from "../../../images/Initiatives/Chandpur/map1.jpg";
 import KESHAV from "../../../images/StudentTeam/KESHAV-PARETA.jpg";
+import Null from "../../../Images/StudentTeam/Null.jpeg";
 import ABHINAV from "../../../images/StudentTeam/ABHINAV-SAINI.jpg";
 import init1 from "../../../images/Initiatives/Chandpur/init1.jpeg";
 import init2 from "../../../images/Initiatives/Chandpur/init2.jpeg";

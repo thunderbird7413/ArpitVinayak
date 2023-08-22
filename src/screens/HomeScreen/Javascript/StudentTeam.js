@@ -4,8 +4,10 @@ import HIMANSHU from "../../../Images/StudentTeam/HimanshuRanjan.jpg";
 import Kishan from "../../../Images/StudentTeam/Kishan_Kashyap.jpg";
 import Komalpreet from "../../../Images/StudentTeam/Komalpreet.jpg"
 import Shubhanshu from "../../../Images/StudentTeam/Shbanshu_Shukla.jpg";
+import Null from "../../../Images/StudentTeam/Null.jpeg";
 import Anuj from "../../../Images/StudentTeam/Anuj.jpeg"
 import Shreya from "../../../Images/StudentTeam/Shreya.jpg";
+import Rishabh from "../../../Images/StudentTeam/Rishabh.jpeg";
 import Mohit from "../../../Images/StudentTeam/Mohit.jpg";
 import Archi from "../../../Images/StudentTeam/Archi.jpg";
 import Gautum from "../../../Images/StudentTeam/Gautum.jpg";
@@ -17,6 +19,7 @@ import Harshit from "../../../Images/StudentTeam/Harshit.jpeg";
 import Ani from "../../../Images/StudentTeam/Ani.jpg";
 import Kinshu from "../../../Images/StudentTeam/Kinshu.jpg";
 import Pratibha from "../../../Images/StudentTeam/Pratibha.jpg";
+import Ayush from "../../../Images/StudentTeam/Ayush.jpeg"
 import Jyoti from "../../../Images/StudentTeam/Jyoti.jpg";
 import Abhishek from "../../../Images/StudentTeam/Abhishek.jpg";
 import Udit from "../../../Images/StudentTeam/Udit.jpeg";
@@ -45,11 +48,11 @@ export const StudentTeam = () => {
           </div>
           <div className="col-lg-5" style={{ marginLeft: "auto" }}>
             <StudentIdentityCard
-              studImg={Mohit}
-              name="Mohit Umraiya"
+              studImg={Ayush}
+              name="Ashish Goyal"
               pos="Overall Student Coordinator"
-              email="Email: mohit_u@ee.iitr.ac.in"
-              linkedIn="https://www.linkedin.com/in/mohit-umraiya-966911200"
+              email="Email: a_goyal@me.iitr.ac.in"
+              linkedIn="https://www.linkedin.com/in/ashish-goyal-45a5a8208/"
             />
             <br />
           </div>
@@ -127,14 +130,14 @@ export const StudentTeam = () => {
             <br />
           </div>
           <div className="col-lg-5" style={{ marginLeft: "auto" }}>
-          {/* <StudentIdentityCard
-              studImg={Ani}
-              name="Ani Jeenwal"
+          <StudentIdentityCard
+              studImg={Rishabh}
+              name="Rishabh Kosta"
               pos="Village Co-ordinator"
-              village="Chandpur"
-              email="Email: ani_j@me.iitr.ac.in"
-              linkedIn="https://www.linkedin.com/in/ani-jeenwal-b89530223"
-            /> */}
+              village="Beladi"
+              
+              linkedIn="https://www.linkedin.com/in/rishabh-kosta-39703b237/overlay/photo/"
+            />
             <br />
           </div>
           <div className="col-lg-5" style={{ marginLeft: "auto" }}>
@@ -142,9 +145,19 @@ export const StudentTeam = () => {
               studImg={Komalpreet}
               name="Komalpreet Kaur"
               pos="Village Co-ordinator"
-              village="Rithaura Grunt"
+              village="Rithaura-Grunt"
               email="Email: j_singh@ph.iitr.ac.in"
               linkedIn="https://www.linkedin.com/in/jyotsna-singh-072ba4230"
+            />
+          </div>
+          <div className="col-lg-5" style={{ marginLeft: "auto" }}>
+          <StudentIdentityCard
+              studImg={Null}
+              name="Radhika Aggarwal"
+              pos="Village Co-ordinator"
+              village="Rithaura-Grunt"
+              
+              linkedIn="https://www.linkedin.com/in/radhika-agarwal-08a919229/"
             />
           </div>
           <div className="col-lg-5" style={{ marginLeft: "auto" }}>
@@ -155,6 +168,39 @@ export const StudentTeam = () => {
               village="Gopalpur"
               email="Email: s_kumar5@me.iitr.ac.in"
               linkedIn="https://www.linkedin.com/in/shubham-kumar-305b52240"
+            />
+            <br />
+          </div>
+          <div className="col-lg-5" style={{ marginLeft: "auto" }}>
+          <StudentIdentityCard
+              studImg={Null}
+              name="Rasika Kaple"
+              pos="Village Co-ordinator"
+              village="Gopalpur"
+              linkedIn="https://www.linkedin.com/in/rasikakaple/"
+              />
+            <br />
+          </div>
+         
+          <div className="col-lg-5" style={{ marginLeft: "auto" }}>
+          <StudentIdentityCard
+              studImg={Anuj}
+              name="Anuj Kumar"
+              pos="Village Co-ordinator"
+              village="Puranpur"
+              email="Email: a_kumar4@cy.iitr.ac.in"
+              linkedIn="https://www.linkedin.com/in/anuj-kumar-1aa590230"
+            />
+            <br />
+          </div>
+          <div className="col-lg-5" style={{ marginLeft: "auto" }}>
+          <StudentIdentityCard
+              studImg={Null}
+              name="Charu Sahu"
+              pos="Village Co-ordinator"
+              village="Puranpur"
+             
+              linkedIn="https://www.linkedin.com/in/charusahu"
             />
             <br />
           </div>
@@ -171,12 +217,23 @@ export const StudentTeam = () => {
           </div>
           <div className="col-lg-5" style={{ marginLeft: "auto" }}>
           <StudentIdentityCard
-              studImg={Anuj}
-              name="Anuj Kumar"
+              studImg={Null}
+              name="Anand Kumar"
               pos="Village Co-ordinator"
-              village="Puranpur"
-              email="Email: a_kumar4@cy.iitr.ac.in"
-              linkedIn="https://www.linkedin.com/in/anuj-kumar-1aa590230"
+              village="Meerpur"
+              
+              linkedIn="https://www.linkedin.com/in/anand-kumar-23a170224/"
+            />
+            <br />
+          </div>
+          <div className="col-lg-5" id ="last-element" style={{ margin : "auto" }}>
+          <StudentIdentityCard
+              studImg={Null}
+              name="Harsh Kumar Jha"
+              pos="Village Co-ordinator"
+              village="Meerpur"
+              
+              linkedIn="https://www.linkedin.com/in/anand-kumar-23a170224/"
             />
             <br />
           </div>

@@ -4,10 +4,12 @@ import { StudentIdentityCard } from "../../../../components/Javascript/StudentId
 import { InitCard } from "../../../../components/Javascript/InitCard";
 import "../../css/StudentTeam.css";
 import "../../css/Villages.css";
+import ShubhamK from "../../../../Images/StudentTeam/Shubham_kumar.jpg"
 import map1 from "../../../../Images/Initiatives/Chandpur/map1.jpg";
 import ABHINAV from "../../../../Images/StudentTeam/ABHINAV SAINI.jpg";
 import KESHAV from "../../../../Images/StudentTeam/KESHAV PARETA.jpg";
 import Ani from "../../../../Images/StudentTeam/Ani.jpg";
+import Null from "../../../../Images/StudentTeam/Null.jpeg";
 import Kinshu from "../../../../Images/StudentTeam/Kinshu.jpg";
 import init1 from "../../../../Images/Initiatives/Chandpur/init1.jpeg";
 import init2 from "../../../../Images/Initiatives/Chandpur/init2.jpeg";
@@ -51,47 +53,47 @@ export const Chandpur = () => {
                     (Vikasnagar block) surrounds it.
                   </p>
                   <p align="justify">
-                  The village is divided in two parts namely- Chandpur Khurd
-                    and Chandpur Kala, of which Chandpur Kala is nearly 1.25
-                    times larger than Chandpur Khurd (population wise).
+                  The village is divided in two parts namely- Gopalpur Khurd
+                    and Gopalpur Kala, of which Gopalpur Kala is nearly 1.25
+                    times larger than Gopalpur Khurd (population wise).
                   </p>
                   <p align="justify">
-                  Chandpur Kala is a small village with total 46 families
-                    residing. The Chandpur Kala village has population of 227 of
+                  Gopalpur Kala is a small village with total 46 families
+                    residing. The Gopalpur Kala village has population of 227 of
                     which 117 are males while 110 are females as per Population
                     Census 2011.
                   </p>
                   <p align="justify">
-                  In Chandpur Kala village population of children with age 0-6
+                  In Gopalpur Kala village population of children with age 0-6
                     is 26 which makes up 11.45 % of the total population of the
-                    village. Average Sex Ratio of Chandpur Kala village is 940
+                    village. Average Sex Ratio of Gopalpur Kala village is 940
                     which is lower than Uttarakhand state average of 963. Child
-                    Sex Ratio for the Chandpur Kala as per census is 1167,
+                    Sex Ratio for the Gopalpur Kala as per census is 1167,
                     higher than Uttarakhand average of 890.
                   </p>
                   <p align="justify">
-                  Chandpur Kala village has higher literacy rate as compared
-                    to Uttarakhand. In 2011, literacy rate of Chandpur Kala
+                  Gopalpur Kala village has higher literacy rate as compared
+                    to Uttarakhand. In 2011, literacy rate of Gopalpur Kala
                     village was 85.57 % compared to 78.82 % of Uttarakhand. In
-                    Chandpur Kala male literacy stands at 92.38 % while female
+                    Gopalpur Kala male literacy stands at 92.38 % while female
                     literacy rate was 78.13 %.
                   </p>
                   <p align="justify">
-                  Chandpur Khurd is a small village with total 44 families
-                    residing. The Chandpur Khurd village has a population of 183
+                  Gopalpur Khurd is a small village with total 44 families
+                    residing. The Gopalpur Khurd village has a population of 183
                     of which 87 are males while 96 are females as per Census
-                    2011. In Chandpur Khurd village the population of children
+                    2011. In Gopalpur Khurd village the population of children
                     with age 0-6 is 24 which makes up 13.11 % of total
-                    population of village. Average Sex Ratio of Chandpur Khurd
+                    population of village. Average Sex Ratio of Gopalpur Khurd
                     village is 1103 which is higher than Uttarakhand state
-                    average of 963. Child Sex Ratio for the Chandpur Khurd as
+                    average of 963. Child Sex Ratio for the Gopalpur Khurd as
                     per census is 846, lower than Uttarakhand average of 890.
                   </p>
                   <p align="justify">
-                  Chandpur Khurd village has higher literacy rate compared to
-                    Uttarakhand. In 2011, literacy rate of Chandpur Khurd
+                  Gopalpur Khurd village has higher literacy rate compared to
+                    Uttarakhand. In 2011, literacy rate of Gopalpur Khurd
                     village was 84.91 % compared to 78.82 % of Uttarakhand. In
-                    Chandpur Khurd male literacy stands at 95.95 % while female
+                    Gopalpur Khurd male literacy stands at 95.95 % while female
                     literacy rate was 75.29 %.
                   </p>
                   <p></p>
@@ -147,7 +149,7 @@ export const Chandpur = () => {
                 </tr>
                 <tr>
                   <td>Gram Panchayat</td>
-                  <td>Chandpur</td>
+                  <td>Gopalpur</td>
                 </tr>
                 <tr>
                   <td>Village Head/Pradhan</td>
@@ -335,10 +337,10 @@ export const Chandpur = () => {
             <center>
               <InitCard
                 image={init1}
-                village="Chandpur |"
+                village="Gopalpur |"
                 date="July 3, 2021"
                 init="Student Help Initiative"
-                initiative="Addressing the problems faced by students and providing study material in Chandpur."
+                initiative="Addressing the problems faced by students and providing study material in Gopalpur."
               />
               <br />
             </center>
@@ -347,7 +349,7 @@ export const Chandpur = () => {
             <center>
               <InitCard
                 image={init2}
-                village="Chandpur |"
+                village="Gopalpur |"
                 date="April 05-10, 2021"
                 init="Computer Installation Initiative"
                 initiative="Team UBA set up computers in GIC school to ease in online education in pandemic time."
@@ -359,7 +361,7 @@ export const Chandpur = () => {
             <center>
               <InitCard
                 image={init3}
-                village="Chandpur |"
+                village="Gopalpur |"
                 date="September 14, 2020"
                 init="Essay Writing Competition"
                 initiative="Celebrating Hindi Diwas with village students of GIC Horawala"
@@ -372,24 +374,25 @@ export const Chandpur = () => {
       <Container style={{ background: "#f7f8f9" }}>
         <h1 className="text-center headingStudent1 my-5">Village Team</h1>
         <Row>
-          <div className="col-lg-5" style={{ marginLeft: "auto" }}>
-            <StudentIdentityCard
-              studImg={Ani}
-              name="Ani Jeenwal"
+        <div className="col-lg-5" style={{ marginLeft: "auto" }}>
+          <StudentIdentityCard
+              studImg={ShubhamK}
+              name="Shubam Kumar"
               pos="Village Co-ordinator"
-              email="Email: ani_j@me.iitr.ac.in"
-              linkedIn="https://www.linkedin.com/in/ani-jeenwal-b89530223"
+              village="Gopalpur"
+              email="Email: s_kumar5@me.iitr.ac.in"
+              linkedIn="https://www.linkedin.com/in/shubham-kumar-305b52240"
             />
             <br />
           </div>
-          <div className="col-lg-5" style={{ marginRight: "auto" }}>
-            <StudentIdentityCard
-              studImg={Kinshu}
-              name="Kinshu Kumar"
+          <div className="col-lg-5" style={{ marginLeft: "auto" }}>
+          <StudentIdentityCard
+              studImg={Null}
+              name="Rasika Kaple"
               pos="Village Co-ordinator"
-              email="Email: kinshu_k@me.iitr.ac.in"
-              linkedIn="https://www.linkedin.com/in/kinshu-kumar-4bb67a19a"
-            />
+              village="Gopalpur"
+              linkedIn="https://www.linkedin.com/in/rasikakaple/"
+              />
             <br />
           </div>
         </Row>

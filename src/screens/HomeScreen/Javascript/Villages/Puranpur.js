@@ -8,6 +8,7 @@ import map1 from "../../../../Images/Initiatives/Puranpur/map1.jpg";
 import SAGAR from "../../../../Images/StudentTeam/SAGAR GUPTA.jpg";
 import Anuj from "../../../../Images/StudentTeam/Anuj.jpeg";
 import Pratibha from "../../../../Images/StudentTeam/Pratibha.jpg";
+import Null from "../../../../Images/StudentTeam/Null.jpeg"
 import Abhishek from "../../../../Images/StudentTeam/Abhishek.jpg";
 import init10 from "../../../../Images/Initiatives/Puranpur/init10.jpg";
 import init11 from "../../../../Images/Initiatives/Puranpur/init11.jpg";
@@ -248,7 +249,7 @@ export const Puranpur = () => {
       <Container style={{ background: "#f7f8f9", alignContent:'center' }}>
         <h1 className="text-center headingStudent1 my-5">Village Team</h1>
         <Row>
-          <div className="col-lg-5">
+        <div className="col-lg-5" style={{ marginLeft: "auto" }}>
           <StudentIdentityCard
               studImg={Anuj}
               name="Anuj Kumar"
@@ -256,6 +257,17 @@ export const Puranpur = () => {
               village="Puranpur"
               email="Email: a_kumar4@cy.iitr.ac.in"
               linkedIn="https://www.linkedin.com/in/anuj-kumar-1aa590230"
+            />
+            <br />
+          </div>
+          <div className="col-lg-5" style={{ marginLeft: "auto" }}>
+          <StudentIdentityCard
+              studImg={Null}
+              name="Charu Sahu"
+              pos="Village Co-ordinator"
+              village="Puranpur"
+             
+              linkedIn="https://www.linkedin.com/in/charusahu"
             />
             <br />
           </div>

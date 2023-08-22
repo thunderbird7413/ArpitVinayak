@@ -8,6 +8,7 @@ import map1 from "../../../../Images/Initiatives/Beladi/map1.jpg";
 import Jyoti from "../../../../Images/StudentTeam/Jyoti.jpg";
 import init5 from "../../../../Images/Initiatives/Beladi/init5.jpg";
 import init6 from "../../../../Images/Initiatives/Beladi/init6.jpg";
+import Rishabh from "../../../../Images/StudentTeam/Rishabh.jpeg";
 import init7 from "../../../../Images/Initiatives/Beladi/init7.png";
 
 export const Beladi = () => {
@@ -364,7 +365,7 @@ export const Beladi = () => {
       <Container style={{ background: "#f7f8f9" , alignContent:'center',alignItems:'center' }}>
         <h1 className="text-center headingStudent1 my-5">Village Team</h1>
         <Row>
-        <div className="col-lg-5"  >
+        <div className="col-lg-5" style={{ marginLeft: "auto" }}>
           <StudentIdentityCard
               studImg={Jyoti}
               name="Jyotsana Singh"
@@ -372,6 +373,17 @@ export const Beladi = () => {
               village="Beladi"
               email="Email: j_singh@ph.iitr.ac.in"
               linkedIn="https://www.linkedin.com/in/jyotsna-singh-072ba4230"
+            />
+            <br />
+          </div>
+          <div className="col-lg-5" style={{ marginLeft: "auto" }}>
+          <StudentIdentityCard
+              studImg={Rishabh}
+              name="Rishabh Kosta"
+              pos="Village Co-ordinator"
+              village="Beladi"
+              
+              linkedIn="https://www.linkedin.com/in/rishabh-kosta-39703b237/overlay/photo/"
             />
             <br />
           </div>

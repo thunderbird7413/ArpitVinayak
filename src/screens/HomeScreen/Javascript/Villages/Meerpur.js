@@ -9,6 +9,7 @@ import map2 from "../../../../Images/Initiatives/Meerpur/map2.jpg";
 import HINGANE from "../../../../Images/StudentTeam/HINGANE YASH.jpg";
 import VISHAL from "../../../../Images/StudentTeam/VISHAL YADAV.jpg";
 import Divya from "../../../../Images/StudentTeam/Divya_agr.jpg";
+import Null from "../../../../Images/StudentTeam/Null.jpeg"
 import Pratyaksh from "../../../../Images/StudentTeam/Pratyaksh.jpg";
 import init9 from "../../../../Images/Initiatives/Meerpur/init9.jpg";
 import init10 from "../../../../Images/Initiatives/Meerpur/init10.jpg";
@@ -346,15 +347,36 @@ export const Meerpur = () => {
       <Container style={{ background: "#f7f8f9",alignContent:'center' }}>
         <h1 className="text-center headingStudent1 my-5">Village Team</h1>
         <Row>
-         
-          <div className="col-lg-5">
-          <StudentIdentityCard
+        <div className="col-lg-5" style={{ marginLeft: "auto" }}>
+        <StudentIdentityCard
               studImg={Divya}
               name="Divya Agarwal"
               pos="Village Co-ordinator"
               village="Meerpur"
               email="Email: d_aggarwal@hs.iitr.ac.in"
               linkedIn="https://www.linkedin.com/in/divya-aggarwal-28bb3122a"
+            />
+            <br />
+          </div>
+          <div className="col-lg-5" style={{ marginLeft: "auto" }}>
+          <StudentIdentityCard
+              studImg={Null}
+              name="Anand Kumar"
+              pos="Village Co-ordinator"
+              village="Meerpur"
+              
+              linkedIn="https://www.linkedin.com/in/anand-kumar-23a170224/"
+            />
+            <br />
+          </div>
+          <div className="col-lg-5" id ="last-element" style={{ margin : "auto" }}>
+          <StudentIdentityCard
+              studImg={Null}
+              name="Harsh Kumar Jha"
+              pos="Village Co-ordinator"
+              village="Meerpur"
+              
+              linkedIn="https://www.linkedin.com/in/anand-kumar-23a170224/"
             />
             <br />
           </div>
