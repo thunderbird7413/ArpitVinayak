@@ -9,6 +9,7 @@ import SAGAR from "../../../../Images/StudentTeam/SAGAR GUPTA.jpg";
 import Anuj from "../../../../Images/StudentTeam/Anuj.jpeg";
 import Pratibha from "../../../../Images/StudentTeam/Pratibha.jpg";
 import Null from "../../../../Images/StudentTeam/Null.jpeg"
+import Charu from "../../../../Images/StudentTeam/Charu.jpg"
 import Abhishek from "../../../../Images/StudentTeam/Abhishek.jpg";
 import init10 from "../../../../Images/Initiatives/Puranpur/init10.jpg";
 import init11 from "../../../../Images/Initiatives/Puranpur/init11.jpg";
@@ -262,7 +263,7 @@ export const Puranpur = () => {
           </div>
           <div className="col-lg-5" style={{ marginLeft: "auto" }}>
           <StudentIdentityCard
-              studImg={Null}
+              studImg={Charu}
               name="Charu Sahu"
               pos="Village Co-ordinator"
               village="Puranpur"

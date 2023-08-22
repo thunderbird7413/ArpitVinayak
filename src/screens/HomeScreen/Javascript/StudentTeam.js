@@ -9,6 +9,7 @@ import Anuj from "../../../Images/StudentTeam/Anuj.jpeg"
 import Shreya from "../../../Images/StudentTeam/Shreya.jpg";
 import Rishabh from "../../../Images/StudentTeam/Rishabh.jpeg";
 import Mohit from "../../../Images/StudentTeam/Mohit.jpg";
+import Charu from "../../../Images/StudentTeam/Charu.jpg";
 import Archi from "../../../Images/StudentTeam/Archi.jpg";
 import Gautum from "../../../Images/StudentTeam/Gautum.jpg";
 import ShubhamK from "../../../Images/StudentTeam/Shubham_kumar.jpg"
@@ -19,7 +20,7 @@ import Harshit from "../../../Images/StudentTeam/Harshit.jpeg";
 import Ani from "../../../Images/StudentTeam/Ani.jpg";
 import Kinshu from "../../../Images/StudentTeam/Kinshu.jpg";
 import Pratibha from "../../../Images/StudentTeam/Pratibha.jpg";
-import Ayush from "../../../Images/StudentTeam/Ayush.jpeg"
+import Ayush from "../../../Images/StudentTeam/Ayush.jpg"
 import Jyoti from "../../../Images/StudentTeam/Jyoti.jpg";
 import Abhishek from "../../../Images/StudentTeam/Abhishek.jpg";
 import Udit from "../../../Images/StudentTeam/Udit.jpeg";
@@ -195,7 +196,7 @@ export const StudentTeam = () => {
           </div>
           <div className="col-lg-5" style={{ marginLeft: "auto" }}>
           <StudentIdentityCard
-              studImg={Null}
+              studImg={Charu}
               name="Charu Sahu"
               pos="Village Co-ordinator"
               village="Puranpur"
