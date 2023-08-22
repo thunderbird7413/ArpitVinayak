@@ -377,17 +377,17 @@ export const Chharba = () => {
               name="Komalpreet Kaur"
               pos="Village Co-ordinator"
               village="Rithaura-Grunt"
-              email="Email: j_singh@ph.iitr.ac.in"
+              email="Email: k_kaur@me.iitr.ac.in"
               linkedIn="https://www.linkedin.com/in/jyotsna-singh-072ba4230"
             />
           </div>
           <div className="col-lg-5" style={{ marginLeft: "auto" }}>
           <StudentIdentityCard
               studImg={Null}
-              name="Radhika Aggrawal"
+              name="Radhika Agarwal"
               pos="Village Co-ordinator"
               village="Rithaura-Grunt"
-              
+              email = "Email: r_agarwal@hs.iitr.ac.in"
               linkedIn="https://www.linkedin.com/in/radhika-agarwal-08a919229/"
             />
           </div>

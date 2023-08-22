@@ -377,7 +377,7 @@ export const Chandpur = () => {
         <div className="col-lg-5" style={{ marginLeft: "auto" }}>
           <StudentIdentityCard
               studImg={ShubhamK}
-              name="Shubam Kumar"
+              name="Shubham Kumar"
               pos="Village Co-ordinator"
               village="Gopalpur"
               email="Email: s_kumar5@me.iitr.ac.in"
@@ -392,6 +392,7 @@ export const Chandpur = () => {
               pos="Village Co-ordinator"
               village="Gopalpur"
               linkedIn="https://www.linkedin.com/in/rasikakaple/"
+              email = "Email: k_rdnyaneshwar@me.iitr.ac.in"
               />
             <br />
           </div>

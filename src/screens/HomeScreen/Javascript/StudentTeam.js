@@ -80,7 +80,7 @@ export const StudentTeam = () => {
           <div className="col-lg-5" style={{ marginLeft: "auto" }}>
             <StudentIdentityCard
               studImg={Shubhanshu}
-              name="Shubanshu Shukla"
+              name="Shubhanshu Shukla"
               pos="Overall Co-ordinator for Finance "
               email="Email: s_shukla@hs.iitr.ac.in"
               linkedIn="https://www.linkedin.com/in/shubhanshu-shukla-195068203"
@@ -154,10 +154,10 @@ export const StudentTeam = () => {
           <div className="col-lg-5" style={{ marginLeft: "auto" }}>
           <StudentIdentityCard
               studImg={Null}
-              name="Radhika Aggrawal"
+              name="Radhika Agarwal"
               pos="Village Co-ordinator"
               village="Rithaura-Grunt"
-              
+              email = "Email: r_agarwal@hs.iitr.ac.in"
               linkedIn="https://www.linkedin.com/in/radhika-agarwal-08a919229/"
             />
           </div>
@@ -201,7 +201,7 @@ export const StudentTeam = () => {
               name="Charu Sahu"
               pos="Village Co-ordinator"
               village="Puranpur"
-             
+              email = "c_sahu@ee.iitr.ac.in"
               linkedIn="https://www.linkedin.com/in/charusahu"
             />
             <br />
@@ -223,7 +223,7 @@ export const StudentTeam = () => {
               name="Anand Kumar"
               pos="Village Co-ordinator"
               village="Meerpur"
-              
+              email = "a_kumar9@me.iitr.ac.in"
               linkedIn="https://www.linkedin.com/in/anand-kumar-23a170224/"
             />
             <br />

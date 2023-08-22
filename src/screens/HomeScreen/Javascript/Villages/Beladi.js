@@ -368,7 +368,7 @@ export const Beladi = () => {
         <div className="col-lg-5" style={{ marginLeft: "auto" }}>
           <StudentIdentityCard
               studImg={Jyoti}
-              name="Jyotsana Singh"
+              name="Jyotsna Singh"
               pos="Village Co-ordinator"
               village="Beladi"
               email="Email: j_singh@ph.iitr.ac.in"
@@ -382,7 +382,7 @@ export const Beladi = () => {
               name="Rishabh Kosta"
               pos="Village Co-ordinator"
               village="Beladi"
-              
+              email = "Email: r_kosta@me.iitr.ac.in"
               linkedIn="https://www.linkedin.com/in/rishabh-kosta-39703b237/overlay/photo/"
             />
             <br />

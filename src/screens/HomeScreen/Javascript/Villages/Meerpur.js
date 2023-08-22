@@ -348,7 +348,7 @@ export const Meerpur = () => {
         <h1 className="text-center headingStudent1 my-5">Village Team</h1>
         <Row>
         <div className="col-lg-5" style={{ marginLeft: "auto" }}>
-        <StudentIdentityCard
+          <StudentIdentityCard
               studImg={Divya}
               name="Divya Agarwal"
               pos="Village Co-ordinator"
@@ -364,7 +364,7 @@ export const Meerpur = () => {
               name="Anand Kumar"
               pos="Village Co-ordinator"
               village="Meerpur"
-              
+              email = "a_kumar9@me.iitr.ac.in"
               linkedIn="https://www.linkedin.com/in/anand-kumar-23a170224/"
             />
             <br />
