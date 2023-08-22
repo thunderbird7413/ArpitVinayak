@@ -100,7 +100,7 @@ export const StudentTeam = () => {
           <div className="col-lg-5" style={{ marginLeft: "auto" }}>
             <StudentIdentityCard
               studImg={Hemant}
-              name="Hemant Bisdaria"
+              name="Hemant Bidasaria"
               pos="Head (Self Help Groups)"
               email="Email: h_bidasaria@hs.iitr.ac.in"
               linkedIn="https://www.linkedin.com/in/hemant-bidasaria-068677223"
@@ -122,7 +122,7 @@ export const StudentTeam = () => {
           <div className="col-lg-5" style={{ marginLeft: "auto" }}>
           <StudentIdentityCard
               studImg={Jyoti}
-              name="Jyotsana Singh"
+              name="Jyotsna Singh"
               pos="Village Co-ordinator"
               village="Beladi"
               email="Email: j_singh@ph.iitr.ac.in"
@@ -136,7 +136,7 @@ export const StudentTeam = () => {
               name="Rishabh Kosta"
               pos="Village Co-ordinator"
               village="Beladi"
-              
+              email = "Email: r_kosta@me.iitr.ac.in"
               linkedIn="https://www.linkedin.com/in/rishabh-kosta-39703b237/overlay/photo/"
             />
             <br />
@@ -147,14 +147,14 @@ export const StudentTeam = () => {
               name="Komalpreet Kaur"
               pos="Village Co-ordinator"
               village="Rithaura-Grunt"
-              email="Email: j_singh@ph.iitr.ac.in"
+              email="Email: k_kaur@me.iitr.ac.in"
               linkedIn="https://www.linkedin.com/in/jyotsna-singh-072ba4230"
             />
           </div>
           <div className="col-lg-5" style={{ marginLeft: "auto" }}>
           <StudentIdentityCard
               studImg={Null}
-              name="Radhika Aggarwal"
+              name="Radhika Aggrawal"
               pos="Village Co-ordinator"
               village="Rithaura-Grunt"
               
@@ -164,7 +164,7 @@ export const StudentTeam = () => {
           <div className="col-lg-5" style={{ marginLeft: "auto" }}>
           <StudentIdentityCard
               studImg={ShubhamK}
-              name="Shubam Kumar"
+              name="Shubham Kumar"
               pos="Village Co-ordinator"
               village="Gopalpur"
               email="Email: s_kumar5@me.iitr.ac.in"
@@ -179,6 +179,7 @@ export const StudentTeam = () => {
               pos="Village Co-ordinator"
               village="Gopalpur"
               linkedIn="https://www.linkedin.com/in/rasikakaple/"
+              email = "Email: k_rdnyaneshwar@me.iitr.ac.in"
               />
             <br />
           </div>

@@ -93,7 +93,7 @@ export const Header = () => {
                   <NavDropdown.Divider />
                   <NavDropdown.Item href="/chharba">
                   
-  <button  title="Chharba, Jhabarpur" data-toggle="popover" data-trigger="hover" className="text-dark btn btn">Chharba</button>
+  <button  title="Chharba, Jhabarpur" data-toggle="popover" data-trigger="hover" className="text-dark btn btn">Rithaura-Grunt</button>
 
                   </NavDropdown.Item>
                   <NavDropdown.Divider />

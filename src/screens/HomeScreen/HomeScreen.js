@@ -13,6 +13,7 @@ import Inspiration from './Javascript/Inspiration'
 import { BsFillHeartFill } from 'react-icons/bs';
 import { Work } from './Javascript/Work'
 import "./css/App.css"
+import up from "../../Images/patron/up.jpeg"
 import About from './Javascript/About'
 import './css/Carousel.css';
 import ImageSlider from "./Javascript/Slider";
@@ -60,15 +61,15 @@ export const HomeScreen = () => {
           <div className="col-md-1">
           </div>
           <div className="col-md-5">
-            <IdentityCard name="Prof. Ajit K. Chaturvedi"
+            <IdentityCard name="Prof. Kamal Kishore Pant"
               designation="Director, IIT Roorkee"
               image={director}
-              link="https://www.iitr.ac.in/institute/pages/Director_IIT_Roorkee.html" />
+              link="https://iitr.ac.in/Institute/Director%20IIT%20Roorkee.html#:~:text=Director%20IIT%20Roorkee&text=Director%2C%20IIT%20Roorkee-,Prof.,of%20Technology%20Kanpur%20in%201997." />
           </div>
           <div className="col-md-5">
-            <IdentityCard name="Prof. Manoranjan Parida"
+            <IdentityCard name="Prof. U.P. Singh"
               designation="Dy Director, IIT Roorkee"
-              image={mparida}
+              image={up}
               link="https://www.iitr.ac.in/departments/CE/pages/People+Faculty+Parida_M_.html" />
           </div>
           <div className="col-md-1"></div>

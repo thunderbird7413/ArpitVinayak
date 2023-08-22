@@ -7,6 +7,8 @@ import "../../css/Villages.css";
 import map1 from "../../../../Images/Initiatives/Chharba/map1.jpg";
 import AYUSH from "../../../../Images/StudentTeam/AYUSH KUMAR.jpg";
 import PRAMOD from "../../../../Images/StudentTeam/PRAMOD KUMAR.jpg";
+import Null from "../../../../Images/StudentTeam/Null.jpeg"
+import Komalpreet from "../../../../Images/StudentTeam/Komalpreet.jpg"
 import ShubhamK from "../../../../Images/StudentTeam/Shubham_kumar.jpg";
 import init1 from "../../../../Images/Initiatives/Chharba/init1.jpeg";
 import init2 from "../../../../Images/Initiatives/Chharba/init2.jpeg";
@@ -20,8 +22,8 @@ export const Chharba = () => {
         <Row>
           <div class="container tittle1 bg-overlay1">
             <div className="my-5" style={{ textAlign: "center" }}>
-              <h3>CHHARBA</h3>
-              <p>HOME/VILLAGE/CHHARBA</p>
+              <h3>RITHAURA-GRUNT</h3>
+              <p>HOME/VILLAGE/RITHAURA-GRUNT</p>
             </div>
           </div>
         </Row>
@@ -31,7 +33,7 @@ export const Chharba = () => {
               <Row>
                 <Col class="col-md-8 with-map1">
                   <span class="big-text1">
-                    <small>About Chharba</small>
+                    <small>About Rithaura-Grunt</small>
                   </span>
                   <hr
                     style={{
@@ -42,28 +44,28 @@ export const Chharba = () => {
                     }}
                   />
                   <p align="justify">
-                  Chharba is a large village located in the Vikasnagar block
+                  Rithaura-Grunt is a large village located in the Vikasnagar block
                     of Dehradun district, Uttarakhand with a total of 1425
                     families residing. According to Census 2011, the location
-                    code or village code of Chharba village is 045088. Chharba
+                    code or village code of Rithaura-Grunt village is 045088. Rithaura-Grunt
                     covers an area of about 1567.9 hectares. It is situated 7km
                     away from sub-district headquarter Vikasnagar and 22km away
                     from district headquarter Dehradun. Herbertpur is nearest
-                    town to Chharba which is approximately 6km away. As per 2009
-                    stats, Chharba is the gram panchayat of Chharba village.
+                    town to Rithaura-Grunt which is approximately 6km away. As per 2009
+                    stats, Rithaura-Grunt is the gram panchayat of Rithaura-Grunt village.
                   </p>
                   <p align="justify">
-                  Chharba, inspite of being in Uttarakhand, is devoid of tough
+                  Rithaura-Grunt, inspite of being in Uttarakhand, is devoid of tough
                     and rocky terrains. It is in the foothills of the Himalayan
                     Terrains. Because of this, it is fairly accessible and can
-                    be reached easily. Chharba is primarily divided into 3
-                    parts, lower Chharba, middle Chharba, and upper Chharba.
+                    be reached easily. Rithaura-Grunt is primarily divided into 3
+                    parts, lower Rithaura-Grunt, middle Rithaura-Grunt, and upper Rithaura-Grunt.
                     This divide is a road branching out from NH72 passing
-                    through Chharba. After Upper Chharba, the hilly terrains of
+                    through Rithaura-Grunt. After Upper Rithaura-Grunt, the hilly terrains of
                     Uttarakhand take shape.
                   </p>
                   <p align="justify">
-                  Children of Chharba can receive education in 4 primary
+                  Children of Rithaura-Grunt can receive education in 4 primary
                     schools, 3 madrasas, 1 Government Inter College (GIC), and
                     multiple private schools in and out of the village. All in
                     all, most children receive education and hence are more
@@ -72,17 +74,17 @@ export const Chharba = () => {
                   </p>
                   <p align="justify">
                   Schedule Caste (SC) constitutes 5.78 % while Schedule Tribe
-                    (ST) are 0.28 % of total population in Chharba village. In
-                    Chharba village out of the total population, 1935 were
+                    (ST) are 0.28 % of total population in Rithaura-Grunt village. In
+                    Rithaura-Grunt village out of the total population, 1935 were
                     engaged in working activities.
                   </p>
                   <p align="justify">
                   One of the prime ingredients for growth of a place is
-                    present in Chharba. That factor is religious and cultural
+                    present in Rithaura-Grunt. That factor is religious and cultural
                     diversity. Although the majority of people are Hindus, there
                     are about 40% Muslims and 3% Sikhs. But, the village lags
                     behind the state in gender ratio. The average sex ratio in
-                    Uttarakhand is 963, while in Chharba it is just 918.
+                    Uttarakhand is 963, while in Rithaura-Grunt it is just 918.
                   </p>
                   <p align="justify">
                   The village has all the primary shops, including clothing,
@@ -99,7 +101,7 @@ export const Chharba = () => {
                   <div className="program1 w-full">
                     <div className="inner1">
                       <h3>
-                        Chharba
+                        Rithaura-Grunt
                         <br />
                         August 20, 2023
                         <br />
@@ -144,7 +146,7 @@ export const Chharba = () => {
                 </tr>
                 <tr>
                   <td>Gram Panchayat</td>
-                  <td>Chharba Muwazarpur</td>
+                  <td>Rithaura-Grunt Muwazarpur</td>
                 </tr>
                 <tr>
                   <td>Village Head/Pradhan</td>
@@ -332,7 +334,7 @@ export const Chharba = () => {
             <center>
               <InitCard
                 image={init3}
-                village="Chharba |"
+                village="Rithaura-Grunt |"
                 date="September 17, 2019"
                 init="Self Defence Camp"
                 initiative="In collaboration with Taekwondo Team IITR, empowered village school girls in personal safety."
@@ -344,10 +346,10 @@ export const Chharba = () => {
             <center>
               <InitCard
                 image={init1}
-                village="Chharba |"
+                village="Rithaura-Grunt |"
                 date="February 2, 2019"
                 init="Cycle Donation"
-                initiative="Unused cycles at IITR donated to needy students in village Chharba."
+                initiative="Unused cycles at IITR donated to needy students in village Rithaura-Grunt."
               />
               <br />
             </center>
@@ -356,10 +358,10 @@ export const Chharba = () => {
             <center>
               <InitCard
                 image={init2}
-                village="Chharba |"
+                village="Rithaura-Grunt |"
                 date="February, 2019"
                 init="ICT Initiative"
-                initiative="Team UBA introduced the students of primary schools of Chharba with basics of computers."
+                initiative="Team UBA introduced the students of primary schools of Rithaura-Grunt with basics of computers."
               />
               <br />
             </center>
@@ -369,16 +371,25 @@ export const Chharba = () => {
       <Container style={{ background: "#f7f8f9" , alignContent:'center' }}>
         <h1 className="text-center headingStudent1 my-5">Village Team</h1>
         <Row>
-          <div className="col-lg-5" >
+        <div className="col-lg-5" style={{ marginLeft: "auto" }}>
           <StudentIdentityCard
-              studImg={ShubhamK}
-              name="Shubam Kumar"
+              studImg={Komalpreet}
+              name="Komalpreet Kaur"
               pos="Village Co-ordinator"
-              village="Chharba"
-              email="Email: s_kumar5@me.iitr.ac.in"
-              linkedIn="https://www.linkedin.com/in/shubham-kumar-305b52240"
+              village="Rithaura-Grunt"
+              email="Email: j_singh@ph.iitr.ac.in"
+              linkedIn="https://www.linkedin.com/in/jyotsna-singh-072ba4230"
             />
-            <br />
+          </div>
+          <div className="col-lg-5" style={{ marginLeft: "auto" }}>
+          <StudentIdentityCard
+              studImg={Null}
+              name="Radhika Aggrawal"
+              pos="Village Co-ordinator"
+              village="Rithaura-Grunt"
+              
+              linkedIn="https://www.linkedin.com/in/radhika-agarwal-08a919229/"
+            />
           </div>
         </Row>
       </Container>
