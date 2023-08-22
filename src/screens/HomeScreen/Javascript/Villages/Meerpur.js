@@ -351,7 +351,7 @@ export const Meerpur = () => {
         <div className="col-lg-5" style={{ marginLeft: "auto" }}>
           <StudentIdentityCard
               studImg={Divya}
-              name="Divya Agarwal"
+              name="Divya Aggarwal"
               pos="Village Co-ordinator"
               village="Meerpur"
               email="Email: d_aggarwal@hs.iitr.ac.in"
