@@ -13,6 +13,7 @@ import ShubhamK from "../../../Images/StudentTeam/Shubham_kumar.jpg"
 import Hemant from "../../../Images/StudentTeam/Hemant.jpg"
 import Divya from "../../../Images/StudentTeam/Divya_agr.jpg";
 import Khushi from "../../../Images/StudentTeam/Khushi.jpg";
+import Harshit from "../../../Images/StudentTeam/Harshit.jpeg";
 import Ani from "../../../Images/StudentTeam/Ani.jpg";
 import Kinshu from "../../../Images/StudentTeam/Kinshu.jpg";
 import Pratibha from "../../../Images/StudentTeam/Pratibha.jpg";
@@ -54,7 +55,7 @@ export const StudentTeam = () => {
           </div>
           <div className="col-lg-5" style={{ marginLeft: "auto" }}>
             <StudentIdentityCard
-              studImg={Archi}
+              studImg={Harshit}
               name="Harshit Kumar"
               pos="Overall Co-ordinator for Media and Outreach"
               email="Email: h_kumar@mt.iitr.ac.in"
@@ -126,14 +127,14 @@ export const StudentTeam = () => {
             <br />
           </div>
           <div className="col-lg-5" style={{ marginLeft: "auto" }}>
-          <StudentIdentityCard
+          {/* <StudentIdentityCard
               studImg={Ani}
               name="Ani Jeenwal"
               pos="Village Co-ordinator"
               village="Chandpur"
               email="Email: ani_j@me.iitr.ac.in"
               linkedIn="https://www.linkedin.com/in/ani-jeenwal-b89530223"
-            />
+            /> */}
             <br />
           </div>
           <div className="col-lg-5" style={{ marginLeft: "auto" }}>
