@@ -51,10 +51,10 @@ export const Header = () => {
           style={{ background: "#ecc731" }}
           expand="lg"
         >
-          <Container className="navContainer">
+          <Container className="navContainer" style ={{justifyContent : "center"}}>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
-            <Navbar.Collapse id="basic-navbar-nav">
-              <Nav className="me-auto">
+           
+              <Nav className="me-auto" >
                 <Nav.Link className="mx-3" href="/">
                   Home
                 </Nav.Link>
@@ -125,7 +125,7 @@ export const Header = () => {
                   <NavDropdown.Item href="/studentteam">Students</NavDropdown.Item>
                 </NavDropdown>
 
-                {/* <Nav.Link className="mx-3" href="/gallery">
+                 {/* <Nav.Link className="mx-3" href="/gallery">
                   Gallery
                 </Nav.Link> */}
 
@@ -133,7 +133,7 @@ export const Header = () => {
                   Contact
                 </Nav.Link>
               </Nav>
-            </Navbar.Collapse>
+            
           </Container>
         </Navbar>
       </header>

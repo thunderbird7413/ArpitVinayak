@@ -14,6 +14,10 @@ import Kinshu from "../../../../Images/StudentTeam/Kinshu.jpg";
 import init1 from "../../../../Images/Initiatives/Chandpur/init1.jpeg";
 import init2 from "../../../../Images/Initiatives/Chandpur/init2.jpeg";
 import init3 from "../../../../Images/Initiatives/Chandpur/init3.jpg";
+import Radhika from "../../../../Images/StudentTeam/Radhika_agr.jpg";
+import Harsh_jha from "../../../../Images/StudentTeam/Harsh_Jha.jpg"
+import Anand from "../../../../Images/StudentTeam/Anand.jpg"
+import Rasika from "../../../../Images/StudentTeam/Rasika.jpeg"
 
 export const Chandpur = () => {
   return (
@@ -387,7 +391,7 @@ export const Chandpur = () => {
           </div>
           <div className="col-lg-5" style={{ marginLeft: "auto" }}>
           <StudentIdentityCard
-              studImg={Null}
+              studImg={Rasika}
               name="Rasika Kaple"
               pos="Village Co-ordinator"
               village="Gopalpur"

@@ -2,7 +2,7 @@ import IdentityCard from '../../components/Javascript/IdentityCard'
 import { InitCard } from '../../components/Javascript/InitCard'
 import Footer from './Javascript/Footer'
 import Footer1 from './Javascript/Footer1'
-import food_kit from '../../Images/Beladi/CycleDonation/covid.jpg'
+import food_kit from '../../Images/Puranpur/recreational_activities.jpg'
 import cycle_donation from '../../Images/Beladi/CycleDonation/i.jpg'
 import swacchta_hi_seva from '../../Images/Chharba/PlasticFreeIndia_Chharba/i.jpeg'
 import director from '../../Images/patron/director.JPG'
@@ -18,7 +18,9 @@ import About from './Javascript/About'
 import './css/Carousel.css';
 import ImageSlider from "./Javascript/Slider";
 import FrontPageCarousel from "./Javascript/FrontPageCarousel";
-
+import FPO from "../../Images/Puranpur/FPO awarness.jpg"
+import Ecobricks from "../../Images/Ecobricks.jpg"
+import SanitaryNapkin from "../../Images/Gopalpur/Sanitary_Napkin.jpg"
 
 export const HomeScreen = () => {
 
@@ -38,17 +40,17 @@ export const HomeScreen = () => {
           <div className="row">
             <div className="col-lg-4">
               <center>
-                <InitCard image={food_kit} village="All Adopted villages |" date="April 07, 2020" init="Food kit distribution" initiative="COVID19: Team UBA IIT Roorkee distributed food kits" /><br/>
+                <InitCard image={food_kit} village="Puranpur | " date="August 5, 2023" init="Recreational Activities" initiative="Team UBA organized co-circular activities for over 100+ students in Puranpur" /><br/>
               </center>
             </div>
             <div className="col-lg-4">
               <center>
-                <InitCard image={cycle_donation} village="Beladi |" date="October 12, 2019" init="Cycle Donation" initiative="Donating unused cycles at IITR to village students in Beladi." /><br/>
+                <InitCard image={SanitaryNapkin} village="Chandpur | " date="July 20, 2023" init="Sanitary Napkin Machine" initiative="Team successfully setup a semi automatic pad making machine in village Chandpur." /><br/>
               </center>
             </div>
             <div className="col-lg-4">
               <center>
-                <InitCard image={swacchta_hi_seva} village="Chharba |" date="September 29, 2019" init="Swacchta Hi Seva" initiative="A step towards greener and cleaner India promoted through a campaign.." /><br/>
+                <InitCard image={FPO} village="Puranpur | " date="June 23, 2023" init="FPO Awareness session" initiative="Team conducted session regarding FPO with the farmers of Puranpur." /><br/>
               </center>
             </div>
           </div>

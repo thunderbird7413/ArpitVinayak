@@ -35,6 +35,9 @@
     margin: 0px;
     padding-bottom: 30px;
   }
+  img{
+    object-fit:fill;
+    }
   /* .donatores li.become-donor hr {
     margin: 20px auto;
   }

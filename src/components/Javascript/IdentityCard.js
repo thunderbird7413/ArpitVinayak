@@ -5,7 +5,7 @@ import '../Css/IdentityCard.css'
 const IdentityCard = (props) => {
     return (
         <div className="donatores">
-            <div className="avatar"> <img className="img-responsive" src={props.image} alt=""  /> </div>
+            <div className="avatar"> <img className="img-responsive" src={props.image} style={{objectFit:"fill"}} alt=""  /> </div>
                   <div className="donor-details">
                     <h5>{props.name}</h5>
                     <p className="font-lora">{props.designation}</p>

@@ -4,6 +4,7 @@ import { StudentIdentityCard } from "../../../../components/Javascript/StudentId
 import { InitCard } from "../../../../components/Javascript/InitCard";
 import "../../css/StudentTeam.css";
 import "../../css/Villages.css";
+import food_kit from '../../../../Images/Puranpur/recreational_activities.jpg'
 import map1 from "../../../../Images/Initiatives/Puranpur/map1.jpg";
 import SAGAR from "../../../../Images/StudentTeam/SAGAR GUPTA.jpg";
 import Anuj from "../../../../Images/StudentTeam/Anuj.jpeg";
@@ -14,6 +15,12 @@ import Abhishek from "../../../../Images/StudentTeam/Abhishek.jpg";
 import init10 from "../../../../Images/Initiatives/Puranpur/init10.jpg";
 import init11 from "../../../../Images/Initiatives/Puranpur/init11.jpg";
 import init12 from "../../../../Images/Initiatives/Puranpur/init12.jpg";
+import Radhika from "../../../../Images/StudentTeam/Radhika_agr.jpg";
+import Harsh_jha from "../../../../Images/StudentTeam/Harsh_Jha.jpg"
+import Anand from "../../../../Images/StudentTeam/Anand.jpg"
+import Rasika from "../../../../Images/StudentTeam/Rasika.jpeg"
+import FPO from "../../../../Images/Puranpur/FPO awarness.jpg"
+import Ecobricks from "../../../../Images/Ecobricks.jpg"
 
 export const Puranpur = () => {
   return (
@@ -209,38 +216,24 @@ export const Puranpur = () => {
         <h1 className="text-center headingStudent1 my-5">Initiatives</h1>
 
         <div className="row">
+        <div className="col-lg-4">
+              <center>
+                <InitCard image={food_kit} village="Puranpur | " date="August 5, 2023" init="Recreational Activities" initiative="Team UBA organized co-circular activities for over 100+ students in Puranpur" /><br/>
+              </center>
+            </div>
+          <div className="col-lg-4">
+              <center>
+                <InitCard image={FPO} village="Puranpur | " date="June 23, 2023" init="FPO Awareness session" initiative="Team conducted session regarding FPO with the farmers of Puranpur." /><br/>
+              </center>
+            </div>
           <div className="col-lg-4">
             <center>
               <InitCard
-                image={init12}
+                image={Ecobricks}
                 village="Puranpur |"
-                date="November 7, 2020"
-                init="Providing Competitive Exam Brochure"
-                initiative="Students were given brochure that contains information about the competitive exams."
-              />
-              <br />
-            </center>
-          </div>
-          <div className="col-lg-4">
-            <center>
-              <InitCard
-                image={init11}
-                village="Puranpur |"
-                date="November 7, 2020"
-                init="E-Library Setup"
-                initiative="Students were shared the drive link of E-library which contains various textbooks."
-              />
-              <br />
-            </center>
-          </div>
-          <div className="col-lg-4">
-            <center>
-              <InitCard
-                image={init10}
-                village="Puranpur |"
-                date="September 28, 2020"
-                init="Webinar For Nature Awareness"
-                initiative="Organised a webinar to inculcate the values that nurture our mother earth."
+                date="June 05, 2023"
+                init="Ecobricks Workshop"
+                initiative="Organised informative session about Eco-bricks for the students of Puranpur."
               />
               <br />
             </center>
@@ -267,7 +260,7 @@ export const Puranpur = () => {
               name="Charu Sahu"
               pos="Village Co-ordinator"
               village="Puranpur"
-             
+              email = "Email: c_sahu@ee.iitr.ac.in"
               linkedIn="https://www.linkedin.com/in/charusahu"
             />
             <br />

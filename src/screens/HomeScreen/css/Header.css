@@ -9,13 +9,18 @@ body {
   background-color: rgb(253, 252, 252);
   color: rgb(15, 15, 15);
 }
-
+.navContainer{
+  position: relative;
+  margin : 0 auto;
+}
 .navBar .dropdown-item:focus,
 .navBar .dropdown-item:hover {
   background-color: white;
   color: #ecc731;
 }
-
+.me-auto{
+  padding-right: 0px;
+}
 .navBar .nav-item.dropdown:hover .dropdown-menu {
   display: block;
   border: none;

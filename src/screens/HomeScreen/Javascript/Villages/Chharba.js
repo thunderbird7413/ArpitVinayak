@@ -13,7 +13,10 @@ import ShubhamK from "../../../../Images/StudentTeam/Shubham_kumar.jpg";
 import init1 from "../../../../Images/Initiatives/Chharba/init1.jpeg";
 import init2 from "../../../../Images/Initiatives/Chharba/init2.jpeg";
 import init3 from "../../../../Images/Initiatives/Chharba/init3.jpeg";
-
+import Radhika from "../../../../Images/StudentTeam/Radhika_agr.jpg";
+import Harsh_jha from "../../../../Images/StudentTeam/Harsh_Jha.jpg"
+import Anand from "../../../../Images/StudentTeam/Anand.jpg"
+import Rasika from "../../../../Images/StudentTeam/Rasika.jpeg"
 
 export const Chharba = () => {
   return (
@@ -383,7 +386,7 @@ export const Chharba = () => {
           </div>
           <div className="col-lg-5" style={{ marginLeft: "auto" }}>
           <StudentIdentityCard
-              studImg={Null}
+              studImg={Radhika}
               name="Radhika Agarwal"
               pos="Village Co-ordinator"
               village="Rithaura-Grunt"

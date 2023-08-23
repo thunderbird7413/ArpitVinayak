@@ -15,7 +15,7 @@ export const InitCard = (props) => {
             {props.village}<span>{props.date}<br/><br/></span>
             <h4>{props.init}</h4>
           </div>
-          <div id="card_main">
+          <div id="card_main" style={{padding : "0.7rem"}}>
             {props.initiative}
           </div>
           <button id="know_card">Know More</button>

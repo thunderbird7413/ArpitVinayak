@@ -15,6 +15,10 @@ import Pratyaksh from "../../../../Images/StudentTeam/Pratyaksh.jpg";
 import init9 from "../../../../Images/Initiatives/Meerpur/init9.jpg";
 import init10 from "../../../../Images/Initiatives/Meerpur/init10.jpg";
 import init11 from "../../../../Images/Initiatives/Meerpur/init11.jpg";
+import Radhika from "../../../../Images/StudentTeam/Radhika_agr.jpg";
+import Harsh_jha from "../../../../Images/StudentTeam/Harsh_Jha.jpg"
+import Anand from "../../../../Images/StudentTeam/Anand.jpg"
+import Rasika from "../../../../Images/StudentTeam/Rasika.jpeg"
 
 export const Meerpur = () => {
   return (
@@ -361,22 +365,22 @@ export const Meerpur = () => {
           </div>
           <div className="col-lg-5" style={{ marginLeft: "auto" }}>
           <StudentIdentityCard
-              studImg={Null}
+              studImg={Anand}
               name="Anand Kumar"
               pos="Village Co-ordinator"
               village="Meerpur"
-              email = "a_kumar9@me.iitr.ac.in"
+              email = "Email: a_kumar9@me.iitr.ac.in"
               linkedIn="https://www.linkedin.com/in/anand-kumar-23a170224/"
             />
             <br />
           </div>
           <div className="col-lg-5" id ="last-element" style={{ margin : "auto" }}>
           <StudentIdentityCard
-              studImg={Null}
+              studImg={Harsh_jha}
               name="Harsh Kumar Jha"
               pos="Village Co-ordinator"
               village="Meerpur"
-              
+              email = "Email: h_kjha@ee.iitr.ac.in"
               linkedIn="https://www.linkedin.com/in/anand-kumar-23a170224/"
             />
             <br />

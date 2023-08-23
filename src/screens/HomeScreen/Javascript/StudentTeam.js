@@ -3,6 +3,8 @@ import "../css/StudentTeam.css";
 import HIMANSHU from "../../../Images/StudentTeam/HimanshuRanjan.jpg";
 import Kishan from "../../../Images/StudentTeam/Kishan_Kashyap.jpg";
 import Komalpreet from "../../../Images/StudentTeam/Komalpreet.jpg"
+
+
 import Shubhanshu from "../../../Images/StudentTeam/Shbanshu_Shukla.jpg";
 import Null from "../../../Images/StudentTeam/Null.jpeg";
 import Anuj from "../../../Images/StudentTeam/Anuj.jpeg"
@@ -28,6 +30,14 @@ import Srishti from "../../../Images/StudentTeam/Srishti.JPG";
 import Shailja from "../../../Images/StudentTeam/Shailja.jpg";
 import Pratyaksh from "../../../Images/StudentTeam/Pratyaksh.jpg";
 import Ramandeep from "../../../Images/StudentTeam/Ramandeep.jpg";
+
+
+
+import Radhika from "../../../Images/StudentTeam/Radhika_agr.jpg";
+import Harsh_jha from "../../../Images/StudentTeam/Harsh_Jha.jpg"
+import Anand from "../../../Images/StudentTeam/Anand.jpg"
+import Rasika from "../../../Images/StudentTeam/Rasika.jpeg"
+
 import { Row, Container } from "react-bootstrap";
 import { StudentIdentityCard } from "../../../components/Javascript/StudentIdentityCard";
 import { BsFillHeartFill } from 'react-icons/bs';
@@ -61,7 +71,7 @@ export const StudentTeam = () => {
             <StudentIdentityCard
               studImg={Harshit}
               name="Harshit Kumar"
-              pos="Overall Co-ordinator for Media and Outreach"
+              pos="Overall Co-ordinator for Media and Public Relations"
               email="Email: h_kumar@mt.iitr.ac.in"
               linkedIn="https://www.linkedin.com/in/harshit-kumar-189b901a0"
             />
@@ -71,7 +81,7 @@ export const StudentTeam = () => {
             <StudentIdentityCard
               studImg={HIMANSHU}
               name="Himanshu Ranjan"
-              pos="Overall Co-ordinator for Documentation"
+              pos="Overall Documentation Coordinator"
               email="Email: h_ranjan@ece.iitr.ac.in"
               linkedIn="https://www.linkedin.com/in/himanshu-r-24978a130/"
             />
@@ -81,7 +91,7 @@ export const StudentTeam = () => {
             <StudentIdentityCard
               studImg={Shubhanshu}
               name="Shubhanshu Shukla"
-              pos="Overall Co-ordinator for Finance "
+              pos="Overall Finance Coordinator "
               email="Email: s_shukla@hs.iitr.ac.in"
               linkedIn="https://www.linkedin.com/in/shubhanshu-shukla-195068203"
             />
@@ -153,7 +163,7 @@ export const StudentTeam = () => {
           </div>
           <div className="col-lg-5" style={{ marginLeft: "auto" }}>
           <StudentIdentityCard
-              studImg={Null}
+              studImg={Radhika}
               name="Radhika Agarwal"
               pos="Village Co-ordinator"
               village="Rithaura-Grunt"
@@ -174,7 +184,7 @@ export const StudentTeam = () => {
           </div>
           <div className="col-lg-5" style={{ marginLeft: "auto" }}>
           <StudentIdentityCard
-              studImg={Null}
+              studImg={Rasika}
               name="Rasika Kaple"
               pos="Village Co-ordinator"
               village="Gopalpur"
@@ -201,7 +211,7 @@ export const StudentTeam = () => {
               name="Charu Sahu"
               pos="Village Co-ordinator"
               village="Puranpur"
-              email = "c_sahu@ee.iitr.ac.in"
+              email = "Email: c_sahu@ee.iitr.ac.in"
               linkedIn="https://www.linkedin.com/in/charusahu"
             />
             <br />
@@ -219,22 +229,22 @@ export const StudentTeam = () => {
           </div>
           <div className="col-lg-5" style={{ marginLeft: "auto" }}>
           <StudentIdentityCard
-              studImg={Null}
+              studImg={Anand}
               name="Anand Kumar"
               pos="Village Co-ordinator"
               village="Meerpur"
-              email = "a_kumar9@me.iitr.ac.in"
+              email = "Email: a_kumar9@me.iitr.ac.in"
               linkedIn="https://www.linkedin.com/in/anand-kumar-23a170224/"
             />
             <br />
           </div>
           <div className="col-lg-5" id ="last-element" style={{ margin : "auto" }}>
           <StudentIdentityCard
-              studImg={Null}
+              studImg={Harsh_jha}
               name="Harsh Kumar Jha"
               pos="Village Co-ordinator"
               village="Meerpur"
-              
+              email = "Email: h_kjha@ee.iitr.ac.in"
               linkedIn="https://www.linkedin.com/in/anand-kumar-23a170224/"
             />
             <br />
