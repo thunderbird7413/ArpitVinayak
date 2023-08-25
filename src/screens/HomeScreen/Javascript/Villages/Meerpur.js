@@ -381,7 +381,7 @@ export const Meerpur = () => {
               pos="Village Co-ordinator"
               village="Meerpur"
               email = "Email: h_kjha@ee.iitr.ac.in"
-              linkedIn="https://www.linkedin.com/in/anand-kumar-23a170224/"
+              linkedIn="https://www.linkedin.com/in/harsh-kumar-jha-369303220"
             />
             <br />
           </div>
