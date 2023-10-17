@@ -19,7 +19,6 @@ import './css/Carousel.css';
 import ImageSlider from "./Javascript/Slider";
 import FrontPageCarousel from "./Javascript/FrontPageCarousel";
 import FPO from "../../Images/Puranpur/FPO awarness.jpg"
-import Ecobricks from "../../Images/Ecobricks.jpg"
 import SanitaryNapkin from "../../Images/Gopalpur/Sanitary_Napkin.jpg"
 
 export const HomeScreen = () => {
