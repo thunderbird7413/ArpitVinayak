@@ -64,10 +64,24 @@ body {
   display: none;
 }
 
+
+.nav-toggler{
+  display:none;
+}
+.collpased{
+  display: none;
+}
+
+.me-auto-collapsed{
+  display:none;
+}
+
+
 @media screen and (max-width: 575px) {
   .subscribeBtn {
     width: auto;
   }
+  
 }
 
 @media screen and (max-width: 970px) {

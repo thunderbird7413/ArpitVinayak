@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import {
   Navbar,
   Nav,
@@ -11,7 +11,10 @@ import {
 import iitrlogo from "../../../Images/iitrlogo.png";
 import ubalogo from "../../../Images/ubalogo.png";
 import "../css/Header.css";
+
 export const Header = () => {
+  const [expanded, setExpanded] = useState(false);
+
   return (
     <>
       <header className="kuchbhi2">
@@ -29,7 +32,7 @@ export const Header = () => {
               </Col>
               <Col md={6}>
                 <Row className="text-center">
-                  <h3>उन्नत भारत अभियान</h3>
+                  <h3>उन्ताधिकार की ओर</h3>
                 </Row>
                 <Row className="text-center">
                   <h3>UNNAT BHARAT ABHIYAN</h3>{" "}
@@ -50,97 +53,62 @@ export const Header = () => {
           className="navBar"
           style={{ background: "#ecc731" }}
           expand="lg"
+          expanded={expanded}
         >
-          <Container className="navContainer" style ={{justifyContent : "center"}}>
-            <Navbar.Toggle aria-controls="basic-navbar-nav" />
-           
-              <Nav className="me-auto" >
+          <Container className="navContainer">
+            <Navbar.Toggle
+              aria-controls="basic-navbar-nav"
+              onClick={() => setExpanded(!expanded)}
+            />
+            <Navbar.Collapse id="basic-navbar-nav">
+              <Nav className="me-auto">
                 <Nav.Link className="mx-3" href="/">
                   Home
                 </Nav.Link>
                 <NavDropdown
                   className="mx-3"
                   title="Initiatives"
-                  id="basic-nav-dropdown"
+                  id="initiatives-dropdown"
                   renderMenuOnMount={true}
                 >
-                  <NavDropdown.Item to="#action/3.1">
-                    Education
-                  </NavDropdown.Item>
-                  <NavDropdown.Divider />
-                  <NavDropdown.Item to="#action/3.2">Health</NavDropdown.Item>
-                  <NavDropdown.Divider />
-                  <NavDropdown.Item to="#action/3.3">
-                    Technology
-                  </NavDropdown.Item>
-                  <NavDropdown.Divider />
-                  <NavDropdown.Item to="#action/3.4">
-                    Awareness
-                  </NavDropdown.Item>
-                  <NavDropdown.Divider />
-                  <NavDropdown.Item to="#action/3.5">Other</NavDropdown.Item>
-                </NavDropdown> 
-
+                  <NavDropdown.Item href="/education">Education</NavDropdown.Item>
+                  <NavDropdown.Item href="/health">Health</NavDropdown.Item>
+                  <NavDropdown.Item href="/technology">Technology</NavDropdown.Item>
+                  <NavDropdown.Item href="/awareness">Awareness</NavDropdown.Item>
+                  <NavDropdown.Item href="/other">Other</NavDropdown.Item>
+                </NavDropdown>
                 <NavDropdown
                   className="mx-3"
                   title="Clusters"
-                  id="basic-nav-dropdown"
+                  id="clusters-dropdown"
                   renderMenuOnMount={true}
                 >
-                  <NavDropdown.Item href="/beladi">
-  <button  title="Beladi-Salhapur" data-toggle="popover" data-trigger="hover" className="text-dark btn btn">Beladi</button>
-</NavDropdown.Item>
-                  <NavDropdown.Divider />
-                  <NavDropdown.Item href="/chharba">
-                  
-  <button  title="Chharba, Jhabarpur" data-toggle="popover" data-trigger="hover" className="text-dark btn btn">Rithaura-Grunt</button>
-
-                  </NavDropdown.Item>
-                  <NavDropdown.Divider />
-                  <NavDropdown.Item href="/chandpur">
-                  <button  title="Chandpur-Khurd, Chandpur-Kala, Horawala" data-toggle="popover" data-trigger="hover" className="text-dark btn btn" >
-                    Gopalpur
-                  </button>
-                  </NavDropdown.Item>
-                  <NavDropdown.Divider />
-                  <NavDropdown.Item href="/meerpur"><button  title="Meerpur-Muwazarpur" data-toggle="popover" data-trigger="hover" className="text-dark btn btn">Meerpur</button></NavDropdown.Item>
-                  <NavDropdown.Divider />
-                  <NavDropdown.Item href="/puranpur"><button  title="Puranpur-Salhapur" data-toggle="popover" data-trigger="hover" className="text-dark btn btn">Puranpur</button></NavDropdown.Item>
+                  <NavDropdown.Item href="/beladi">Beladi</NavDropdown.Item>
+                  <NavDropdown.Item href="/chharba">Chharba</NavDropdown.Item>
+                  <NavDropdown.Item href="/gopalpur">Gopalpur</NavDropdown.Item>
+                  <NavDropdown.Item href="/meerpur">Meerpur</NavDropdown.Item>
+                  <NavDropdown.Item href="/puranpur">Puranpur</NavDropdown.Item>
                 </NavDropdown>
-
                 <Nav.Link className="mx-3" href="/events">
                   Events
                 </Nav.Link>
-
                 <NavDropdown
                   className="mx-3"
                   title="Teams"
-                  id="basic-nav-dropdown"
+                  id="teams-dropdown"
                   renderMenuOnMount={true}
                 >
-                  <NavDropdown.Item href="/faculty">
-                    Faculty
-                  </NavDropdown.Item>
-                  <NavDropdown.Divider />
+                  <NavDropdown.Item href="/faculty">Faculty</NavDropdown.Item>
                   <NavDropdown.Item href="/studentteam">Students</NavDropdown.Item>
                 </NavDropdown>
-
-                 {/* <Nav.Link className="mx-3" href="/gallery">
-                  Gallery
-                </Nav.Link> */}
-
                 <Nav.Link className="mx-3" href="/contact">
                   Contact
                 </Nav.Link>
               </Nav>
-            
+            </Navbar.Collapse>
           </Container>
         </Navbar>
       </header>
     </>
   );
 };
-
-
-
-
