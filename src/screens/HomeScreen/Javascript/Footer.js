@@ -98,13 +98,10 @@ const Footer = () => {
             <div class="col-3 offset-1">
               <form>
                 <h5 className="text-warning">Contact Us</h5>
-                <p className="text-muted">Address : Unnat Bharat Abhiyan, IIT Roorkee, Uttarakhand</p>
-                <p className="text-muted">Phone : (+91) 8112283593</p>
+                <p className="text-muted">Address : Student Activity Center,Unnat Bharat Abhiyan, IIT Roorkee, Uttarakhand</p>
+                <p className="text-muted">Phone : (+91) 7452971049</p>
                 <p className="text-muted">Email : uba@iitr.ac.in</p>
                 <div class="d-flex w-100 gap-2 text-muted">
-                  <button class="btn btn-warning" type="button">
-                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSe_11g8yI5lAlS4o_xix6cp41RATF9-YGiYqAS2GZiC15NnYg/viewform" target="_blank">Sign up for Emails</a>
-                  </button>
                 </div>
               </form>
             </div>

@@ -34,7 +34,6 @@ export const HomeScreen = () => {
           {/* <!--======= TITTLE =========--> */}
           <div className="tittle">
             <h2>Our Recent <span>Initiatives </span></h2>
-            <p>BrighInitCard <span>minds at work</span> here</p>
           </div>
           <div className="row">
             <div className="col-lg-4">

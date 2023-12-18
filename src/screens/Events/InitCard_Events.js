@@ -6,7 +6,7 @@ import socio from '../../Images/Events_image/socio.jpeg'
 import e3 from '../../Images/Events_image/anuradha1.png'
 import e4 from '../../Images/Events_image/varsha1.png'
 import e5 from '../../Images/Events_image/archana1.png'
-import carr from '../../Images/Events_image/carr.png'
+import carr from '../../Images/Events_image/event_that.jpg'
 import shs from '../../Images/Events_image/shs.jpg'
 
 export const InitCard_Events = () => {
@@ -25,9 +25,9 @@ export const InitCard_Events = () => {
       <div className='cards'>
       <Events_InitCard 
           image={carr}
-          date='October 6, 2024'
+          date='October 6, 2023'
           event='Navigate Your Career Path'
-          desc='Prof. Vinay Nangiathe founding faculty advisor of SIIRD and UBA at IITR, a panelist for UPSC interviews shared his invaluable insights on navigating the professional world.'/>
+          desc='Prof. Vinay Nangia the founding faculty advisor of SIIRD and UBA at IITR, a panelist for UPSC interviews shared his invaluable insights on navigating the professional world.'/>
         <Events_InitCard 
           image={shs}
           date='October 1, 2023'

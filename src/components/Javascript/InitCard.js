@@ -1,6 +1,6 @@
 import React from 'react'
 import '../Css/InitCard.css';
-
+import Popup_con from './Popup_con';
 
 
 export const InitCard = (props) => {
@@ -18,7 +18,8 @@ export const InitCard = (props) => {
           <div id="card_main" style={{padding : "0.7rem"}}>
             {props.initiative}
           </div>
-          <button id="know_card">Know More</button>
+          {/* <button id="know_card">Know More</button> */}
+          <Popup_con/>
         </div>
       </div>
     </>

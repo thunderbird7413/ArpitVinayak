@@ -21,7 +21,7 @@ export const Header = () => {
         <Container className="kuchbhi2" fluid>
           <Row
             className="header-part"
-            style={{ background: "#03506f", height: "1.3rem" }}
+            style={{ background: "#03506f", height: "1rem" }}
           ></Row>
           <Container className="my-3">
             <Row>
@@ -31,9 +31,6 @@ export const Header = () => {
                 </a>
               </Col>
               <Col md={6}>
-                <Row className="text-center">
-                  <h3>उन्ताधिकार की ओर</h3>
-                </Row>
                 <Row className="text-center">
                   <h3>UNNAT BHARAT ABHIYAN</h3>{" "}
                 </Row>
@@ -84,8 +81,8 @@ export const Header = () => {
                   renderMenuOnMount={true}
                 >
                   <NavDropdown.Item href="/beladi">Beladi</NavDropdown.Item>
-                  <NavDropdown.Item href="/chharba">Chharba</NavDropdown.Item>
-                  <NavDropdown.Item href="/gopalpur">Gopalpur</NavDropdown.Item>
+                  <NavDropdown.Item href="/chharba">Rithaura-Grunt</NavDropdown.Item>
+                  <NavDropdown.Item href="/chandpur">Gopalpur</NavDropdown.Item>
                   <NavDropdown.Item href="/meerpur">Meerpur</NavDropdown.Item>
                   <NavDropdown.Item href="/puranpur">Puranpur</NavDropdown.Item>
                 </NavDropdown>
@@ -100,6 +97,9 @@ export const Header = () => {
                 >
                   <NavDropdown.Item href="/faculty">Faculty</NavDropdown.Item>
                   <NavDropdown.Item href="/studentteam">Students</NavDropdown.Item>
+                  <NavDropdown.Item href="/Studentteam22_23">Team 2022-23</NavDropdown.Item>
+                  <NavDropdown.Item href="/Studentteam21_22">Team 2021-22</NavDropdown.Item>
+                  <NavDropdown.Item href="/Studentteam20_21">Team 2020-21</NavDropdown.Item>
                 </NavDropdown>
                 <Nav.Link className="mx-3" href="/contact">
                   Contact

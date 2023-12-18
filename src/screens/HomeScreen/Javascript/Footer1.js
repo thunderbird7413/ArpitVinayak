@@ -9,12 +9,9 @@ const Footer1 = () => {
       <div className="justify-content=evenly row">
         <div className="col-me col-md-3 col-sm-6">
           <h5 id="footer_title" className="text-warning">Contact Us</h5>
-          <p>Address : Unnat Bharat Abhiyan, IIT Roorkee, Uttarakhand</p>
-          <p>Phone : (+91) 8318450052</p>
+          <p>Address : Student Activity Center,Unnat Bharat Abhiyan, IIT Roorkee, Uttarakhand</p>
+          <p>Phone : (+91) 7452971049</p>
           <p>Email : uba@iitr.ac.in</p>
-          <button className="btn-footer">
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSe_11g8yI5lAlS4o_xix6cp41RATF9-YGiYqAS2GZiC15NnYg/viewform">Sign up for Emails</a>
-          </button>
         </div>
         <div className="col-me col-md-3 col-sm-6">
           <h5 id="footer_title" className="text-warning">USEFUL LINKS</h5>
