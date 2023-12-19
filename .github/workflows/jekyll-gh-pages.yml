@@ -33,11 +33,10 @@ jobs:
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
-          source: ./
-          destination: ./_site
+          source: ./ # Your Jekyll source directory (root in this case)
+          destination: ./public # Specify the 'public' folder as the destination
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
-
   # Deployment job
   deploy:
     environment:
