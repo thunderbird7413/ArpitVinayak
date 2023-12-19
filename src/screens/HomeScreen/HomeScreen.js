@@ -38,7 +38,7 @@ export const HomeScreen = () => {
           <div className="row">
             <div className="col-lg-4">
               <center>
-                <InitCard image={food_kit} village="Puranpur | " date="August 5, 2023" init="Recreational Activities" initiative="Team UBA organized co-circular activities for over 100+ students in Puranpur" /><br/>
+                <InitCard image={food_kit} village="Puranpur | " date="August 5, 2023" init="Recreational Activities" initiative="Team UBA organized co-circular activities for over 100+ students in Puranpur"/><br/>
               </center>
             </div>
             <div className="col-lg-4">
