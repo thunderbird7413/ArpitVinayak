@@ -58,8 +58,3 @@ class App extends Component{
 };
 
 export default App;
-
-/**
- * 
- * Made a new change in it
- */
