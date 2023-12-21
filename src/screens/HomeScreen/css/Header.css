@@ -2,6 +2,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  justify-content: center;
 }
 
 .navBar .dropdown-item.active,
@@ -20,10 +21,12 @@ body {
 }
 .me-auto{
   padding-right: 0px;
+  margin: 0 auto;
 }
 .navBar .nav-item.dropdown:hover .dropdown-menu {
   display: block;
   border: none;
+  
 }
 
 .navBar .navbar-light .navbar-nav .nav-link {
@@ -98,6 +101,7 @@ body {
 
 .kuchbhi2 {
   background-color: white !important;
+  justify-content: center;
 }
 
 #aa-header .aa-header-bottom {

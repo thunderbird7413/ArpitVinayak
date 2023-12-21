@@ -6,21 +6,11 @@ import "../../css/StudentTeam.css";
 import "../../css/Villages.css";
 import food_kit from '../../../../Images/Puranpur/recreational_activities.jpg'
 import map1 from "../../../../Images/Initiatives/Puranpur/map1.jpg";
-import SAGAR from "../../../../Images/StudentTeam/SAGAR GUPTA.jpg";
 import Anuj from "../../../../Images/StudentTeam/Anuj.jpeg";
-import Pratibha from "../../../../Images/StudentTeam/Pratibha.jpg";
-import Null from "../../../../Images/StudentTeam/Null.jpeg"
 import Charu from "../../../../Images/StudentTeam/Charu.jpg"
-import Abhishek from "../../../../Images/StudentTeam/Abhishek.jpg";
-import init10 from "../../../../Images/Initiatives/Puranpur/init10.jpg";
-import init11 from "../../../../Images/Initiatives/Puranpur/init11.jpg";
-import init12 from "../../../../Images/Initiatives/Puranpur/init12.jpg";
-import Radhika from "../../../../Images/StudentTeam/Radhika_agr.jpg";
-import Harsh_jha from "../../../../Images/StudentTeam/Harsh_Jha.jpg"
-import Anand from "../../../../Images/StudentTeam/Anand.jpg"
-import Rasika from "../../../../Images/StudentTeam/Rasika.jpeg"
 import FPO from "../../../../Images/Puranpur/FPO awarness.jpg"
 import Ecobricks from "../../../../Images/Ecobricks.jpg"
+import PDF from "../../../../docs/puranpur_ac_plan.pdf";
 
 export const Puranpur = () => {
   return (
@@ -30,7 +20,7 @@ export const Puranpur = () => {
           <div class="container tittle1 bg-overlay1">
             <div className="my-5" style={{ textAlign: "center" }}>
               <h3>PURANPUR</h3>
-              <p>HOME/VILLAGE/PURANPUR</p>
+              <p><a href="/" style={{textDecoration:"None",color:"grey"}}>HOME</a>/VILLAGE/PURANPUR</p>
             </div>
           </div>
         </Row>
@@ -113,7 +103,7 @@ export const Puranpur = () => {
                         <br />
                         <span>Village Action PLan</span>
                       </h3>
-                      <a href="docs/Newsletter2.pdf" class="btn btn-1">
+                      <a href={PDF} class="btn btn-1" target ="_blank" >
                         FOR MORE DETAILS
                       </a>
                     </div>
@@ -141,77 +131,7 @@ export const Puranpur = () => {
       <br />
       <br />
 
-      <section class="don-counter1">
-        <div class="overlay">
-          <Container>
-            <Row id="counters1">
-              <Col md={6}>
-                <Row>
-                  <li class="col-sm-6">
-                    <Row>
-                      <Col xs={3}>
-                        <i class="far fa-heart"></i>
-                      </Col>
-                      <Col xs={9}>
-                        {/* <span class="count1"></span> */}
-                        <span>50+</span>
-                        <p>Iniatives Undertaken</p>
-                      </Col>
-                    </Row>
-                  </li>
-
-                  <li class="col-sm-6">
-                    <Row>
-                      <Col xs={3}>
-                        <i class="fa fa-users"></i>
-                      </Col>
-                      <Col xs={9}>
-                        {" "}
-                        {/* <span class="count2"></span> */}
-                        <span>460+</span>
-                        <p>volunteers</p>
-                      </Col>
-                    </Row>
-                  </li>
-                </Row>
-              </Col>
-
-              <Col md={6}>
-                <Row>
-                  <li class="col-sm-6">
-                    <Row>
-                      <Col xs={3}>
-                        <i class="far fa-thumbs-up"></i>
-                      </Col>
-                      <Col xs={9}>
-                        {" "}
-                        {/* <span class="count3"></span> */}
-                        <span>5+</span>
-                        <p>years of work</p>
-                      </Col>
-                    </Row>
-                  </li>
-
-                  <li class="col-sm-6">
-                    <Row>
-                      <Col xs={3}>
-                        <i class="far fa-smile"></i>
-                      </Col>
-                      <Col xs={9}>
-                        {" "}
-                        {/* <span class="count4"></span> */}
-                        <span>5500+</span>
-                        <p>people benefitted</p>
-                      </Col>
-                    </Row>
-                  </li>
-                </Row>
-              </Col>
-            </Row>
-          </Container>
-        </div>
-      </section>
-
+    
       <Container style={{ background: "#f7f8f9" }}>
         <h1 className="text-center headingStudent1 my-5">Initiatives</h1>
 

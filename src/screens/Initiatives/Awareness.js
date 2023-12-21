@@ -14,7 +14,7 @@ export const Awareness = () => {
           <h2>Initiatives</h2>
           <ol className="Init_breadcrumb">
           <li><a href="#"><h3>Home</h3></a></li>
-          <li className="Init_active">EAwareness</li>
+          <li className="Init_active">Awareness</li>
           </ol>
           </div>
           </div>

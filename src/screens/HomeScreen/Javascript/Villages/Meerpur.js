@@ -7,18 +7,13 @@ import "../../css/StudentTeam.css";
 import "../../css/Villages.css";
 import map1 from "../../../../Images/Initiatives/Meerpur/map1.jpg";
 import map2 from "../../../../Images/Initiatives/Meerpur/map2.jpg";
-import HINGANE from "../../../../Images/StudentTeam/HINGANE YASH.jpg";
-import VISHAL from "../../../../Images/StudentTeam/VISHAL YADAV.jpg";
 import Divya from "../../../../Images/StudentTeam/Divya_agr.jpg";
-import Null from "../../../../Images/StudentTeam/Null.jpeg"
-import Pratyaksh from "../../../../Images/StudentTeam/Pratyaksh.jpg";
 import init9 from "../../../../Images/Initiatives/Meerpur/init9.jpg";
 import init10 from "../../../../Images/Initiatives/Meerpur/init10.jpg";
 import init11 from "../../../../Images/Initiatives/Meerpur/init11.jpg";
-import Radhika from "../../../../Images/StudentTeam/Radhika_agr.jpg";
+import PDF from "../../../../docs/meerpur_ac_plan.pdf";
 import Harsh_jha from "../../../../Images/StudentTeam/Harsh_Jha.jpg"
 import Anand from "../../../../Images/StudentTeam/Anand.jpg"
-import Rasika from "../../../../Images/StudentTeam/Rasika.jpeg"
 
 export const Meerpur = () => {
   return (
@@ -28,7 +23,7 @@ export const Meerpur = () => {
           <div class="container tittle1 bg-overlay1">
             <div className="my-5" style={{ textAlign: "center" }}>
               <h3>MEERPUR</h3>
-              <p>HOME/VILLAGE/MEERPUR</p>
+              <p><a href="/" style={{textDecoration:"None",color:"grey"}}>HOME</a>/VILLAGE/MEERPUR</p>
             </div>
           </div>
         </Row>
@@ -76,11 +71,10 @@ export const Meerpur = () => {
                       <h3>
                         Meerpur
                         <br />
-                        August 20, 2023
                         <br />
                         <span>Village Action PLan</span>
                       </h3>
-                      <a href="docs/Newsletter2.pdf" class="btn btn-1">
+                      <a href={PDF} class="btn btn-1" target="_blank"  >
                         FOR MORE DETAILS
                       </a>
                     </div>
@@ -237,77 +231,7 @@ export const Meerpur = () => {
       <br />
       <br />
 
-      <section class="don-counter1">
-        <div class="overlay1">
-          <Container>
-            <Row id="counters1">
-              <Col md={6}>
-                <Row>
-                  <li class="col-sm-6">
-                    <Row>
-                      <Col xs={3}>
-                        <i class="far fa-heart"></i>
-                      </Col>
-                      <Col xs={9}>
-                        {/* <span class="count1"></span> */}
-                        <span>50+</span>
-                        <p>Iniatives Undertaken</p>
-                      </Col>
-                    </Row>
-                  </li>
-
-                  <li class="col-sm-6">
-                    <Row>
-                      <Col xs={3}>
-                        <i class="fa fa-users"></i>
-                      </Col>
-                      <Col xs={9}>
-                        {" "}
-                        {/* <span class="count2"></span> */}
-                        <span>460+</span>
-                        <p>volunteers</p>
-                      </Col>
-                    </Row>
-                  </li>
-                </Row>
-              </Col>
-
-              <Col md={6}>
-                <Row>
-                  <li class="col-sm-6">
-                    <Row>
-                      <Col xs={3}>
-                        <i class="far fa-thumbs-up"></i>
-                      </Col>
-                      <Col xs={9}>
-                        {" "}
-                        {/* <span class="count3"></span> */}
-                        <span>5+</span>
-                        <p>years of work</p>
-                      </Col>
-                    </Row>
-                  </li>
-
-                  <li class="col-sm-6">
-                    <Row>
-                      <Col xs={3}>
-                        <i class="far fa-smile"></i>
-                      </Col>
-                      <Col xs={9}>
-                        {" "}
-                        {/* <span class="count4"></span> */}
-                        <span>5500+</span>
-                        <p>people benefitted</p>
-                      </Col>
-                    </Row>
-                  </li>
-                </Row>
-              </Col>
-            </Row>
-          </Container>
-        </div>
-      </section>
-
+    
       <Container style={{ background: "#f7f8f9" }}>
         <h1 className="text-center headingStudent1 my-5">Initiatives</h1>
         <div className="row">

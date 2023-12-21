@@ -5,20 +5,15 @@ import { InitCard } from "../../../../components/Javascript/InitCard";
 import "../../css/StudentTeam.css";
 import "../../css/Villages.css";
 import map1 from "../../../../Images/Initiatives/Chharba/map1.jpg";
-import AYUSH from "../../../../Images/StudentTeam/AYUSH KUMAR.jpg";
-import PRAMOD from "../../../../Images/StudentTeam/PRAMOD KUMAR.jpg";
-import Null from "../../../../Images/StudentTeam/Null.jpeg"
-import Komalpreet from "../../../../Images/StudentTeam/Komalpreet.jpg"
-import ShubhamK from "../../../../Images/StudentTeam/Shubham_kumar.jpg";
+import Komalpreet from "../../../../Images/StudentTeam/Komalpreet.jpg";
 import init1 from "../../../../Images/Initiatives/Chharba/init1.jpeg";
 import init2 from "../../../../Images/Initiatives/Chharba/init2.jpeg";
 import init3 from "../../../../Images/Initiatives/Chharba/init3.jpeg";
 import Radhika from "../../../../Images/StudentTeam/Radhika_agr.jpg";
-import Harsh_jha from "../../../../Images/StudentTeam/Harsh_Jha.jpg"
-import Anand from "../../../../Images/StudentTeam/Anand.jpg"
-import Rasika from "../../../../Images/StudentTeam/Rasika.jpeg"
+import PDF from "../../../../docs/rithaura_ac_plan.pdf";
 
-export const Chharba = () => {
+
+export const Rithaura = () => {
   return (
     <>
       <div>
@@ -26,7 +21,7 @@ export const Chharba = () => {
           <div class="container tittle1 bg-overlay1">
             <div className="my-5" style={{ textAlign: "center" }}>
               <h3>RITHAURA-GRUNT</h3>
-              <p>HOME/VILLAGE/RITHAURA-GRUNT</p>
+              <p><a href="/" style={{textDecoration:"None",color:"grey"}}>HOME</a>/VILLAGE/RITHAURA-GRUNT</p>
             </div>
           </div>
         </Row>
@@ -106,11 +101,10 @@ export const Chharba = () => {
                       <h3>
                         Rithaura-Grunt
                         <br />
-                        August 20, 2023
                         <br />
                         <span>Village Action PLan</span>
                       </h3>
-                      <a href="docs/Newsletter2.pdf" class="btn btn-1">
+                      <a href={PDF} class="btn btn-1">
                         FOR MORE DETAILS
                       </a>
                     </div>
@@ -258,77 +252,6 @@ export const Chharba = () => {
       <img className="center video-blog1" src={map1} />
       <br />
       <br />
-
-      <section class="don-counter1">
-        <div class="overlay">
-          <Container>
-            <Row id="counters1">
-              <Col md={6}>
-                <Row>
-                  <li class="col-sm-6">
-                    <Row>
-                      <Col xs={3}>
-                        <i class="far fa-heart"></i>
-                      </Col>
-                      <Col xs={9}>
-                        {/* <span class="count1"></span> */}
-                        <span>50+</span>
-                        <p>Iniatives Undertaken</p>
-                      </Col>
-                    </Row>
-                  </li>
-
-                  <li class="col-sm-6">
-                    <Row>
-                      <Col xs={3}>
-                        <i class="fa fa-users"></i>
-                      </Col>
-                      <Col xs={9}>
-                        {" "}
-                        {/* <span class="count2"></span> */}
-                        <span>460+</span>
-                        <p>volunteers</p>
-                      </Col>
-                    </Row>
-                  </li>
-                </Row>
-              </Col>
-
-              <Col md={6}>
-                <Row>
-                  <li class="col-sm-6">
-                    <Row>
-                      <Col xs={3}>
-                        <i class="far fa-thumbs-up"></i>
-                      </Col>
-                      <Col xs={9}>
-                        {" "}
-                        {/* <span class="count3"></span> */}
-                        <span>5+</span>
-                        <p>years of work</p>
-                      </Col>
-                    </Row>
-                  </li>
-
-                  <li class="col-sm-6">
-                    <Row>
-                      <Col xs={3}>
-                        <i class="far fa-smile"></i>
-                      </Col>
-                      <Col xs={9}>
-                        {" "}
-                        {/* <span class="count4"></span> */}
-                        <span>5500+</span>
-                        <p>people benefitted</p>
-                      </Col>
-                    </Row>
-                  </li>
-                </Row>
-              </Col>
-            </Row>
-          </Container>
-        </div>
-      </section>
 
       <Container style={{ background: "#f7f8f9" }}>
         <h1 className="text-center headingStudent1 my-5">Initiatives</h1>

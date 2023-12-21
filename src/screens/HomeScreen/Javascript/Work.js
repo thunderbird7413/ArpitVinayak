@@ -48,7 +48,7 @@ export const Work = () => {
                       15 initiatives{" "}
                     </span>
                   </h3>
-                  <a href="docs/Newsletter2.pdf" className="btn">
+                  <a href="" className="btn">
                     Latest Issue
                   </a>{" "}
                   <a href="docs/Newsletter1.pdf" className="btn btn-1">

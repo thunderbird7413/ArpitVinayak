@@ -5,8 +5,8 @@ import { HomeScreen } from "./screens/HomeScreen/HomeScreen";
 import { Header } from "./screens/HomeScreen/Javascript/Header.js";
 import { StudentTeam } from "./screens/HomeScreen/Javascript/StudentTeam";
 import { Beladi } from "./screens/HomeScreen/Javascript/Villages/Beladi";
-import { Chandpur } from "./screens/HomeScreen/Javascript/Villages/Chandpur";
-import { Chharba } from "./screens/HomeScreen/Javascript/Villages/Chharba";
+import { Gopalpur } from "./screens/HomeScreen/Javascript/Villages/Gopalpur.js";
+import { Rithaura } from "./screens/HomeScreen/Javascript/Villages/Rithaura.js";
 import { Meerpur } from "./screens/HomeScreen/Javascript/Villages/Meerpur.js";
 import { Puranpur } from "./screens/HomeScreen/Javascript/Villages/Puranpur.js";
 import { InitCard_Events } from "./screens/Events/InitCard_Events";
@@ -33,8 +33,8 @@ class App extends Component{
         <Routes>
           <Route path='/' exact element={<HomeScreen/>}></Route>
           <Route path='/beladi' exact element={<Beladi/>}></Route>
-          <Route path='/chandpur' exact element={<Chandpur/>}></Route>
-          <Route path='/chharba' exact element={<Chharba/>}></Route>
+          <Route path='/gopalpur' exact element={<Gopalpur/>}></Route>
+          <Route path='/rithaura' exact element={<Rithaura/>}></Route>
           <Route path='/meerpur' exact element={<Meerpur/>}></Route>
           <Route path='/puranpur' exact element={<Puranpur/>}></Route>
           <Route path='/about' exact element={<About/>}></Route>

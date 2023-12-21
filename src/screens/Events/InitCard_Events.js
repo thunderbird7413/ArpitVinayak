@@ -1,6 +1,6 @@
 import React from 'react';
 import "../../components/Css/Events_InitCard.css"
-import { Events_InitCard } from '../../components/Javascript/Events_InitCard'
+import { Events_InitCard1 } from '../../components/Javascript/Events_InitCard1'
 import e1 from '../../Images/Events_image/swanpil1.jpeg'
 import socio from '../../Images/Events_image/socio.jpeg'
 import e3 from '../../Images/Events_image/anuradha1.png'
@@ -23,41 +23,41 @@ export const InitCard_Events = () => {
           </div>
           </div>
       <div className='cards'>
-      <Events_InitCard 
+      <Events_InitCard1 
           image={carr}
           date='October 6, 2023'
           event='Navigate Your Career Path'
           desc='Prof. Vinay Nangia the founding faculty advisor of SIIRD and UBA at IITR, a panelist for UPSC interviews shared his invaluable insights on navigating the professional world.'/>
-        <Events_InitCard 
+        <Events_InitCard1 
           image={shs}
           date='October 1, 2023'
           event='Swachhta hi Sewa campaign'
           desc='IIT Roorkee with the help of team UBA in association with NSS and NCC  organised awareness campaigns in its adopted villages Meerpur and Puranpur on 1st October, 2023.'/>
-          <Events_InitCard 
+          <Events_InitCard1 
           image={socio}
           date='August 24, 2023 - September 02, 2023'
           event='Sociothon'
           desc='Sociothon, a social case-study competition conducted by team Unnat Bharat Abhiyan, IIT Roorkee aimed to nurture and foster critical thinking skills .'/>
       </div>
       <div className='cards'>
-      <Events_InitCard 
+      <Events_InitCard1 
           image={e1}
           date='August 15, 2021'
           event='Oh Yuva! - Unleash your superpower'
           desc='On the eve of 75th Independence Day, Team UBA IITRbrought talk by Mr. Swapnil Tewari on topic- O Yuva!-Unleash your superpower.'/>
-        <Events_InitCard
+        <Events_InitCard1
           image={e3}
           date='December 19, 2020'
           event='Spandan- Talk by Anuradha Kapoor'
           desc='In Spandan, Ms Anuradha Kapoor talked about how violence against women is an onging pandemic and much more.' />
-          <Events_InitCard 
+          <Events_InitCard1 
           image={e4}
           date='December 19, 2020'
           event='Spandan- Talk by Varsha Singh'
           desc='In Spandan, a session was organised by Ms Varsha singh where she showed self Defense techniques for women and much more.'/>
     </div>
       <div className='cards'>
-      <Events_InitCard 
+      <Events_InitCard1
           image={e5}
           date='December 20, 2020'
           event='Spandan- Talk by Archana Garodia Gupta'

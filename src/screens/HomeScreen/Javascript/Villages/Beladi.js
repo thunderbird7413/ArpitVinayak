@@ -10,6 +10,7 @@ import init5 from "../../../../Images/Initiatives/Beladi/init5.jpg";
 import init6 from "../../../../Images/Initiatives/Beladi/init6.jpg";
 import Rishabh from "../../../../Images/StudentTeam/Rishabh.jpeg";
 import init7 from "../../../../Images/Initiatives/Beladi/init7.png";
+import PDF from "../../../../docs/beladi_ac_plan.pdf";
 
 export const Beladi = () => {
   return (
@@ -19,7 +20,7 @@ export const Beladi = () => {
           <div class="container tittle1 bg-overlay1" >
             <div className="my-5" style={{ textAlign: "center" }}>
               <h3>BELADI</h3>
-              <p>HOME/VILLAGE/BELADI</p>
+              <p><a href="/" style={{textDecoration:"None",color:"grey"}}>HOME</a>/VILLAGE/BELADI</p>
             </div>
           </div>
         </Row>
@@ -96,11 +97,10 @@ export const Beladi = () => {
                       <h3>
                         Beladi 
                         <br />
-                        August 20, 2023
                         <br />
                         <span>Village Action PLan</span>
                       </h3>
-                      <a href="docs/Newsletter2.pdf" class="btn btn-1">
+                      <a href={PDF} target = "_blank" class="btn btn-1">
                         FOR MORE DETAILS
                       </a>
                     </div>
@@ -250,76 +250,6 @@ export const Beladi = () => {
       <br />
       <br />
 
-      <section class="don-counter1">
-        <div class="overlay">
-          <Container>
-            <Row id="counters1">
-              <Col md={6}>
-                <Row>
-                  <li class="col-sm-6">
-                    <Row>
-                      <Col xs={3}>
-                        <i class="far fa-heart"></i>
-                      </Col>
-                      <Col xs={9}>
-                        {/* <span class="count1"></span> */}
-                        <span>50+</span>
-                        <p>Iniatives Undertaken</p>
-                      </Col>
-                    </Row>
-                  </li>
-
-                  <li class="col-sm-6">
-                    <Row>
-                      <Col xs={3}>
-                        <i class="fa fa-users"></i>
-                      </Col>
-                      <Col xs={9}>
-                        {" "}
-                        {/* <span class="count2"></span> */}
-                        <span>460+</span>
-                        <p>volunteers</p>
-                      </Col>
-                    </Row>
-                  </li>
-                </Row>
-              </Col>
-
-              <Col md={6}>
-                <Row>
-                  <li class="col-sm-6">
-                    <Row>
-                      <Col xs={3}>
-                        <i class="far fa-thumbs-up"></i>
-                      </Col>
-                      <Col xs={9}>
-                        {" "}
-                        {/* <span class="count3"></span> */}
-                        <span>5+</span>
-                        <p>years of work</p>
-                      </Col>
-                    </Row>
-                  </li>
-
-                  <li class="col-sm-6">
-                    <Row>
-                      <Col xs={3}>
-                        <i class="far fa-smile"></i>
-                      </Col>
-                      <Col xs={9}>
-                        {" "}
-                        {/* <span class="count4"></span> */}
-                        <span>5500+</span>
-                        <p>people benefitted</p>
-                      </Col>
-                    </Row>
-                  </li>
-                </Row>
-              </Col>
-            </Row>
-          </Container>
-        </div>
-      </section>
 
       <Container style={{ background: "#f7f8f9" }}>
         <h1 className="text-center headingStudent1 my-5">Initiatives</h1>
@@ -331,7 +261,7 @@ export const Beladi = () => {
                 village="Beladi |"
                 date="July 31, 2021"
                 init="Book Distribution Drive"
-                initiative="Books Distribution carried out in village Beladi."
+                moreDetails="Books Distribution carried out in village Beladi."
               />
               <br />
             </center>

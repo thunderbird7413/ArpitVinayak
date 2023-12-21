@@ -26,8 +26,8 @@ const Footer1 = () => {
         </div>
         <div className="col-me col-md-3 col-sm-6">
           <h5 id="footer_title" className="text-warning">RECENT EVENTS</h5>
-          <p>“Samarthya – to lead the transformation, 2022”, is a platform being organised by Unnat Bharat Abhiyan IIT Roorkee on completion of 175 years of IIT Roorkee, to bring Self Help Groups, farmers, entrepreneurs, and students under one umbrella.</p>
-          <p><a id="yuva" href="https://samarthyauba.iitr.ac.in/">Samarthya</a></p>
+          <p>“Swachhata Hi Sewa Campaign" is an initiative under Prime Minister Modi's Government Swachh Bharat Mission.Endeavors were orchestrated by the diligent members of the Unnat Bharat Abhiyan (UBA), IIT Roorkee, in collaboration with the National Cadet Corps (NCC), National Social Service (NSS), Dramatics Society, and Fine Arts Section  on October 01, 2023 aimed to make a substantial impact on the cleanliness and overall well-being of the villages Meerpur and Puranpur.</p>
+          <p><a id="yuva" href="https://samarthyauba.iitr.ac.in/">SHS</a></p>
         </div>
         <div className="col-me col-md-3 col-sm-6">
           <h5 id="footer_title" className="text-warning">UBA SOCIAL MEDIA</h5>
@@ -42,7 +42,7 @@ const Footer1 = () => {
     </div>
     <div className="bottom-bar col-12">
       <p className="text-center">WEBSITE DEVELOPED BY UBA IITR WITH ❤️</p>
-      <p className="text-center">COPYRIGHT © 2022 SOCIAL WELFARE. ALL RIGHTS RESERVED.</p>
+      <p className="text-center">COPYRIGHT © 2023 SOCIAL WELFARE. ALL RIGHTS RESERVED.</p>
     </div>
   </footer>
   </>

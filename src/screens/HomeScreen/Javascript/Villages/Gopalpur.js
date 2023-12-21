@@ -6,20 +6,13 @@ import "../../css/StudentTeam.css";
 import "../../css/Villages.css";
 import ShubhamK from "../../../../Images/StudentTeam/Shubham_kumar.jpg"
 import map1 from "../../../../Images/Initiatives/Chandpur/map1.jpg";
-import ABHINAV from "../../../../Images/StudentTeam/ABHINAV SAINI.jpg";
-import KESHAV from "../../../../Images/StudentTeam/KESHAV PARETA.jpg";
-import Ani from "../../../../Images/StudentTeam/Ani.jpg";
-import Null from "../../../../Images/StudentTeam/Null.jpeg";
-import Kinshu from "../../../../Images/StudentTeam/Kinshu.jpg";
 import init1 from "../../../../Images/Initiatives/Chandpur/init1.jpeg";
 import init2 from "../../../../Images/Initiatives/Chandpur/init2.jpeg";
 import init3 from "../../../../Images/Initiatives/Chandpur/init3.jpg";
-import Radhika from "../../../../Images/StudentTeam/Radhika_agr.jpg";
-import Harsh_jha from "../../../../Images/StudentTeam/Harsh_Jha.jpg"
-import Anand from "../../../../Images/StudentTeam/Anand.jpg"
 import Rasika from "../../../../Images/StudentTeam/Rasika.jpeg"
+import PDF from "../../../../docs/gopalpur_ac_plan.pdf";
 
-export const Chandpur = () => {
+export const Gopalpur = () => {
   return (
     <>
       <div style={{alignContent:'center' , alignItems:'center' }}>
@@ -27,7 +20,7 @@ export const Chandpur = () => {
           <div class="container tittle1 bg-overlay1">
             <div className="my-5" style={{ textAlign: "center" }}>
               <h3>GOPALPUR</h3>
-              <p>HOME/VILLAGE/GOPALPUR</p>
+              <p><a href="/" style={{textDecoration:"None",color:"grey"}}>HOME</a>/VILLAGE/GOPALPUR</p>
             </div>
           </div>
         </Row>
@@ -109,11 +102,10 @@ export const Chandpur = () => {
                       <h3>
                         Gopalpur
                         <br />
-                        August 20, 2023
                         <br />
                         <span>Village Action PLan</span>
                       </h3>
-                      <a href="docs/Newsletter2.pdf" class="btn btn-1">
+                      <a href={PDF} class="btn btn-1" target="_blank">
                         FOR MORE DETAILS
                       </a>
                     </div>
@@ -262,77 +254,6 @@ export const Chandpur = () => {
       <img className="center video-blog1" src={map1} />
       <br />
       <br />
-
-      <section class="don-counter1">
-        <div class="overlay">
-          <Container>
-            <Row id="counters1">
-              <Col md={6}>
-                <Row>
-                  <li class="col-sm-6">
-                    <Row>
-                      <Col xs={3}>
-                        <i class="far fa-heart"></i>
-                      </Col>
-                      <Col xs={9}>
-                        {/* <span class="count1"></span> */}
-                        <span>50+</span>
-                        <p>Iniatives Undertaken</p>
-                      </Col>
-                    </Row>
-                  </li>
-
-                  <li class="col-sm-6">
-                    <Row>
-                      <Col xs={3}>
-                        <i class="fa fa-users"></i>
-                      </Col>
-                      <Col xs={9}>
-                        {" "}
-                        {/* <span class="count2"></span> */}
-                        <span>460+</span>
-                        <p>volunteers</p>
-                      </Col>
-                    </Row>
-                  </li>
-                </Row>
-              </Col>
-
-              <Col md={6}>
-                <Row>
-                  <li class="col-sm-6">
-                    <Row>
-                      <Col xs={3}>
-                        <i class="far fa-thumbs-up"></i>
-                      </Col>
-                      <Col xs={9}>
-                        {" "}
-                        {/* <span class="count3"></span> */}
-                        <span>5+</span>
-                        <p>years of work</p>
-                      </Col>
-                    </Row>
-                  </li>
-
-                  <li class="col-sm-6">
-                    <Row>
-                      <Col xs={3}>
-                        <i class="far fa-smile"></i>
-                      </Col>
-                      <Col xs={9}>
-                        {" "}
-                        {/* <span class="count4"></span> */}
-                        <span>5500+</span>
-                        <p>people benefitted</p>
-                      </Col>
-                    </Row>
-                  </li>
-                </Row>
-              </Col>
-            </Row>
-          </Container>
-        </div>
-      </section>
 
       <Container style={{ background: "#f7f8f9" }}>
         <h1 className="text-center headingStudent1 my-5">Initiatives</h1>

@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import '../Css/InitCard.css';
 import Popup_con from './Popup_con';
 
-export const InitCard = (props) => {
+export const Events_InitCard1 = (props) => {
   const [showDetails, setShowDetails] = useState(false);
 
   const toggleDetails = () => {
@@ -17,7 +17,7 @@ export const InitCard = (props) => {
       <div id="card_cont">
         <div id="card_head">
           {props.village} <span>{props.date}</span>
-          <h4>{props.init}</h4>
+          <h4>{props.event}</h4>
         </div>
         {/* <div id="card_main" style={{ padding: "0.7rem" }}>
           {props.initiative}
@@ -28,7 +28,7 @@ export const InitCard = (props) => {
         {showDetails && (
           <div id="popup_details">
             {/* Additional details or text here */}
-            <p style={{text:'dark',marginLeft:"0.30rem"}}>{props.initiative}</p>
+            <p style={{text:'dark'}}>{props.desc}</p>
           </div>
         )}
       </div>

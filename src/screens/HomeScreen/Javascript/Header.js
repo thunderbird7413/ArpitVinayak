@@ -17,7 +17,7 @@ export const Header = () => {
 
   return (
     <>
-      <header className="kuchbhi2">
+      <header className="kuchbhi2" style = {{justifyContent:"center"}}>
         <Container className="kuchbhi2" fluid>
           <Row
             className="header-part"
@@ -48,7 +48,7 @@ export const Header = () => {
         </Container>
         <Navbar
           className="navBar"
-          style={{ background: "#ecc731" }}
+          style={{ background: "#ecc731" ,justifyContent: "center" ,margin:"0 auto" }}
           expand="lg"
           expanded={expanded}
         >
@@ -81,8 +81,8 @@ export const Header = () => {
                   renderMenuOnMount={true}
                 >
                   <NavDropdown.Item href="/beladi">Beladi</NavDropdown.Item>
-                  <NavDropdown.Item href="/chharba">Rithaura-Grunt</NavDropdown.Item>
-                  <NavDropdown.Item href="/chandpur">Gopalpur</NavDropdown.Item>
+                  <NavDropdown.Item href="/rithaura">Rithaura-Grunt</NavDropdown.Item>
+                  <NavDropdown.Item href="/gopalpur">Gopalpur</NavDropdown.Item>
                   <NavDropdown.Item href="/meerpur">Meerpur</NavDropdown.Item>
                   <NavDropdown.Item href="/puranpur">Puranpur</NavDropdown.Item>
                 </NavDropdown>
@@ -96,11 +96,11 @@ export const Header = () => {
                   renderMenuOnMount={true}
                 >
                   <NavDropdown.Item href="/faculty">Faculty</NavDropdown.Item>
-                  <NavDropdown.Item href="/studentteam">Students</NavDropdown.Item>
+                  <NavDropdown.Item href="/studentteam">Team 2023-24</NavDropdown.Item>
                   <NavDropdown.Item href="/Studentteam22_23">Team 2022-23</NavDropdown.Item>
                   <NavDropdown.Item href="/Studentteam21_22">Team 2021-22</NavDropdown.Item>
                   <NavDropdown.Item href="/Studentteam20_21">Team 2020-21</NavDropdown.Item>
-                </NavDropdown>
+                  </NavDropdown>
                 <Nav.Link className="mx-3" href="/contact">
                   Contact
                 </Nav.Link>
