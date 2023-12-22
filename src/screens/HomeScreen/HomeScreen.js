@@ -1,12 +1,7 @@
 import IdentityCard from '../../components/Javascript/IdentityCard'
 import { InitCard } from '../../components/Javascript/InitCard'
-import Footer from './Javascript/Footer'
-import Footer1 from './Javascript/Footer1'
-import food_kit from '../../Images/Puranpur/recreational_activities.jpg'
-import cycle_donation from '../../Images/Beladi/CycleDonation/i.jpg'
-import swacchta_hi_seva from '../../Images/Chharba/PlasticFreeIndia_Chharba/i.jpeg'
+import { Events_InitCard1 } from '../../components/Javascript/Events_InitCard1'
 import director from '../../Images/patron/director.JPG'
-import mparida from '../../Images/patron/mprdaf.jpg'
 import ap from '../../Images/patron/Ap.jpeg'
 import bhanu from '../../Images/patron/bhanu.jpg'
 import Inspiration from './Javascript/Inspiration'
@@ -18,8 +13,9 @@ import About from './Javascript/About'
 import './css/Carousel.css';
 import ImageSlider from "./Javascript/Slider";
 import FrontPageCarousel from "./Javascript/FrontPageCarousel";
-import FPO from "../../Images/Puranpur/FPO awarness.jpg"
-import SanitaryNapkin from "../../Images/Gopalpur/Sanitary_Napkin.jpg"
+import candle from "../../Images/Initiatives/SHGs/candle.jpeg";
+import jiv from "../../Images/Initiatives/Technology/jeev.jpeg"
+import az from "../../Images/Initiatives/Technology/azolla.jpg"
 
 export const HomeScreen = () => {
 
@@ -38,17 +34,34 @@ export const HomeScreen = () => {
           <div className="row">
             <div className="col-lg-4">
               <center>
-                <InitCard image={food_kit} village="Puranpur | " date="August 5, 2023" init="Recreational Activities" initiative="Team UBA organized co-circular activities for over 100+ students in Puranpur"/><br/>
+              <Events_InitCard1
+          image={jiv}
+          village="All villages |"
+          date="Dec 3,2023"
+          event="Jivamrit Initiative"
+          desc="Team UBA, IIT Roorkee took the Jeevamrit initiative,a biopesticide and organic manure prepared by fermenting a  mixture of cow dung, cow urine, jaggery etc"
+        /><br/>
               </center>
             </div>
             <div className="col-lg-4">
               <center>
-                <InitCard image={SanitaryNapkin} village="Chandpur | " date="July 20, 2023" init="Sanitary Napkin Machine" initiative="Team successfully setup a semi automatic pad making machine in village Chandpur." /><br/>
+              <Events_InitCard1
+          image={candle}
+          date='Oct 23 , 2023'
+          village ="All Villages |"
+          event='Candle Making'
+          desc='In lieu of the approaching festive season, UBA IIT Roorkee took up the initiative of candle-making to brighten the Diwali by giving the village women another skill towards self sufficiency.'/><br/>
               </center>
             </div>
             <div className="col-lg-4">
               <center>
-                <InitCard image={FPO} village="Puranpur | " date="June 23, 2023" init="FPO Awareness session" initiative="Team conducted session regarding FPO with the farmers of Puranpur." /><br/>
+              <Events_InitCard1
+          image={az}
+          village="All villages |"
+          date="Sept 17, 2023"
+          event="Azolla Cultivation"
+          desc="Team UBA, IIT Roorkee identified that the cattle owned by farmers lack nutrients in their regular fodder which is further causing low yield of milk produced by them. "
+        /><br/>
               </center>
             </div>
           </div>

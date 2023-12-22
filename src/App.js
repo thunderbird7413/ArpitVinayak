@@ -19,9 +19,11 @@ import { Team22_23 } from "./screens/HomeScreen/Javascript/Team22_23.js";
 import { Team2021 } from "./screens/HomeScreen/Javascript/Team2021.js";
 import Footer1 from './screens/HomeScreen/Javascript/Footer1';
 import {Team21_22} from "./screens/HomeScreen/Javascript/Team21_22.js";
-import { Awareness } from "./screens/Initiatives/Awareness.js";
-import { Technology } from "./screens/Initiatives/Technology.js";
+import { Waste_Management } from "./screens/Initiatives/Waste_Management.js";
+import { Agriculture } from "./screens/Initiatives/Agriculture.js";
 import { Health } from "./screens/Initiatives/Health.js";
+import { Education } from "./screens/Initiatives/Education.js";
+import { SHGs } from "./screens/Initiatives/SHGs.js";
 
 class App extends Component{
   render()
@@ -42,9 +44,11 @@ class App extends Component{
           <Route path='/Studentteam22_23' exact element={<Team22_23/>}></Route>
           <Route path='/Studentteam21_22' exact element={<Team21_22/>}></Route>
           <Route path='/Studentteam20_21' exact element={<Team2021/>}></Route>
-          <Route path='/awareness' exact element={<Awareness/>}></Route>
-          <Route path='/technology' exact element={<Technology/>}></Route>
+          <Route path='/waste_management' exact element={<Waste_Management/>}></Route>
+          <Route path='/education' exact element={<Education/>}></Route>
+          <Route path='/agriculture' exact element={<Agriculture/>}></Route>
           <Route path='/health' exact element={<Health/>}></Route>
+          <Route path='/shgs' exact element={<SHGs/>}></Route>
           <Route path='/work' exact element={<Work/>}></Route>
           <Route path='/events' exact element={<InitCard_Events/>}></Route>
           <Route path='/faculty' exact element={<Faculty/>}></Route>

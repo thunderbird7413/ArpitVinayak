@@ -1,10 +1,8 @@
 import React from 'react';
 import "../../components/Css/Events_InitCard.css"
-import { Events_InitCard } from '../../components/Javascript/Events_InitCard'
-import fpo from '../../Images/Initiatives/FPO.jpg'
-import carr from '../../Images/Initiatives/carr.jpg'
-
-
+import { Events_InitCard1 } from '../../components/Javascript/Events_InitCard1'
+import sci from "../../Images/Initiatives/Education/sci_ex.jpg";
+import rec from "../../Images/Initiatives/Education/recreation.jpg";
 
 export const Education = () => {
   return <div>
@@ -13,23 +11,25 @@ export const Education = () => {
           <div className="Init_container">
           <h2>Initiatives</h2>
           <ol className="Init_breadcrumb">
-          <li><a href="#"><h3>Home</h3></a></li>
-          <li className="Init_active">Initiatives</li>
+          <li><a href="/"><h3>Home</h3></a></li>
+          <li className="Init_active">Education</li>
           </ol>
           </div>
           </div>
           </div>
       <div className='cards'>
-      <Events_InitCard 
-          image={fpo}
-          date='June 6, 2023'
-          event='FPO Awareness Session'
-          desc='Team UBA conducted an informative and interactive session regarding FPO with the farmers of Puranpur with the assistance of  BhuAmrit FPO at Ambedkar Hall. '/>
-        <Events_InitCard 
-          image={carr}
-          date='Yet_to_know'
-          event='Career Counseling session'
-          desc='Team UBA, IITR is glad to report that a career counseling session was held by the team at Bal Vidya Mandir, Junior High School for the students of classes 6th to 12th'/>
+      <Events_InitCard1
+          image={sci}
+          date='Sept 21, 2023'
+          village = "Beladi |"
+          event='Science Experiment Exhibition'
+          desc='Team UBA, IIT Roorkee organised a science experiment exhibition at the Govt. Secondary School, Beladi-Salhapur. The motive of the exhibition was to engage students of class 9 and 10 in the inquisitiveness and excitement, science is bound to bring. '/>
+        <Events_InitCard1 
+          image={rec}
+          date='August 5,2023'
+          village = 'Puranpur |'
+          event='Recreational Activities'
+          desc='Team UBA, IIT Roorkee illuminated the village with energy and creativity by conducting co-curricular activities at a primary school in Puranpur.Team UBA organised activities such as dodgeball, lemon racing, and balloon racing for students of classes 1 to 4.'/>
       </div>
   </div>;
 };

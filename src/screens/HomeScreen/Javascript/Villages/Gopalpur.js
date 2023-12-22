@@ -5,10 +5,10 @@ import { InitCard } from "../../../../components/Javascript/InitCard";
 import "../../css/StudentTeam.css";
 import "../../css/Villages.css";
 import ShubhamK from "../../../../Images/StudentTeam/Shubham_kumar.jpg"
-import map1 from "../../../../Images/Initiatives/Chandpur/map1.jpg";
-import init1 from "../../../../Images/Initiatives/Chandpur/init1.jpeg";
-import init2 from "../../../../Images/Initiatives/Chandpur/init2.jpeg";
-import init3 from "../../../../Images/Initiatives/Chandpur/init3.jpg";
+import map1 from "../../../../Images/Initiatives/Gopalpur/map1.jpg";
+import init1 from "../../../../Images/Initiatives/Gopalpur/init1.jpeg";
+import init2 from "../../../../Images/Initiatives/Gopalpur/init2.jpeg";
+import eye from "../../../../Images/Initiatives/Gopalpur/eye.jpeg";
 import Rasika from "../../../../Images/StudentTeam/Rasika.jpeg"
 import PDF from "../../../../docs/gopalpur_ac_plan.pdf";
 
@@ -258,6 +258,18 @@ export const Gopalpur = () => {
       <Container style={{ background: "#f7f8f9" }}>
         <h1 className="text-center headingStudent1 my-5">Initiatives</h1>
         <div className="row">
+        <div className="col-lg-4">
+            <center>
+              <InitCard
+                image={eye}
+                village="Gopalpur |"
+                date="Oct 28, 2023"
+                init="Eye Health Camp"
+                initiative="Team UBA IIT Roorkee organized a vital Eye Health Camp in Gopalpur, addressing the lack of healthcare facilities within the Gopalpur village. With the collaboration from The Hans Foundation , the camp was held at Gopalpur Upper Primary School."
+              />
+              <br />
+            </center>
+          </div>
           <div className="col-lg-4">
             <center>
               <InitCard
@@ -278,18 +290,6 @@ export const Gopalpur = () => {
                 date="April 05-10, 2021"
                 init="Computer Installation Initiative"
                 initiative="Team UBA set up computers in GIC school to ease in online education in pandemic time."
-              />
-              <br />
-            </center>
-          </div>
-          <div className="col-lg-4">
-            <center>
-              <InitCard
-                image={init3}
-                village="Gopalpur |"
-                date="September 14, 2020"
-                init="Essay Writing Competition"
-                initiative="Celebrating Hindi Diwas with village students of GIC Horawala"
               />
               <br />
             </center>

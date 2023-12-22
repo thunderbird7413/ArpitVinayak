@@ -6,7 +6,7 @@ import "../../css/StudentTeam.css";
 import "../../css/Villages.css";
 import map1 from "../../../../Images/Initiatives/Beladi/map1.jpg";
 import Jyoti from "../../../../Images/StudentTeam/Jyoti.jpg";
-import init5 from "../../../../Images/Initiatives/Beladi/init5.jpg";
+import sci from "../../../../Images/Initiatives/Beladi/sci_ex.jpg";
 import init6 from "../../../../Images/Initiatives/Beladi/init6.jpg";
 import Rishabh from "../../../../Images/StudentTeam/Rishabh.jpeg";
 import init7 from "../../../../Images/Initiatives/Beladi/init7.png";
@@ -257,6 +257,19 @@ export const Beladi = () => {
           <div className="col-lg-4">
             <center>
               <InitCard
+                image={sci}
+                village="Beladi |"
+                date='Sept 21, 2023'
+                init="Science Experiment Exhibition"
+                moreDetails="Team UBA, IIT Roorkee organised a science experiment exhibition at the Govt. Secondary School, Beladi-Salhapur."
+              />
+              <br />
+            </center>
+          </div>
+
+          <div className="col-lg-4">
+            <center>
+              <InitCard
                 image={init7}
                 village="Beladi |"
                 date="July 31, 2021"
@@ -274,18 +287,6 @@ export const Beladi = () => {
                 date="October 12, 2019"
                 init="Cycle Donation"
                 initiative="Donating unused cycles at IITR to village students in Beladi."
-              />
-              <br />
-            </center>
-          </div>
-          <div className="col-lg-4">
-            <center>
-              <InitCard
-                image={init5}
-                village="Beladi |"
-                date="September 29, 2019"
-                init="Swacchta Hi Seva"
-                initiative="No plastic drive in village Beladi."
               />
               <br />
             </center>

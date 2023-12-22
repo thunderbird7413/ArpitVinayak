@@ -12,6 +12,7 @@ import iitrlogo from "../../../Images/iitrlogo.png";
 import ubalogo from "../../../Images/ubalogo.png";
 import "../css/Header.css";
 
+
 export const Header = () => {
   const [expanded, setExpanded] = useState(false);
 
@@ -70,9 +71,9 @@ export const Header = () => {
                 >
                   <NavDropdown.Item href="/education">Education</NavDropdown.Item>
                   <NavDropdown.Item href="/health">Health</NavDropdown.Item>
-                  <NavDropdown.Item href="/technology">Technology</NavDropdown.Item>
-                  <NavDropdown.Item href="/awareness">Awareness</NavDropdown.Item>
-                  <NavDropdown.Item href="/other">Other</NavDropdown.Item>
+                  <NavDropdown.Item href="/agriculture">Agriculture</NavDropdown.Item>
+                  <NavDropdown.Item href="/waste_management">Waste Management</NavDropdown.Item>
+                  <NavDropdown.Item href="/shgs">SHGs</NavDropdown.Item>
                 </NavDropdown>
                 <NavDropdown
                   className="mx-3"
