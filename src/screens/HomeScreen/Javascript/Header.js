@@ -97,10 +97,13 @@ export const Header = () => {
                   renderMenuOnMount={true}
                 >
                   <NavDropdown.Item href="/faculty">Faculty</NavDropdown.Item>
-                  <NavDropdown.Item href="/studentteam">Team 2023-24</NavDropdown.Item>
-                  <NavDropdown.Item href="/Studentteam22_23">Team 2022-23</NavDropdown.Item>
-                  <NavDropdown.Item href="/Studentteam21_22">Team 2021-22</NavDropdown.Item>
-                  <NavDropdown.Item href="/Studentteam20_21">Team 2020-21</NavDropdown.Item>
+                  <NavDropdown.Divider />
+                  <NavDropdown title="Student Teams" id="nested-dropdown">
+                    <NavDropdown.Item href="/studentteam">Team 2023-24</NavDropdown.Item>
+                    <NavDropdown.Item href="/Studentteam22_23">Team 2022-23</NavDropdown.Item>
+                    <NavDropdown.Item href="/Studentteam21_22">Team 2021-22</NavDropdown.Item>
+                    <NavDropdown.Item href="/Studentteam20_21">Team 2020-21</NavDropdown.Item>
+                  </NavDropdown>
                   </NavDropdown>
                 <Nav.Link className="mx-3" href="/contact">
                   Contact
