@@ -2,9 +2,9 @@ import React from 'react';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import {FaFacebookF} from "react-icons/fa";
-import {AiOutlineInstagram} from "react-icons/ai";
-import {FaTwitter} from "react-icons/fa";
+import Sun from "../../../Images/Blog/1_tvIMY9KFY3YRVMLaexcIxw.webp";
+import archi from "../../../Images/Blog/archi_agr.jpg";
+import {FaMedium} from "react-icons/fa";
 
 
 function ImageSlider() {
@@ -32,89 +32,104 @@ function ImageSlider() {
             <div className="card-wrapper blog-card-wrapper">
                 <div className="card">
                     <div className="card-image">
-                        <img src="carousel_images\Vaibhav_Bansal.jpeg" />
+                        <img src={Sun} />
                     </div>
                     <ul className="social-icons">
-                        <li><a href="#"><FaFacebookF className="fa" /></a></li>
-                        <li><a href="#"><AiOutlineInstagram className="fa"/></a></li>
-                        <li><a href="#">< FaTwitter className="fa"/></a></li>
+                        <li><a href="https://medium.com/@uba.iitr/%E0%A4%9C%E0%A4%BE%E0%A4%A4%E0%A5%87-%E0%A4%9C%E0%A4%BE%E0%A4%A4%E0%A5%87-35cc9b38b335">< FaMedium className="fa"/></a></li>
                     </ul>
                     <div className="details">
-                        <h2>Vaibhav Bansal<span className="job-title">UBA,IIT ROORKEE</span></h2>
+                        <h2>Sunidhi Jindal<span className="job-title">UBA,IIT ROORKEE</span></h2>
                     </div>
                 </div>
             </div>
             <div className="card-wrapper blog-card-wrapper">
                 <div className="card">
                     <div className="card-image">
-                        <img src="carousel_images\Pratibha_Deoraj.png" />
+                        <img src="https://miro.medium.com/v2/resize:fit:828/format:webp/1*WczUk_unf1UTTpA-aRccXQ.jpeg" />
                     </div>
                     <ul className="social-icons">
-                        <li><a href="#"><FaFacebookF className="fa"/></a></li>
-                        <li><a href="#"><AiOutlineInstagram className="fa"/></a></li>
-                        <li><a href="#">< FaTwitter className="fa"/></a></li>
+                        <li><a href="https://medium.com/@uba.iitr/%E0%A4%9C%E0%A4%BE%E0%A4%A4%E0%A5%87-%E0%A4%9C%E0%A4%BE%E0%A4%A4%E0%A5%87-2eb33544a9b6">< FaMedium className="fa"/></a></li>
                     </ul>
                     <div className="details">
-                        <h2>Pratibha Deoraj<span className="job-title">UBA,IIT ROORKEE</span></h2>
+                        <h2>Pratyay Urade<span className="job-title">UBA,IIT ROORKEE</span></h2>
                     </div>
                 </div>
             </div>
             <div className="card-wrapper blog-card-wrapper">
                 <div className="card">
                     <div className="card-image">
-                        <img src="carousel_images\Roshan_Kumar.jpeg" />
+                        <img src="https://miro.medium.com/v2/resize:fit:828/format:webp/1*fKpF6btHzyDtX0zON9D-wQ.png" />
                     </div>
                     <ul className="social-icons">
-                        <li><a href="#"><FaFacebookF className="fa"/></a></li>
-                        <li><a href="#"><AiOutlineInstagram className="fa"/></a></li>
-                        <li><a href="#">< FaTwitter className="fa"/></a></li>
+                        <li><a href="https://medium.com/@uba.iitr/%E0%A4%9C%E0%A4%BE%E0%A4%A4%E0%A5%87-%E0%A4%9C%E0%A4%BE%E0%A4%A4%E0%A5%87-12ed432add04">< FaMedium className="fa"/></a></li>
                     </ul>
                     <div className="details">
-                        <h2>Roshan Kumar<span className="job-title">UBA,IIT ROORKEE</span></h2>
+                        <h2>Harsh Kumar<span className="job-title">UBA,IIT ROORKEE</span></h2>
                     </div>
                 </div>
             </div>
             <div className="card-wrapper blog-card-wrapper">
                 <div className="card">
                     <div className="card-image">
-                        <img src="carousel_images\Vishvendra_Singh.jpeg" />
+                        <img src="https://miro.medium.com/v2/resize:fit:828/format:webp/1*iCBtqBkI27f7C2_oP7UOXw.jpeg" />
                     </div>
                     <ul className="social-icons">
-                        <li><a href="#"><FaFacebookF className="fa"/></a></li>
-                        <li><a href="#"><AiOutlineInstagram className="fa"/></a></li>
-                        <li><a href="#">< FaTwitter className="fa"/></a></li>
+                        <li><a href="https://medium.com/@uba.iitr/%E0%A4%9C%E0%A4%BE%E0%A4%A4%E0%A5%87-%E0%A4%9C%E0%A4%BE%E0%A4%A4%E0%A5%87-2907a25f22d2">< FaMedium className="fa"/></a></li>
                     </ul>
                     <div className="details">
-                        <h2>Vishvendra Singh<span className="job-title">UBA,IIT ROORKEE</span></h2>
+                        <h2>Harsh Tanwar<span className="job-title">UBA,IIT ROORKEE</span></h2>
                     </div>
                 </div>
             </div>
             <div className="card-wrapper blog-card-wrapper">
                 <div className="card">
                     <div className="card-image">
-                        <img src="carousel_images\Aastha_Upadhyay.jpeg" />
+                        <img src="https://miro.medium.com/v2/resize:fit:640/format:webp/1*0Qc838V11kbV9MYpke9TJQ.jpeg" />
                     </div>
                     <ul className="social-icons">
-                        <li><a href="#"><FaFacebookF className="fa" /></a></li>
-                        <li><a href="#"><AiOutlineInstagram className="fa"/></a></li>
-                        <li><a href="#">< FaTwitter className="fa"/></a></li>
+                        <li><a href="https://medium.com/@uba.iitr/%E0%A4%9C%E0%A4%BE%E0%A4%A4%E0%A5%87-%E0%A4%9C%E0%A4%BE%E0%A4%A4%E0%A5%87-f2e3c7e713a8">< FaMedium className="fa"/></a></li>
                     </ul>
                     <div className="details">
-                        <h2>Aastha Upadhyay<span className="job-title">UBA,IIT ROORKEE</span></h2>
+                        <h2>Adarsh Kumar Singh<span className="job-title">UBA,IIT ROORKEE</span></h2>
                     </div>
                 </div>
-            </div> <div className="card-wrapper blog-card-wrapper">
+            </div>
+            <div className="card-wrapper blog-card-wrapper">
                 <div className="card">
                     <div className="card-image">
-                        <img src="carousel_images\Sarthak_Maheshwari.jpeg " />
+                        <img src={archi} />
                     </div>
                     <ul className="social-icons">
-                        <li><a href="#"><FaFacebookF className="fa"/></a></li>
-                        <li><a href="#"><AiOutlineInstagram className="fa"/></a></li>
-                        <li><a href="#">< FaTwitter className="fa"/></a></li>
+                        <li><a href="https://medium.com/@uba.iitr/%E0%A4%9C%E0%A4%BE%E0%A4%A4%E0%A5%87-%E0%A4%9C%E0%A4%BE%E0%A4%A4%E0%A5%87-ce4661ba6faf">< FaMedium className="fa"/></a></li>
                     </ul>
                     <div className="details">
-                        <h2>Sarthak Maheshwari<span className="job-title">UBA,IIT ROORKEE</span></h2>
+                        <h2>Archi Agrawal<span className="job-title">UBA,IIT ROORKEE</span></h2>
+                    </div>
+                </div>
+            </div>
+            <div className="card-wrapper blog-card-wrapper">
+                <div className="card">
+                    <div className="card-image">
+                        <img src="https://miro.medium.com/v2/resize:fit:640/format:webp/1*H_Jw9CGBiiZR0-od42_DXw.jpeg" />
+                    </div>
+                    <ul className="social-icons">
+                        <li><a href="https://medium.com/@uba.iitr/%E0%A4%9C%E0%A4%BE%E0%A4%A4%E0%A5%87-%E0%A4%9C%E0%A4%BE%E0%A4%A4%E0%A5%87-acabca478951">< FaMedium className="fa"/></a></li>
+                    </ul>
+                    <div className="details">
+                        <h2>Piyush Yadav<span className="job-title">UBA,IIT ROORKEE</span></h2>
+                    </div>
+                </div>
+            </div>
+            <div className="card-wrapper blog-card-wrapper">
+                <div className="card">
+                    <div className="card-image">
+                        <img src="https://miro.medium.com/v2/resize:fit:640/format:webp/1*IdjZegWZiNtKTvJiOAORBw.png" />
+                    </div>
+                    <ul className="social-icons">
+                        <li><a href="https://medium.com/@uba.iitr/%E0%A4%9C%E0%A4%BE%E0%A4%A4%E0%A5%87-%E0%A4%9C%E0%A4%BE%E0%A4%A4%E0%A5%87-4b42985c9342">< FaMedium className="fa"/></a></li>
+                    </ul>
+                    <div className="details">
+                        <h2>Shubham Sidhartha<span className="job-title">UBA,IIT ROORKEE</span></h2>
                     </div>
                 </div>
             </div>

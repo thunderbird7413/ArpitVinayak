@@ -110,7 +110,7 @@ export const HomeScreen = () => {
           <h2 className='-mt-2'>Fresh From The <span>Blog</span></h2>
           <p className='mb-2'>Work.  Innovation.  Fun.</p>
         </div>
-        <div className="row mt-5 carousel-blog carousel">
+        <div className="row mt-5 carousel-blog carousel" style ={{justifyContent:'center',margin:'3rem auto'}}>
 
           <ImageSlider />
         </div>
