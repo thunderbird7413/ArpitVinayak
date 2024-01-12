@@ -1,6 +1,6 @@
 import React from "react";
 import "../css/Work.css";
-
+import PDF from "../../../docs/UBA Newsletter 21-22.pdf"
 export const Work = () => {
   return (
     <div>
@@ -48,7 +48,7 @@ export const Work = () => {
                       15 initiatives{" "}
                     </span>
                   </h3>
-                  <a href="" className="btn">
+                  <a href={PDF} className="btn" target="_blank">
                     Latest Issue
                   </a>{" "}
                   <a href="docs/Newsletter1.pdf" className="btn btn-1">

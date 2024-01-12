@@ -31,14 +31,13 @@ export const Contact = () =>{
 		<div class="col-md-9">
 			<div class="contact-form">
 				<div class="form-group">
-				  <label class="control-label col-sm-12 text-muted" for="fname">Address : 
-				  Unnat Bharat Abhiyan, IIT Roorkee,Uttarakhand</label>
+				  <label class="control-label col-sm-12 text-muted" for="fname">Address : Student Activity Center,Unnat Bharat Abhiyan, IIT Roorkee, Uttarakhand</label>
 				</div>
 				<br />
 				<br />
 				<div class="form-group">
 				  <label class="control-label col-sm-12 text-muted" for="email">PHONE :
-(+91) 8318450052</label>
+(+91) 7452971049</label>
                 <br />
 				<br />
 				<br />
@@ -48,11 +47,6 @@ export const Contact = () =>{
 uba@iitr.ac.in</label>
 				</div>
 				<br />
-				<div class="form-group">        
-				  <div class="col-sm-offset-2 col-sm-10 button-submit">
-					<a href="https://docs.google.com/forms/d/e/1FAIpQLSe_11g8yI5lAlS4o_xix6cp41RATF9-YGiYqAS2GZiC15NnYg/viewform" target="_blank"><button type="submit" class="btn">Sign up for Email</button></a>
-				  </div>
-				</div>
 			</div>
 		</div>
 	</div>
