@@ -1,26 +1,37 @@
-import React from "react";
+import React, { useContext } from "react";
 import { Container, Row, Col, Table } from "react-bootstrap";
 import { StudentIdentityCard } from "../../../../components/Javascript/StudentIdentityCard";
 import { InitCard } from "../../../../components/Javascript/InitCard";
 import "../../css/StudentTeam.css";
 import "../../css/Villages.css";
-import ShubhamK from "../../../../Images/StudentTeam/Shubham_kumar.jpg"
+import ShubhamK from "../../../../Images/StudentTeam/Shubham_kumar.jpg";
 import map1 from "../../../../Images/Initiatives/Gopalpur/map1.jpg";
 import init1 from "../../../../Images/Initiatives/Gopalpur/init1.jpeg";
 import init2 from "../../../../Images/Initiatives/Gopalpur/init2.jpeg";
 import eye from "../../../../Images/Initiatives/Gopalpur/eye.jpeg";
-import Rasika from "../../../../Images/StudentTeam/Rasika.jpeg"
+import Rasika from "../../../../Images/StudentTeam/Rasika.jpeg";
 import PDF from "../../../../docs/gopalpur_ac_plan.pdf";
 
+import { InitiativeContext } from "../../../../context/InitiativeContext";
+
 export const Gopalpur = () => {
+  const { initiatives } = useContext(InitiativeContext);
+  const GopalpurInitiatives = initiatives.filter((initiative) => {
+    return initiative.village === "gopalpur";
+  });
   return (
     <>
-      <div style={{alignContent:'center' , alignItems:'center' }}>
+      <div style={{ alignContent: "center", alignItems: "center" }}>
         <Row>
           <div class="container tittle1 bg-overlay1">
             <div className="my-5" style={{ textAlign: "center" }}>
               <h3>GOPALPUR</h3>
-              <p><a href="/" style={{textDecoration:"None",color:"grey"}}>HOME</a>/VILLAGE/GOPALPUR</p>
+              <p>
+                <a href="/" style={{ textDecoration: "None", color: "grey" }}>
+                  HOME
+                </a>
+                /VILLAGE/GOPALPUR
+              </p>
             </div>
           </div>
         </Row>
@@ -41,7 +52,7 @@ export const Gopalpur = () => {
                     }}
                   />
                   <p align="justify">
-                  Gopalpur village comes under Vikasnagar block of district
+                    Gopalpur village comes under Vikasnagar block of district
                     Dehradun, Uttarakhand. Being very close to mountains, it is
                     situated on the banks of one of the tributaries of Yamuna
                     River. It is nearly 36 km from Dehradun in the North-West
@@ -50,18 +61,18 @@ export const Gopalpur = () => {
                     (Vikasnagar block) surrounds it.
                   </p>
                   <p align="justify">
-                  The village is divided in two parts namely- Gopalpur Khurd
+                    The village is divided in two parts namely- Gopalpur Khurd
                     and Gopalpur Kala, of which Gopalpur Kala is nearly 1.25
                     times larger than Gopalpur Khurd (population wise).
                   </p>
                   <p align="justify">
-                  Gopalpur Kala is a small village with total 46 families
+                    Gopalpur Kala is a small village with total 46 families
                     residing. The Gopalpur Kala village has population of 227 of
                     which 117 are males while 110 are females as per Population
                     Census 2011.
                   </p>
                   <p align="justify">
-                  In Gopalpur Kala village population of children with age 0-6
+                    In Gopalpur Kala village population of children with age 0-6
                     is 26 which makes up 11.45 % of the total population of the
                     village. Average Sex Ratio of Gopalpur Kala village is 940
                     which is lower than Uttarakhand state average of 963. Child
@@ -69,14 +80,14 @@ export const Gopalpur = () => {
                     higher than Uttarakhand average of 890.
                   </p>
                   <p align="justify">
-                  Gopalpur Kala village has higher literacy rate as compared
+                    Gopalpur Kala village has higher literacy rate as compared
                     to Uttarakhand. In 2011, literacy rate of Gopalpur Kala
                     village was 85.57 % compared to 78.82 % of Uttarakhand. In
                     Gopalpur Kala male literacy stands at 92.38 % while female
                     literacy rate was 78.13 %.
                   </p>
                   <p align="justify">
-                  Gopalpur Khurd is a small village with total 44 families
+                    Gopalpur Khurd is a small village with total 44 families
                     residing. The Gopalpur Khurd village has a population of 183
                     of which 87 are males while 96 are females as per Census
                     2011. In Gopalpur Khurd village the population of children
@@ -87,7 +98,7 @@ export const Gopalpur = () => {
                     per census is 846, lower than Uttarakhand average of 890.
                   </p>
                   <p align="justify">
-                  Gopalpur Khurd village has higher literacy rate compared to
+                    Gopalpur Khurd village has higher literacy rate compared to
                     Uttarakhand. In 2011, literacy rate of Gopalpur Khurd
                     village was 84.91 % compared to 78.82 % of Uttarakhand. In
                     Gopalpur Khurd male literacy stands at 95.95 % while female
@@ -95,23 +106,30 @@ export const Gopalpur = () => {
                   </p>
                   <p></p>
                 </Col>
-                <div  style={{alignItems:'center',alignContent:'center',width:'full' , marginTop:'2rem'}}>
-                <div  style={{alignItems:'center',alignContent:'center'}}>
-                  <div className="program1 w-full">
-                    <div className="inner1">
-                      <h3>
-                        Gopalpur
-                        <br />
-                        <br />
-                        <span>Village Action PLan</span>
-                      </h3>
-                      <a href={PDF} class="btn btn-1" target="_blank">
-                        FOR MORE DETAILS
-                      </a>
+                <div
+                  style={{
+                    alignItems: "center",
+                    alignContent: "center",
+                    width: "full",
+                    marginTop: "2rem",
+                  }}
+                >
+                  <div style={{ alignItems: "center", alignContent: "center" }}>
+                    <div className="program1 w-full">
+                      <div className="inner1">
+                        <h3>
+                          Gopalpur
+                          <br />
+                          <br />
+                          <span>Village Action PLan</span>
+                        </h3>
+                        <a href={PDF} class="btn btn-1" target="_blank">
+                          FOR MORE DETAILS
+                        </a>
+                      </div>
                     </div>
                   </div>
-                  </div>
-                  </div>
+                </div>
               </Row>
             </div>
           </section>
@@ -193,13 +211,13 @@ export const Gopalpur = () => {
                   <td>859</td>
                 </tr>
                 <tr>
-                <td>Child (0-6)</td>
+                  <td>Child (0-6)</td>
                   <td>309</td>
                   <td>172</td>
                   <td>137</td>
                 </tr>
                 <tr>
-                <td>Schedule Caste</td>
+                  <td>Schedule Caste</td>
                   <td>1263</td>
                   <td>675</td>
                   <td>588</td>
@@ -258,7 +276,24 @@ export const Gopalpur = () => {
       <Container style={{ background: "#f7f8f9" }}>
         <h1 className="text-center headingStudent1 my-5">Initiatives</h1>
         <div className="row">
-        <div className="col-lg-4">
+          {GopalpurInitiatives &&
+            GopalpurInitiatives.map((initiative, index) => (
+              <div className="col-lg-4">
+                <center>
+                  <InitCard
+                    key={index}
+                    index={index}
+                    image={initiative.image}
+                    village={initiative.village}
+                    date={initiative.date}
+                    init={initiative.init}
+                    moreDetails={initiative.moreDetails}
+                  />
+                  <br />
+                </center>
+              </div>
+            ))}
+          {/* <div className="col-lg-4">
             <center>
               <InitCard
                 image={eye}
@@ -293,14 +328,14 @@ export const Gopalpur = () => {
               />
               <br />
             </center>
-          </div>
+          </div> */}
         </div>
       </Container>
       <Container style={{ background: "#f7f8f9" }}>
         <h1 className="text-center headingStudent1 my-5">Village Team</h1>
         <Row>
-        <div className="col-lg-5" style={{ marginLeft: "auto" }}>
-          <StudentIdentityCard
+          <div className="col-lg-5" style={{ marginLeft: "auto" }}>
+            <StudentIdentityCard
               studImg={ShubhamK}
               name="Shubham Kumar"
               pos="Village Co-ordinator"
@@ -311,14 +346,14 @@ export const Gopalpur = () => {
             <br />
           </div>
           <div className="col-lg-5" style={{ marginLeft: "auto" }}>
-          <StudentIdentityCard
+            <StudentIdentityCard
               studImg={Rasika}
               name="Rasika Kaple"
               pos="Village Co-ordinator"
               village="Gopalpur"
               linkedIn="https://www.linkedin.com/in/rasikakaple/"
-              email = "Email: k_rdnyaneshwar@me.iitr.ac.in"
-              />
+              email="Email: k_rdnyaneshwar@me.iitr.ac.in"
+            />
             <br />
           </div>
         </Row>

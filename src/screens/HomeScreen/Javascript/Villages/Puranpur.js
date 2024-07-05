@@ -1,18 +1,23 @@
-import React from "react";
+import React, { useContext } from "react";
 import { Container, Row, Col, Table } from "react-bootstrap";
 import { StudentIdentityCard } from "../../../../components/Javascript/StudentIdentityCard";
 import { InitCard } from "../../../../components/Javascript/InitCard";
 import "../../css/StudentTeam.css";
 import "../../css/Villages.css";
-import food_kit from '../../../../Images/Puranpur/recreational_activities.jpg'
+import food_kit from "../../../../Images/Puranpur/recreational_activities.jpg";
 import map1 from "../../../../Images/Initiatives/Puranpur/map1.jpg";
 import Anuj from "../../../../Images/StudentTeam/Anuj.jpeg";
-import Charu from "../../../../Images/StudentTeam/Charu.jpg"
-import FPO from "../../../../Images/Puranpur/FPO awarness.jpg"
-import Ecobricks from "../../../../Images/Ecobricks.jpg"
+import Charu from "../../../../Images/StudentTeam/Charu.jpg";
+import FPO from "../../../../Images/Puranpur/FPO awarness.jpg";
+import Ecobricks from "../../../../Images/Ecobricks.jpg";
 import PDF from "../../../../docs/puranpur_ac_plan.pdf";
+import { InitiativeContext } from "../../../../context/InitiativeContext";
 
 export const Puranpur = () => {
+  const { initiatives } = useContext(InitiativeContext);
+  const PuranpurInitiatives = initiatives.filter((initiative) => {
+    return initiative.village === "puranpur";
+  });
   return (
     <>
       <div>
@@ -20,7 +25,12 @@ export const Puranpur = () => {
           <div class="container tittle1 bg-overlay1">
             <div className="my-5" style={{ textAlign: "center" }}>
               <h3>PURANPUR</h3>
-              <p><a href="/" style={{textDecoration:"None",color:"grey"}}>HOME</a>/VILLAGE/PURANPUR</p>
+              <p>
+                <a href="/" style={{ textDecoration: "None", color: "grey" }}>
+                  HOME
+                </a>
+                /VILLAGE/PURANPUR
+              </p>
             </div>
           </div>
         </Row>
@@ -92,23 +102,30 @@ export const Puranpur = () => {
                   <p></p>
                 </Col>
 
-                <div  style={{alignItems:'center',alignContent:'center',width:'full' , marginTop:'2rem'}}>
-                <div  style={{alignItems:'center',alignContent:'center'}}>
-                  <div className="program1 w-full">
-                    <div className="inner1">
-                      <h3>
-                        Puranpur 
-                        <br />
-                        August 20, 2023
-                        <br />
-                        <span>Village Action PLan</span>
-                      </h3>
-                      <a href={PDF} class="btn btn-1" target ="_blank" >
-                        FOR MORE DETAILS
-                      </a>
+                <div
+                  style={{
+                    alignItems: "center",
+                    alignContent: "center",
+                    width: "full",
+                    marginTop: "2rem",
+                  }}
+                >
+                  <div style={{ alignItems: "center", alignContent: "center" }}>
+                    <div className="program1 w-full">
+                      <div className="inner1">
+                        <h3>
+                          Puranpur
+                          <br />
+                          August 20, 2023
+                          <br />
+                          <span>Village Action PLan</span>
+                        </h3>
+                        <a href={PDF} class="btn btn-1" target="_blank">
+                          FOR MORE DETAILS
+                        </a>
+                      </div>
                     </div>
                   </div>
-                </div>
                 </div>
               </Row>
             </div>
@@ -131,12 +148,28 @@ export const Puranpur = () => {
       <br />
       <br />
 
-    
       <Container style={{ background: "#f7f8f9" }}>
         <h1 className="text-center headingStudent1 my-5">Initiatives</h1>
 
         <div className="row">
-        <div className="col-lg-4">
+          {PuranpurInitiatives &&
+            PuranpurInitiatives.map((initiative, index) => (
+              <div className="col-lg-4">
+                <center>
+                  <InitCard
+                    key={index}
+                    index={index}
+                    image={initiative.image}
+                    village={initiative.village}
+                    date={initiative.date}
+                    init={initiative.init}
+                    moreDetails={initiative.moreDetails}
+                  />
+                  <br />
+                </center>
+              </div>
+            ))}
+          {/* <div className="col-lg-4">
               <center>
                 <InitCard image={food_kit} village="Puranpur | " date="August 5, 2023" init="Recreational Activities" initiative="Team UBA organized co-circular activities for over 100+ students in Puranpur" /><br/>
               </center>
@@ -157,14 +190,14 @@ export const Puranpur = () => {
               />
               <br />
             </center>
-          </div>
+          </div> */}
         </div>
       </Container>
-      <Container style={{ background: "#f7f8f9", alignContent:'center' }}>
+      <Container style={{ background: "#f7f8f9", alignContent: "center" }}>
         <h1 className="text-center headingStudent1 my-5">Village Team</h1>
         <Row>
-        <div className="col-lg-5" style={{ marginLeft: "auto" }}>
-          <StudentIdentityCard
+          <div className="col-lg-5" style={{ marginLeft: "auto" }}>
+            <StudentIdentityCard
               studImg={Anuj}
               name="Anuj Kumar"
               pos="Village Co-ordinator"
@@ -175,12 +208,12 @@ export const Puranpur = () => {
             <br />
           </div>
           <div className="col-lg-5" style={{ marginLeft: "auto" }}>
-          <StudentIdentityCard
+            <StudentIdentityCard
               studImg={Charu}
               name="Charu Sahu"
               pos="Village Co-ordinator"
               village="Puranpur"
-              email = "Email: c_sahu@ee.iitr.ac.in"
+              email="Email: c_sahu@ee.iitr.ac.in"
               linkedIn="https://www.linkedin.com/in/charusahu"
             />
             <br />

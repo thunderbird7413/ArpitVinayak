@@ -10,23 +10,22 @@ body {
   background-color: rgb(253, 252, 252);
   color: rgb(15, 15, 15);
 }
-.navContainer{
+.navContainer {
   position: relative;
-  margin : 0 auto;
+  margin: 0 auto;
 }
 .navBar .dropdown-item:focus,
 .navBar .dropdown-item:hover {
   background-color: white;
   color: #ecc731;
 }
-.me-auto{
+.me-auto {
   padding-right: 0px;
   margin: 0 auto;
 }
 .navBar .nav-item.dropdown:hover .dropdown-menu {
   display: block;
   border: none;
-  
 }
 
 .navBar .navbar-light .navbar-nav .nav-link {
@@ -67,24 +66,21 @@ body {
   display: none;
 }
 
-
-.nav-toggler{
-  display:none;
+.nav-toggler {
+  display: none;
 }
-.collpased{
+.collpased {
   display: none;
 }
 
-.me-auto-collapsed{
-  display:none;
+.me-auto-collapsed {
+  display: none;
 }
-
 
 @media screen and (max-width: 575px) {
   .subscribeBtn {
     width: auto;
   }
-  
 }
 
 @media screen and (max-width: 970px) {
@@ -118,4 +114,8 @@ body {
 #aa-header .aa-header-bottom .aa-header-bottom-area .aa-logo {
   float: left;
   margin-top: -10px;
+}
+
+.navbar-expand-lg .navbar-nav {
+  align-items: center;
 }

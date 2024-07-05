@@ -1,11 +1,16 @@
-import React from "react";
+import React, { useContext } from "react";
 import "../../components/Css/Events_InitCard.css";
 import { Events_InitCard1 } from "../../components/Javascript/Events_InitCard1";
 import az from "../../Images/Initiatives/Technology/azolla.jpg";
 import jiv from "../../Images/Initiatives/Technology/jeev.jpeg";
 import FPO from "../../Images/Puranpur/FPO awarness.jpg";
 
+import { InitiativeContext } from "../../context/InitiativeContext";
 export const Agriculture = () => {
+  const { initiatives } = useContext(InitiativeContext);
+  const AgricultureInitiatives = initiatives.filter((initiative) => {
+    return initiative.category === "Agriculture";
+  });
   return (
     <div>
       <div className="Init_sub-banner">
@@ -24,7 +29,7 @@ export const Agriculture = () => {
         </div>
       </div>
       <div className="cards">
-        <Events_InitCard1
+        {/* <Events_InitCard1
           image={jiv}
           village="All villages |"
           date="Dec 3,2023"
@@ -44,7 +49,16 @@ export const Agriculture = () => {
           date="June 23, 2023"
           event="FPO Awareness session"
           desc="Team conducted session regarding FPO with the farmers of Puranpur."
-        />
+        /> */}
+        {AgricultureInitiatives.map((initiative) => (
+          <Events_InitCard1
+            image={initiative.image}
+            date={initiative.date}
+            village={initiative.village}
+            event={initiative.init}
+            desc={initiative.moreDetails}
+          />
+        ))}
       </div>
     </div>
   );

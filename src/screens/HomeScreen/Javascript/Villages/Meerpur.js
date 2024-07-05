@@ -1,5 +1,5 @@
 //kmkm
-import React from "react";
+import React, { useContext } from "react";
 import { Container, Row, Col, Table } from "react-bootstrap";
 import { StudentIdentityCard } from "../../../../components/Javascript/StudentIdentityCard";
 import { InitCard } from "../../../../components/Javascript/InitCard";
@@ -12,10 +12,16 @@ import init9 from "../../../../Images/Initiatives/Meerpur/init9.jpg";
 import init10 from "../../../../Images/Initiatives/Meerpur/init10.jpg";
 import init11 from "../../../../Images/Initiatives/Meerpur/init11.jpg";
 import PDF from "../../../../docs/meerpur_ac_plan.pdf";
-import Harsh_jha from "../../../../Images/StudentTeam/Harsh_Jha.jpg"
-import Anand from "../../../../Images/StudentTeam/Anand.jpg"
+import Harsh_jha from "../../../../Images/StudentTeam/Harsh_Jha.jpg";
+import Anand from "../../../../Images/StudentTeam/Anand.jpg";
+
+import { InitiativeContext } from "../../../../context/InitiativeContext";
 
 export const Meerpur = () => {
+  const { initiatives } = useContext(InitiativeContext);
+  const MeerpurInitiatives = initiatives.filter((initiative) => {
+    return initiative.village === "meerpur";
+  });
   return (
     <>
       <div>
@@ -23,7 +29,12 @@ export const Meerpur = () => {
           <div class="container tittle1 bg-overlay1">
             <div className="my-5" style={{ textAlign: "center" }}>
               <h3>MEERPUR</h3>
-              <p><a href="/" style={{textDecoration:"None",color:"grey"}}>HOME</a>/VILLAGE/MEERPUR</p>
+              <p>
+                <a href="/" style={{ textDecoration: "None", color: "grey" }}>
+                  HOME
+                </a>
+                /VILLAGE/MEERPUR
+              </p>
             </div>
           </div>
         </Row>
@@ -64,21 +75,28 @@ export const Meerpur = () => {
                   <p></p>
                 </Col>
 
-                <div  style={{alignItems:'center',alignContent:'center',width:'full' , marginTop:'2rem'}}>
-                <div  style={{alignItems:'center',alignContent:'center'}}>
-                  <div className="program1 w-full">
-                    <div className="inner1">
-                      <h3>
-                        Meerpur
-                        <br />
-                        <br />
-                        <span>Village Action PLan</span>
-                      </h3>
-                      <a href={PDF} class="btn btn-1" target="_blank"  >
-                        FOR MORE DETAILS
-                      </a>
+                <div
+                  style={{
+                    alignItems: "center",
+                    alignContent: "center",
+                    width: "full",
+                    marginTop: "2rem",
+                  }}
+                >
+                  <div style={{ alignItems: "center", alignContent: "center" }}>
+                    <div className="program1 w-full">
+                      <div className="inner1">
+                        <h3>
+                          Meerpur
+                          <br />
+                          <br />
+                          <span>Village Action PLan</span>
+                        </h3>
+                        <a href={PDF} class="btn btn-1" target="_blank">
+                          FOR MORE DETAILS
+                        </a>
+                      </div>
                     </div>
-                  </div>
                   </div>
                 </div>
               </Row>
@@ -231,11 +249,27 @@ export const Meerpur = () => {
       <br />
       <br />
 
-    
       <Container style={{ background: "#f7f8f9" }}>
         <h1 className="text-center headingStudent1 my-5">Initiatives</h1>
         <div className="row">
-          <div className="col-lg-4">
+          {MeerpurInitiatives &&
+            MeerpurInitiatives.map((initiative, index) => (
+              <div className="col-lg-4">
+                <center>
+                  <InitCard
+                    key={index}
+                    index={index}
+                    image={initiative.image}
+                    village={initiative.village}
+                    date={initiative.date}
+                    init={initiative.init}
+                    moreDetails={initiative.moreDetails}
+                  />
+                  <br />
+                </center>
+              </div>
+            ))}
+          {/* <div className="col-lg-4">
             <center>
               <InitCard
                 image={init11}
@@ -270,14 +304,14 @@ export const Meerpur = () => {
               />
               <br />
             </center>
-          </div>
+          </div> */}
         </div>
       </Container>
-      <Container style={{ background: "#f7f8f9",alignContent:'center' }}>
+      <Container style={{ background: "#f7f8f9", alignContent: "center" }}>
         <h1 className="text-center headingStudent1 my-5">Village Team</h1>
         <Row>
-        <div className="col-lg-5" style={{ marginLeft: "auto" }}>
-          <StudentIdentityCard
+          <div className="col-lg-5" style={{ marginLeft: "auto" }}>
+            <StudentIdentityCard
               studImg={Divya}
               name="Divya Aggarwal"
               pos="Village Co-ordinator"
@@ -288,23 +322,27 @@ export const Meerpur = () => {
             <br />
           </div>
           <div className="col-lg-5" style={{ marginLeft: "auto" }}>
-          <StudentIdentityCard
+            <StudentIdentityCard
               studImg={Anand}
               name="Anand Kumar"
               pos="Village Co-ordinator"
               village="Meerpur"
-              email = "Email: a_kumar9@me.iitr.ac.in"
+              email="Email: a_kumar9@me.iitr.ac.in"
               linkedIn="https://www.linkedin.com/in/anand-kumar-23a170224/"
             />
             <br />
           </div>
-          <div className="col-lg-5" id ="last-element" style={{ margin : "auto" }}>
-          <StudentIdentityCard
+          <div
+            className="col-lg-5"
+            id="last-element"
+            style={{ margin: "auto" }}
+          >
+            <StudentIdentityCard
               studImg={Harsh_jha}
               name="Harsh Kumar Jha"
               pos="Village Co-ordinator"
               village="Meerpur"
-              email = "Email: h_kjha@ee.iitr.ac.in"
+              email="Email: h_kjha@ee.iitr.ac.in"
               linkedIn="https://www.linkedin.com/in/harsh-kumar-jha-369303220"
             />
             <br />

@@ -1,32 +1,42 @@
-import React from "react";
+import React, { useContext } from "react";
 import { Container, Row, Col, Table } from "react-bootstrap";
 import { StudentIdentityCard } from "../../../../components/Javascript/StudentIdentityCard";
 import { InitCard } from "../../../../components/Javascript/InitCard";
 import "../../css/StudentTeam.css";
 import "../../css/Villages.css";
 import map1 from "../../../../Images/Initiatives/Beladi/map1.jpg";
+// import sci from "../../../../Images/Initiatives/Beladi/sci_ex.jpg";
+// import init6 from "../../../../Images/Initiatives/Beladi/init6.jpg";
+// import init7 from "../../../../Images/Initiatives/Beladi/init7.png";
 import Jyoti from "../../../../Images/StudentTeam/Jyoti.jpg";
-import sci from "../../../../Images/Initiatives/Beladi/sci_ex.jpg";
-import init6 from "../../../../Images/Initiatives/Beladi/init6.jpg";
 import Rishabh from "../../../../Images/StudentTeam/Rishabh.jpeg";
-import init7 from "../../../../Images/Initiatives/Beladi/init7.png";
 import PDF from "../../../../docs/beladi_ac_plan.pdf";
-
+import { InitiativeContext } from "../../../../context/InitiativeContext";
 export const Beladi = () => {
+  const { initiatives } = useContext(InitiativeContext);
+  const BeladiInitiatives = initiatives.filter((initiative) => {
+    return initiative.village === "beladi";
+  });
+  // console.log(initiatives);
   return (
     <>
-      <div  style={{alignContent:'center' , alignItems:'center' }}>
+      <div style={{ alignContent: "center", alignItems: "center" }}>
         <Row>
-          <div class="container tittle1 bg-overlay1" >
+          <div class="container tittle1 bg-overlay1">
             <div className="my-5" style={{ textAlign: "center" }}>
               <h3>BELADI</h3>
-              <p><a href="/" style={{textDecoration:"None",color:"grey"}}>HOME</a>/VILLAGE/BELADI</p>
+              <p>
+                <a href="/" style={{ textDecoration: "None", color: "grey" }}>
+                  HOME
+                </a>
+                /VILLAGE/BELADI
+              </p>
             </div>
           </div>
         </Row>
         <Row>
           <section className="how-can-help1 what-we1">
-            <div className="container tittle1"  >
+            <div className="container tittle1">
               <Row>
                 <Col class="col-md-8 with-map1">
                   <span class="big-text1">
@@ -90,22 +100,29 @@ export const Beladi = () => {
 
                   <p></p>
                 </Col>
-                <div  style={{alignItems:'center',alignContent:'center',width:'full' , marginTop:'2rem'}}>
-                <div  style={{alignItems:'center',alignContent:'center'}}>
-                  <div className="program1 w-full">
-                    <div className="inner1">
-                      <h3>
-                        Beladi 
-                        <br />
-                        <br />
-                        <span>Village Action PLan</span>
-                      </h3>
-                      <a href={PDF} target = "_blank" class="btn btn-1">
-                        FOR MORE DETAILS
-                      </a>
+                <div
+                  style={{
+                    alignItems: "center",
+                    alignContent: "center",
+                    width: "full",
+                    marginTop: "2rem",
+                  }}
+                >
+                  <div style={{ alignItems: "center", alignContent: "center" }}>
+                    <div className="program1 w-full">
+                      <div className="inner1">
+                        <h3>
+                          Beladi
+                          <br />
+                          <br />
+                          <span>Village Action PLan</span>
+                        </h3>
+                        <a href={PDF} target="_blank" class="btn btn-1">
+                          FOR MORE DETAILS
+                        </a>
+                      </div>
                     </div>
                   </div>
-                </div>
                 </div>
               </Row>
             </div>
@@ -250,54 +267,39 @@ export const Beladi = () => {
       <br />
       <br />
 
-
       <Container style={{ background: "#f7f8f9" }}>
         <h1 className="text-center headingStudent1 my-5">Initiatives</h1>
         <div className="row">
-          <div className="col-lg-4">
-            <center>
-              <InitCard
-                image={sci}
-                village="Beladi |"
-                date='Sept 21, 2023'
-                init="Science Experiment Exhibition"
-                moreDetails="Team UBA, IIT Roorkee organised a science experiment exhibition at the Govt. Secondary School, Beladi-Salhapur."
-              />
-              <br />
-            </center>
-          </div>
-
-          <div className="col-lg-4">
-            <center>
-              <InitCard
-                image={init7}
-                village="Beladi |"
-                date="July 31, 2021"
-                init="Book Distribution Drive"
-                moreDetails="Books Distribution carried out in village Beladi."
-              />
-              <br />
-            </center>
-          </div>
-          <div className="col-lg-4">
-            <center>
-              <InitCard
-                image={init6}
-                village="Beladi |"
-                date="October 12, 2019"
-                init="Cycle Donation"
-                initiative="Donating unused cycles at IITR to village students in Beladi."
-              />
-              <br />
-            </center>
-          </div>
+          {BeladiInitiatives &&
+            BeladiInitiatives.map((initiative, index) => (
+              <div className="col-lg-4">
+                <center>
+                  <InitCard
+                    key={index}
+                    index={index}
+                    image={initiative.image}
+                    village={initiative.village}
+                    date={initiative.date}
+                    init={initiative.init}
+                    moreDetails={initiative.moreDetails}
+                  />
+                  <br />
+                </center>
+              </div>
+            ))}
         </div>
       </Container>
-      <Container style={{ background: "#f7f8f9" , alignContent:'center',alignItems:'center' }}>
+      <Container
+        style={{
+          background: "#f7f8f9",
+          alignContent: "center",
+          alignItems: "center",
+        }}
+      >
         <h1 className="text-center headingStudent1 my-5">Village Team</h1>
         <Row>
-        <div className="col-lg-5" style={{ marginLeft: "auto" }}>
-          <StudentIdentityCard
+          <div className="col-lg-5" style={{ marginLeft: "auto" }}>
+            <StudentIdentityCard
               studImg={Jyoti}
               name="Jyotsna Singh"
               pos="Village Co-ordinator"
@@ -308,12 +310,12 @@ export const Beladi = () => {
             <br />
           </div>
           <div className="col-lg-5" style={{ marginLeft: "auto" }}>
-          <StudentIdentityCard
+            <StudentIdentityCard
               studImg={Rishabh}
               name="Rishabh Kosta"
               pos="Village Co-ordinator"
               village="Beladi"
-              email = "Email: r_kosta@me.iitr.ac.in"
+              email="Email: r_kosta@me.iitr.ac.in"
               linkedIn="https://www.linkedin.com/in/rishabh-kosta-39703b237/overlay/photo/"
             />
             <br />

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useContext } from "react";
 import { Container, Row, Col, Table } from "react-bootstrap";
 import { StudentIdentityCard } from "../../../../components/Javascript/StudentIdentityCard";
 import { InitCard } from "../../../../components/Javascript/InitCard";
@@ -12,8 +12,13 @@ import init3 from "../../../../Images/Initiatives/Chharba/init3.jpeg";
 import Radhika from "../../../../Images/StudentTeam/Radhika_agr.jpg";
 import PDF from "../../../../docs/rithaura_ac_plan.pdf";
 
+import { InitiativeContext } from "../../../../context/InitiativeContext";
 
 export const Rithaura = () => {
+  const { initiatives } = useContext(InitiativeContext);
+  const RithauraInitiatives = initiatives.filter((initiative) => {
+    return initiative.village === "rithaura";
+  });
   return (
     <>
       <div>
@@ -21,7 +26,12 @@ export const Rithaura = () => {
           <div class="container tittle1 bg-overlay1">
             <div className="my-5" style={{ textAlign: "center" }}>
               <h3>RITHAURA-GRUNT</h3>
-              <p><a href="/" style={{textDecoration:"None",color:"grey"}}>HOME</a>/VILLAGE/RITHAURA-GRUNT</p>
+              <p>
+                <a href="/" style={{ textDecoration: "None", color: "grey" }}>
+                  HOME
+                </a>
+                /VILLAGE/RITHAURA-GRUNT
+              </p>
             </div>
           </div>
         </Row>
@@ -42,50 +52,53 @@ export const Rithaura = () => {
                     }}
                   />
                   <p align="justify">
-                  Rithaura-Grunt is a large village located in the Vikasnagar block
-                    of Dehradun district, Uttarakhand with a total of 1425
+                    Rithaura-Grunt is a large village located in the Vikasnagar
+                    block of Dehradun district, Uttarakhand with a total of 1425
                     families residing. According to Census 2011, the location
-                    code or village code of Rithaura-Grunt village is 045088. Rithaura-Grunt
-                    covers an area of about 1567.9 hectares. It is situated 7km
-                    away from sub-district headquarter Vikasnagar and 22km away
-                    from district headquarter Dehradun. Herbertpur is nearest
-                    town to Rithaura-Grunt which is approximately 6km away. As per 2009
-                    stats, Rithaura-Grunt is the gram panchayat of Rithaura-Grunt village.
+                    code or village code of Rithaura-Grunt village is 045088.
+                    Rithaura-Grunt covers an area of about 1567.9 hectares. It
+                    is situated 7km away from sub-district headquarter
+                    Vikasnagar and 22km away from district headquarter Dehradun.
+                    Herbertpur is nearest town to Rithaura-Grunt which is
+                    approximately 6km away. As per 2009 stats, Rithaura-Grunt is
+                    the gram panchayat of Rithaura-Grunt village.
                   </p>
                   <p align="justify">
-                  Rithaura-Grunt, inspite of being in Uttarakhand, is devoid of tough
-                    and rocky terrains. It is in the foothills of the Himalayan
-                    Terrains. Because of this, it is fairly accessible and can
-                    be reached easily. Rithaura-Grunt is primarily divided into 3
-                    parts, lower Rithaura-Grunt, middle Rithaura-Grunt, and upper Rithaura-Grunt.
-                    This divide is a road branching out from NH72 passing
-                    through Rithaura-Grunt. After Upper Rithaura-Grunt, the hilly terrains of
+                    Rithaura-Grunt, inspite of being in Uttarakhand, is devoid
+                    of tough and rocky terrains. It is in the foothills of the
+                    Himalayan Terrains. Because of this, it is fairly accessible
+                    and can be reached easily. Rithaura-Grunt is primarily
+                    divided into 3 parts, lower Rithaura-Grunt, middle
+                    Rithaura-Grunt, and upper Rithaura-Grunt. This divide is a
+                    road branching out from NH72 passing through Rithaura-Grunt.
+                    After Upper Rithaura-Grunt, the hilly terrains of
                     Uttarakhand take shape.
                   </p>
                   <p align="justify">
-                  Children of Rithaura-Grunt can receive education in 4 primary
-                    schools, 3 madrasas, 1 Government Inter College (GIC), and
-                    multiple private schools in and out of the village. All in
-                    all, most children receive education and hence are more
-                    aware of the role of the upcoming generation of teenagers in
-                    the shaping of the country.
+                    Children of Rithaura-Grunt can receive education in 4
+                    primary schools, 3 madrasas, 1 Government Inter College
+                    (GIC), and multiple private schools in and out of the
+                    village. All in all, most children receive education and
+                    hence are more aware of the role of the upcoming generation
+                    of teenagers in the shaping of the country.
                   </p>
                   <p align="justify">
-                  Schedule Caste (SC) constitutes 5.78 % while Schedule Tribe
-                    (ST) are 0.28 % of total population in Rithaura-Grunt village. In
-                    Rithaura-Grunt village out of the total population, 1935 were
-                    engaged in working activities.
+                    Schedule Caste (SC) constitutes 5.78 % while Schedule Tribe
+                    (ST) are 0.28 % of total population in Rithaura-Grunt
+                    village. In Rithaura-Grunt village out of the total
+                    population, 1935 were engaged in working activities.
                   </p>
                   <p align="justify">
-                  One of the prime ingredients for growth of a place is
-                    present in Rithaura-Grunt. That factor is religious and cultural
-                    diversity. Although the majority of people are Hindus, there
-                    are about 40% Muslims and 3% Sikhs. But, the village lags
-                    behind the state in gender ratio. The average sex ratio in
-                    Uttarakhand is 963, while in Rithaura-Grunt it is just 918.
+                    One of the prime ingredients for growth of a place is
+                    present in Rithaura-Grunt. That factor is religious and
+                    cultural diversity. Although the majority of people are
+                    Hindus, there are about 40% Muslims and 3% Sikhs. But, the
+                    village lags behind the state in gender ratio. The average
+                    sex ratio in Uttarakhand is 963, while in Rithaura-Grunt it
+                    is just 918.
                   </p>
                   <p align="justify">
-                  The village has all the primary shops, including clothing,
+                    The village has all the primary shops, including clothing,
                     food, stationary and general appliances. It also has a
                     branch of PNB bank. This means that almost every family in
                     the village, not every adult, has a bank account and a debit
@@ -94,8 +107,17 @@ export const Rithaura = () => {
                   <p></p>
                 </Col>
 
-                <div  style={{alignItems:'center',alignContent:'center',width:'full' , marginTop:'2rem'}}>
-                <div  style={{alignItems:'center',alignContent:'center'}}></div>
+                <div
+                  style={{
+                    alignItems: "center",
+                    alignContent: "center",
+                    width: "full",
+                    marginTop: "2rem",
+                  }}
+                >
+                  <div
+                    style={{ alignItems: "center", alignContent: "center" }}
+                  ></div>
                   <div className="program1 w-full">
                     <div className="inner1">
                       <h3>
@@ -109,7 +131,7 @@ export const Rithaura = () => {
                       </a>
                     </div>
                   </div>
-                  </div>
+                </div>
               </Row>
             </div>
           </section>
@@ -179,7 +201,7 @@ export const Rithaura = () => {
               </thead>
               <tbody>
                 <tr>
-                <td>Total no. of Houses</td>
+                  <td>Total no. of Houses</td>
                   <td>1425</td>
                   <td>--</td>
                   <td>--</td>
@@ -256,7 +278,24 @@ export const Rithaura = () => {
       <Container style={{ background: "#f7f8f9" }}>
         <h1 className="text-center headingStudent1 my-5">Initiatives</h1>
         <div className="row">
-          <div className="col-lg-4">
+          {RithauraInitiatives &&
+            RithauraInitiatives.map((initiative, index) => (
+              <div className="col-lg-4">
+                <center>
+                  <InitCard
+                    key={index}
+                    index={index}
+                    image={initiative.image}
+                    village={initiative.village}
+                    date={initiative.date}
+                    init={initiative.init}
+                    moreDetails={initiative.moreDetails}
+                  />
+                  <br />
+                </center>
+              </div>
+            ))}
+          {/* <div className="col-lg-4">
             <center>
               <InitCard
                 image={init3}
@@ -291,14 +330,14 @@ export const Rithaura = () => {
               />
               <br />
             </center>
-          </div>
+          </div> */}
         </div>
       </Container>
-      <Container style={{ background: "#f7f8f9" , alignContent:'center' }}>
+      <Container style={{ background: "#f7f8f9", alignContent: "center" }}>
         <h1 className="text-center headingStudent1 my-5">Village Team</h1>
         <Row>
-        <div className="col-lg-5" style={{ marginLeft: "auto" }}>
-          <StudentIdentityCard
+          <div className="col-lg-5" style={{ marginLeft: "auto" }}>
+            <StudentIdentityCard
               studImg={Komalpreet}
               name="Komalpreet Kaur"
               pos="Village Co-ordinator"
@@ -308,12 +347,12 @@ export const Rithaura = () => {
             />
           </div>
           <div className="col-lg-5" style={{ marginLeft: "auto" }}>
-          <StudentIdentityCard
+            <StudentIdentityCard
               studImg={Radhika}
               name="Radhika Agarwal"
               pos="Village Co-ordinator"
               village="Rithaura-Grunt"
-              email = "Email: r_agarwal@hs.iitr.ac.in"
+              email="Email: r_agarwal@hs.iitr.ac.in"
               linkedIn="https://www.linkedin.com/in/radhika-agarwal-08a919229/"
             />
           </div>

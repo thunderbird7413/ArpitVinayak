@@ -1,0 +1,6 @@
+.container-flex {
+  padding-top: 3vw;
+  display: flex;
+  gap: 90px;
+  flex-wrap: wrap;
+}
